@@ -3,11 +3,10 @@
 STEP 0 - DATA INTEGRITY CHECK for the Fjelstul World Cup Database.
 
 For every CSV: row count, columns, dtypes, null rates, 3-row sample.
-Flags Git-LFS stub files. Checks for the Transfermarkt-style files the user's
-prompt (STEP 0-3) assumed but which are NOT part of this dataset, and reports
-the modeling capability lost. Counts distinct national team_ids and 'current'
-player states (to answer the prompt's specific STEP 0 questions, mapped onto
-the columns that actually exist here).
+Flags Git-LFS stub files. Checks for the Transfermarkt-style player tables
+(player-level features) that are NOT part of this dataset, and reports the
+modeling capability lost. Counts distinct national team_ids and 'current'
+player states, mapped onto the columns that actually exist here.
 """
 import os, json, datetime
 import pandas as pd
@@ -16,8 +15,8 @@ import numpy as np
 DATA_DIR = "/Users/vivaansandwar/Downloads/worldcup-1.1.0/data-csv"
 OUT = "/Users/vivaansandwar/Downloads/wc2026_model/outputs/step0_integrity_summary.json"
 
-# Files the user's prompt assumed (belong to a Transfermarkt player dataset).
-EXPECTED_BY_PROMPT = [
+# Player-level tables from a Transfermarkt-style dataset (not included in Fjelstul).
+PLAYER_LEVEL_FILES = [
     "player_national_performances.csv", "player_profiles.csv",
     "player_injuries.csv", "player_teammates_played_with.csv",
     "team_competitions_seasons.csv",
@@ -94,16 +93,16 @@ def main():
                      for k, v in list(row.items())[:8]}
             print("    ", short)
 
-    # Prompt-expected file check
+    # Player-level table check
     print("\n" + "=" * 84)
-    print("PROMPT-ASSUMED FILES (Transfermarkt-style) — required by STEP 0-3")
+    print("PLAYER-LEVEL FILES (Transfermarkt-style) — needed for squad features")
     print("=" * 84)
     present = set(files)
-    for f in EXPECTED_BY_PROMPT:
+    for f in PLAYER_LEVEL_FILES:
         st = "PRESENT" if f in present else "*** ABSENT ***"
         print(f"  {f:<42} {st}\n      lost: {LOST_CAPABILITY[f]}")
 
-    # Prompt STEP-0 specific questions, mapped to columns that DO exist:
+    # Entity counts, mapped to columns that DO exist:
     print("\n" + "=" * 84)
     print("STEP-0 ENTITY COUNTS (mapped to columns present in this dataset)")
     print("=" * 84)

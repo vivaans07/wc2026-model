@@ -4,9 +4,8 @@ STEP 1 + STEP 2 — build canonical 2026 World Cup context CSVs.
 
   country_team_map.csv  (STEP 1, adapted): maps each of the 48 nations to its
       Fjelstul team_id + confederation + cross-naming, with a confidence flag.
-      NOTE on STEP 1's original premise: it assumed mystery national team_ids in
-      a Transfermarkt file 'player_national_performances.csv'. That file is NOT
-      in this dataset; instead the Fjelstul 'teams.csv' already carries readable
+      NOTE: a Transfermarkt-style dataset would identify nations by opaque team_ids
+      in 'player_national_performances.csv'. That file is NOT in this dataset; instead the Fjelstul 'teams.csv' already carries readable
       team names, so the id<->country resolution is direct (no scraping needed to
       RESOLVE ids — only to identify the 48 qualifiers). We cross-validate every
       mapping against the Fjelstul confederation code.

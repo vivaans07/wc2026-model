@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Generate the CLV audit tearsheet HTML from clv_full_audit.csv."""
 import csv, json, os, numpy as np
-OUT = "/private/tmp/claude-501/-Users-vivaansandwar-Downloads-builds-Quoted/54cfd627-8390-4fde-84d0-1f2b3d4c5d2b/scratchpad"
+OUT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "outputs")
 os.makedirs(OUT, exist_ok=True)
 rows = list(csv.DictReader(open("outputs/clv_full_audit.csv")))
 for r in rows:

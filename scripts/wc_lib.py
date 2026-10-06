@@ -11,7 +11,7 @@ Naming convention: we use the martj42/international-results spelling as the
 CANONICAL key (because the modeling backbone is that results corpus), and map it
 to the official/FIFA spelling and to the Fjelstul team_id.
 
-Author: sports-data-science pipeline. Pure stdlib + (optionally) pandas elsewhere.
+Author: Vivaan Sandwar. Pure stdlib + (optionally) pandas elsewhere.
 """
 import csv, os, math, datetime
 

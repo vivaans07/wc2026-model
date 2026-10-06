@@ -7,7 +7,7 @@ Dixon-Coles + Elo ratings on the full results corpus (through 2026-06-13, with
 the validation-selected hyperparameters) and saves them to
 outputs/fitted_ratings.json for the Monte Carlo step to reuse.
 
-IMPORTANT — features the prompt requested that this dataset CANNOT support are
+IMPORTANT — squad-level features that this dataset CANNOT support are
 emitted as explicit 'NA_no_source' columns (never imputed):
   squad_market_value_*, mean_age, pct_u23, pct_o30, injury_days_missed,
   squad_cohesion, club_league_strength.
@@ -231,7 +231,7 @@ for t in L.ALL_TEAMS:
         "wc_gf_per": round(w["gf"] / wm, 3) if w else "",
         "wc_ga_per": round(w["ga"] / wm, 3) if w else "",
         "wc_last_appearance": (agg_scalar(t, tid, last_year, max) or ""),
-        # ---- prompt-requested but UNAVAILABLE (no Transfermarkt source) ----
+        # ---- wanted but UNAVAILABLE (no Transfermarkt source) ----
         "squad_market_value_total": NA, "squad_market_value_top5": NA,
         "mean_age": NA, "pct_u23": NA, "pct_o30": NA,
         "injury_days_missed_24m": NA, "squad_cohesion": NA, "club_league_strength": NA,

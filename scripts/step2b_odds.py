@@ -7,8 +7,8 @@ Scraped outright (to-win-tournament) American odds, June 14 2026, from CBS Sport
 so raw implied probabilities sum to >100%; we also report a normalised version
 (scaled so the listed teams' implied probabilities sum to the model's total over
 the same teams) for a fairer comparison. Only headline teams are publicly listed
-free of charge; the long tail of 48 teams is paywalled, so we skip those (as the
-prompt permits) rather than fabricate.
+free of charge; the long tail of 48 teams is paywalled, so we skip those rather
+than fabricate.
 """
 import sys, os, csv, json
 sys.path.insert(0, os.path.dirname(__file__))
