@@ -1,0 +1,313 @@
+date,match,team,player,exp_min,player_xG,P_to_score,P_2plus
+2026-06-24,Mexico v Czech Republic,Mexico,Raul Rangel,28,0.0,0.0,0.0
+2026-06-24,Mexico v Czech Republic,Mexico,Jorge Sanchez,8,0.001,0.001,0.0
+2026-06-24,Mexico v Czech Republic,Mexico,Cesar Montes,28,0.004,0.004,0.0
+2026-06-24,Mexico v Czech Republic,Mexico,Edson Alvarez,82,0.06,0.058,0.002
+2026-06-24,Mexico v Czech Republic,Mexico,Johan Vasquez,82,0.007,0.007,0.0
+2026-06-24,Mexico v Czech Republic,Mexico,Erik Lira,82,0.093,0.088,0.004
+2026-06-24,Mexico v Czech Republic,Mexico,Luis Romo,8,0.006,0.006,0.0
+2026-06-24,Mexico v Czech Republic,Mexico,Alvaro Fidalgo,82,0.066,0.064,0.002
+2026-06-24,Mexico v Czech Republic,Mexico,Raul Jimenez,28,0.165,0.152,0.012
+2026-06-24,Mexico v Czech Republic,Mexico,Alexis Vega,82,0.213,0.192,0.02
+2026-06-24,Mexico v Czech Republic,Mexico,Santiago Gimenez,82,0.167,0.154,0.012
+2026-06-24,Mexico v Czech Republic,Mexico,Carlos Acevedo,8,0.0,0.0,0.0
+2026-06-24,Mexico v Czech Republic,Mexico,Guillermo Ochoa,8,0.0,0.0,0.0
+2026-06-24,Mexico v Czech Republic,Mexico,Armando Gonzalez,8,0.016,0.016,0.0
+2026-06-24,Mexico v Czech Republic,Mexico,Israel Reyes,8,0.001,0.001,0.0
+2026-06-24,Mexico v Czech Republic,Mexico,Julian Quinones,82,0.168,0.155,0.013
+2026-06-24,Mexico v Czech Republic,Mexico,Orbelin Pineda,82,0.108,0.102,0.005
+2026-06-24,Mexico v Czech Republic,Mexico,Obed Vargas,82,0.093,0.088,0.004
+2026-06-24,Mexico v Czech Republic,Mexico,Gilberto Mora,8,0.009,0.009,0.0
+2026-06-24,Mexico v Czech Republic,Mexico,Mateo Chavez,8,0.001,0.001,0.0
+2026-06-24,Mexico v Czech Republic,Mexico,Cesar Huerta,28,0.059,0.058,0.002
+2026-06-24,Mexico v Czech Republic,Mexico,Guillermo Martinez,8,0.042,0.041,0.001
+2026-06-24,Mexico v Czech Republic,Mexico,Jesus Gallardo,8,0.0,0.0,0.0
+2026-06-24,Mexico v Czech Republic,Mexico,Luis Chavez,82,0.076,0.073,0.003
+2026-06-24,Mexico v Czech Republic,Mexico,Roberto Alvarado,82,0.122,0.115,0.007
+2026-06-24,Mexico v Czech Republic,Mexico,Brian Gutierrez,28,0.057,0.056,0.002
+2026-06-24,Mexico v Czech Republic,Czech Republic,Matej Kovar,82,0.001,0.001,0.0
+2026-06-24,Mexico v Czech Republic,Czech Republic,David Zima,82,0.018,0.018,0.0
+2026-06-24,Mexico v Czech Republic,Czech Republic,Tomas Holes,8,0.006,0.006,0.0
+2026-06-24,Mexico v Czech Republic,Czech Republic,Robin Hranac,28,0.002,0.002,0.0
+2026-06-24,Mexico v Czech Republic,Czech Republic,Vladimir Coufal,82,0.004,0.004,0.0
+2026-06-24,Mexico v Czech Republic,Czech Republic,Stepan Chaloupek,8,0.006,0.006,0.0
+2026-06-24,Mexico v Czech Republic,Czech Republic,Ladislav Krejci,8,0.006,0.006,0.0
+2026-06-24,Mexico v Czech Republic,Czech Republic,Vladimir Darida,8,0.008,0.008,0.0
+2026-06-24,Mexico v Czech Republic,Czech Republic,Adam Hlozek,82,0.148,0.137,0.01
+2026-06-24,Mexico v Czech Republic,Czech Republic,Patrik Schick,82,0.148,0.137,0.01
+2026-06-24,Mexico v Czech Republic,Czech Republic,Jan Kuchta,28,0.046,0.045,0.001
+2026-06-24,Mexico v Czech Republic,Czech Republic,Lukas Cerv,82,0.022,0.021,0.0
+2026-06-24,Mexico v Czech Republic,Czech Republic,Mojmir Chytil,8,0.006,0.006,0.0
+2026-06-24,Mexico v Czech Republic,Czech Republic,David Jurasek,82,0.014,0.014,0.0
+2026-06-24,Mexico v Czech Republic,Czech Republic,Pavel Sulc,82,0.07,0.068,0.002
+2026-06-24,Mexico v Czech Republic,Czech Republic,Jindrich Stanek,28,0.0,0.0,0.0
+2026-06-24,Mexico v Czech Republic,Czech Republic,Lukas Provod,8,0.006,0.006,0.0
+2026-06-24,Mexico v Czech Republic,Czech Republic,Michal Sadilek,82,0.185,0.169,0.015
+2026-06-24,Mexico v Czech Republic,Czech Republic,Tomas Chory,28,0.072,0.069,0.002
+2026-06-24,Mexico v Czech Republic,Czech Republic,Jaroslav Zeleny,8,0.006,0.006,0.0
+2026-06-24,Mexico v Czech Republic,Czech Republic,David Doudera,28,0.028,0.027,0.0
+2026-06-24,Mexico v Czech Republic,Czech Republic,Tomas Soucek,82,0.122,0.115,0.007
+2026-06-24,Mexico v Czech Republic,Czech Republic,Lukas Hornicek,82,0.0,0.0,0.0
+2026-06-24,Mexico v Czech Republic,Czech Republic,Alexandr Sojka,8,0.006,0.006,0.0
+2026-06-24,Mexico v Czech Republic,Czech Republic,Hugo Sochurek,8,0.006,0.006,0.0
+2026-06-24,Mexico v Czech Republic,Czech Republic,Denis Visinsky,8,0.003,0.003,0.0
+2026-06-24,South Africa v South Korea,South Africa,Ronwen Williams,82,0.046,0.045,0.001
+2026-06-24,South Africa v South Korea,South Africa,Thabang Matuludi,82,0.046,0.045,0.001
+2026-06-24,South Africa v South Korea,South Africa,Khulumani Ndamane,82,0.046,0.045,0.001
+2026-06-24,South Africa v South Korea,South Africa,Teboho Mokoena,82,0.046,0.045,0.001
+2026-06-24,South Africa v South Korea,South Africa,Thalente Mbatha,82,0.046,0.045,0.001
+2026-06-24,South Africa v South Korea,South Africa,Aubrey Modiba,82,0.046,0.045,0.001
+2026-06-24,South Africa v South Korea,South Africa,Oswin Appollis,28,0.016,0.016,0.0
+2026-06-24,South Africa v South Korea,South Africa,Tshepang Moremi,28,0.016,0.016,0.0
+2026-06-24,South Africa v South Korea,South Africa,Lyle Foster,82,0.276,0.241,0.032
+2026-06-24,South Africa v South Korea,South Africa,Relebohile Mofokeng,28,0.016,0.016,0.0
+2026-06-24,South Africa v South Korea,South Africa,Themba Zwane,28,0.016,0.016,0.0
+2026-06-24,South Africa v South Korea,South Africa,Thapelo Maseko,28,0.016,0.016,0.0
+2026-06-24,South Africa v South Korea,South Africa,Sphephelo Sithole,82,0.014,0.014,0.0
+2026-06-24,South Africa v South Korea,South Africa,Mbekezeli Mbokazi,8,0.004,0.004,0.0
+2026-06-24,South Africa v South Korea,South Africa,Iqraam Rayners,8,0.004,0.004,0.0
+2026-06-24,South Africa v South Korea,South Africa,Sipho Chaine,8,0.004,0.004,0.0
+2026-06-24,South Africa v South Korea,South Africa,Evidence Makgopa,8,0.004,0.004,0.0
+2026-06-24,South Africa v South Korea,South Africa,Samukele Kabini,8,0.004,0.004,0.0
+2026-06-24,South Africa v South Korea,South Africa,Nkosinathi Sibisi,8,0.004,0.004,0.0
+2026-06-24,South Africa v South Korea,South Africa,Khuliso Mudau,8,0.004,0.004,0.0
+2026-06-24,South Africa v South Korea,South Africa,Ime Okon,82,0.014,0.014,0.0
+2026-06-24,South Africa v South Korea,South Africa,Ricardo Goss,8,0.004,0.004,0.0
+2026-06-24,South Africa v South Korea,South Africa,Jayden Adams,8,0.004,0.004,0.0
+2026-06-24,South Africa v South Korea,South Africa,Olwethu Makhanya,82,0.014,0.014,0.0
+2026-06-24,South Africa v South Korea,South Africa,Kamogelo Sebelebele,8,0.004,0.004,0.0
+2026-06-24,South Africa v South Korea,South Africa,Bradley Cross,82,0.014,0.014,0.0
+2026-06-24,South Africa v South Korea,South Korea,Seung-gyu Kim,8,0.004,0.004,0.0
+2026-06-24,South Africa v South Korea,South Korea,Han-beom Lee,28,0.002,0.002,0.0
+2026-06-24,South Africa v South Korea,South Korea,Gi-hyuk Lee,8,0.001,0.001,0.0
+2026-06-24,South Africa v South Korea,South Korea,Min-jae Kim,82,0.006,0.006,0.0
+2026-06-24,South Africa v South Korea,South Korea,Tae-hyeon Kim,8,0.001,0.001,0.0
+2026-06-24,South Africa v South Korea,South Korea,In-beom Hwang,82,0.042,0.041,0.001
+2026-06-24,South Africa v South Korea,South Korea,Heung-min Son,82,0.314,0.27,0.04
+2026-06-24,South Africa v South Korea,South Korea,Seung-ho Paik,28,0.022,0.022,0.0
+2026-06-24,South Africa v South Korea,South Korea,Gue-sung Cho,82,0.186,0.17,0.015
+2026-06-24,South Africa v South Korea,South Korea,Jae-sung Lee,8,0.001,0.001,0.0
+2026-06-24,South Africa v South Korea,South Korea,Hee-chan Hwang,82,0.186,0.17,0.015
+2026-06-24,South Africa v South Korea,South Korea,Bum-keun Song,8,0.004,0.004,0.0
+2026-06-24,South Africa v South Korea,South Korea,Tae-seok Lee,8,0.001,0.001,0.0
+2026-06-24,South Africa v South Korea,South Korea,Wi-je Cho,8,0.001,0.001,0.0
+2026-06-24,South Africa v South Korea,South Korea,Moon-hwan Kim,8,0.0,0.0,0.0
+2026-06-24,South Africa v South Korea,South Korea,Jin-seob Park,8,0.004,0.004,0.0
+2026-06-24,South Africa v South Korea,South Korea,Jun-ho Bae,82,0.056,0.055,0.002
+2026-06-24,South Africa v South Korea,South Korea,Hyeon-gyu Oh,82,0.102,0.097,0.005
+2026-06-24,South Africa v South Korea,South Korea,Kang-in Lee,82,0.199,0.181,0.017
+2026-06-24,South Africa v South Korea,South Korea,Hyun-jun Yang,82,0.102,0.097,0.005
+2026-06-24,South Africa v South Korea,South Korea,Hyeon-woo Jo,28,0.0,0.0,0.0
+2026-06-24,South Africa v South Korea,South Korea,Young-woo Seol,82,0.002,0.002,0.0
+2026-06-24,South Africa v South Korea,South Korea,Jens Castrop,82,0.056,0.055,0.002
+2026-06-24,South Africa v South Korea,South Korea,Jin-gyu Kim,8,0.004,0.004,0.0
+2026-06-24,South Africa v South Korea,South Korea,Ji-sung Eom,28,0.027,0.027,0.0
+2026-06-24,South Africa v South Korea,South Korea,Dong-gyeong Lee,28,0.089,0.085,0.004
+2026-06-24,Canada v Switzerland,Canada,Dayne St Clair,8,0.0,0.0,0.0
+2026-06-24,Canada v Switzerland,Canada,Alistair Johnston,82,0.011,0.011,0.0
+2026-06-24,Canada v Switzerland,Canada,Alfie Jones,82,0.011,0.011,0.0
+2026-06-24,Canada v Switzerland,Canada,Luc de Fougerolles,8,0.001,0.001,0.0
+2026-06-24,Canada v Switzerland,Canada,Joel Waterman,8,0.0,0.0,0.0
+2026-06-24,Canada v Switzerland,Canada,Mathieu Choiniere,8,0.005,0.005,0.0
+2026-06-24,Canada v Switzerland,Canada,Stephen Eustaquio,82,0.036,0.035,0.001
+2026-06-24,Canada v Switzerland,Canada,Ismael Kone,82,0.042,0.041,0.001
+2026-06-24,Canada v Switzerland,Canada,Cyle Larin,28,0.09,0.087,0.004
+2026-06-24,Canada v Switzerland,Canada,Jonathan David,82,0.406,0.334,0.063
+2026-06-24,Canada v Switzerland,Canada,Liam Millar,28,0.011,0.011,0.0
+2026-06-24,Canada v Switzerland,Canada,Tani Oluwaseyi,82,0.103,0.097,0.005
+2026-06-24,Canada v Switzerland,Canada,Derek Cornelius,82,0.001,0.001,0.0
+2026-06-24,Canada v Switzerland,Canada,Jacob Shaffelburg,82,0.162,0.15,0.012
+2026-06-24,Canada v Switzerland,Canada,Moise Bombito,82,0.011,0.011,0.0
+2026-06-24,Canada v Switzerland,Canada,Maxime Crepeau,28,0.0,0.0,0.0
+2026-06-24,Canada v Switzerland,Canada,Tajon Buchanan,82,0.119,0.112,0.007
+2026-06-24,Canada v Switzerland,Canada,Owen Goodman,8,0.0,0.0,0.0
+2026-06-24,Canada v Switzerland,Canada,Alphonso Davies,82,0.023,0.023,0.0
+2026-06-24,Canada v Switzerland,Canada,Ali Ahmed,28,0.018,0.018,0.0
+2026-06-24,Canada v Switzerland,Canada,Jonathan Osorio,8,0.005,0.005,0.0
+2026-06-24,Canada v Switzerland,Canada,Richie Laryea,8,0.0,0.0,0.0
+2026-06-24,Canada v Switzerland,Canada,Niko Sigur,28,0.018,0.018,0.0
+2026-06-24,Canada v Switzerland,Canada,Promise David,8,0.004,0.004,0.0
+2026-06-24,Canada v Switzerland,Canada,Nathan Saliba,8,0.004,0.004,0.0
+2026-06-24,Canada v Switzerland,Canada,Jayden Nelson,8,0.009,0.009,0.0
+2026-06-24,Canada v Switzerland,Switzerland,Gregor Kobel,82,0.0,0.0,0.0
+2026-06-24,Canada v Switzerland,Switzerland,Miro Muheim,8,0.003,0.003,0.0
+2026-06-24,Canada v Switzerland,Switzerland,Silvan Widmer,8,0.006,0.006,0.0
+2026-06-24,Canada v Switzerland,Switzerland,Nico Elvedi,82,0.019,0.018,0.0
+2026-06-24,Canada v Switzerland,Switzerland,Manuel Akanji,82,0.009,0.009,0.0
+2026-06-24,Canada v Switzerland,Switzerland,Denis Zakaria,82,0.039,0.038,0.001
+2026-06-24,Canada v Switzerland,Switzerland,Breel Embolo,82,0.331,0.282,0.044
+2026-06-24,Canada v Switzerland,Switzerland,Remo Freuler,8,0.009,0.009,0.0
+2026-06-24,Canada v Switzerland,Switzerland,Johan Manzambi,28,0.029,0.029,0.0
+2026-06-24,Canada v Switzerland,Switzerland,Granit Xhaka,82,0.071,0.069,0.002
+2026-06-24,Canada v Switzerland,Switzerland,Dan Ndoye,82,0.44,0.356,0.073
+2026-06-24,Canada v Switzerland,Switzerland,Yvon Mvogo,8,0.0,0.0,0.0
+2026-06-24,Canada v Switzerland,Switzerland,Ricardo Rodriguez,8,0.001,0.001,0.0
+2026-06-24,Canada v Switzerland,Switzerland,Ardon Jashari,82,0.026,0.026,0.0
+2026-06-24,Canada v Switzerland,Switzerland,Djibril Sow,28,0.003,0.003,0.0
+2026-06-24,Canada v Switzerland,Switzerland,Christian Fassnacht,8,0.024,0.024,0.0
+2026-06-24,Canada v Switzerland,Switzerland,Ruben Vargas,28,0.079,0.076,0.003
+2026-06-24,Canada v Switzerland,Switzerland,Eray Comert,8,0.0,0.0,0.0
+2026-06-24,Canada v Switzerland,Switzerland,Noah Okafor,82,0.154,0.143,0.011
+2026-06-24,Canada v Switzerland,Switzerland,Michel Aebischer,28,0.029,0.029,0.0
+2026-06-24,Canada v Switzerland,Switzerland,Marvin Keller,82,0.002,0.002,0.0
+2026-06-24,Canada v Switzerland,Switzerland,Fabian Rieder,8,0.008,0.008,0.0
+2026-06-24,Canada v Switzerland,Switzerland,Zeki Amdouni,82,0.154,0.143,0.011
+2026-06-24,Canada v Switzerland,Switzerland,Aurele Amenda,28,0.006,0.006,0.0
+2026-06-24,Canada v Switzerland,Switzerland,Luca Jaquez,8,0.003,0.003,0.0
+2026-06-24,Canada v Switzerland,Switzerland,Cedric Itten,8,0.039,0.038,0.001
+2026-06-24,Bosnia and Herzegovina v Qatar,Bosnia and Herzegovina,Nikola Vasilj,82,0.0,0.0,0.0
+2026-06-24,Bosnia and Herzegovina v Qatar,Bosnia and Herzegovina,Nihad Mujakic,8,0.008,0.008,0.0
+2026-06-24,Bosnia and Herzegovina v Qatar,Bosnia and Herzegovina,Dennis Hadzikadunic,28,0.001,0.001,0.0
+2026-06-24,Bosnia and Herzegovina v Qatar,Bosnia and Herzegovina,Tarik Muharemovic,82,0.024,0.023,0.0
+2026-06-24,Bosnia and Herzegovina v Qatar,Bosnia and Herzegovina,Sead Kolasinac,82,0.002,0.002,0.0
+2026-06-24,Bosnia and Herzegovina v Qatar,Bosnia and Herzegovina,Benjamin Tahirovic,82,0.109,0.103,0.006
+2026-06-24,Bosnia and Herzegovina v Qatar,Bosnia and Herzegovina,Amar Dedic,82,0.024,0.023,0.0
+2026-06-24,Bosnia and Herzegovina v Qatar,Bosnia and Herzegovina,Armin Gigovic,82,0.094,0.09,0.004
+2026-06-24,Bosnia and Herzegovina v Qatar,Bosnia and Herzegovina,Samed Bazdar,28,0.068,0.065,0.002
+2026-06-24,Bosnia and Herzegovina v Qatar,Bosnia and Herzegovina,Ermedin Demirovic,82,0.185,0.169,0.015
+2026-06-24,Bosnia and Herzegovina v Qatar,Bosnia and Herzegovina,Edin Dzeko,28,0.272,0.238,0.031
+2026-06-24,Bosnia and Herzegovina v Qatar,Bosnia and Herzegovina,Mladen Jurkas,8,0.008,0.008,0.0
+2026-06-24,Bosnia and Herzegovina v Qatar,Bosnia and Herzegovina,Ivan Basic,8,0.021,0.02,0.0
+2026-06-24,Bosnia and Herzegovina v Qatar,Bosnia and Herzegovina,Ivan Sunjic,28,0.037,0.036,0.001
+2026-06-24,Bosnia and Herzegovina v Qatar,Bosnia and Herzegovina,Amar Memic,8,0.008,0.008,0.0
+2026-06-24,Bosnia and Herzegovina v Qatar,Bosnia and Herzegovina,Amir Hadziahmetovic,82,0.015,0.015,0.0
+2026-06-24,Bosnia and Herzegovina v Qatar,Bosnia and Herzegovina,Dzenis Burnic,8,0.003,0.003,0.0
+2026-06-24,Bosnia and Herzegovina v Qatar,Bosnia and Herzegovina,Nikola Katic,8,0.001,0.001,0.0
+2026-06-24,Bosnia and Herzegovina v Qatar,Bosnia and Herzegovina,Kerim Alajbegovic,8,0.008,0.008,0.0
+2026-06-24,Bosnia and Herzegovina v Qatar,Bosnia and Herzegovina,Esmir Bajraktarevic,82,0.076,0.073,0.003
+2026-06-24,Bosnia and Herzegovina v Qatar,Bosnia and Herzegovina,Stjepan Radeljic,82,0.024,0.023,0.0
+2026-06-24,Bosnia and Herzegovina v Qatar,Bosnia and Herzegovina,Martin Zlomislic,28,0.001,0.001,0.0
+2026-06-24,Bosnia and Herzegovina v Qatar,Bosnia and Herzegovina,Haris Tabakovic,82,0.544,0.419,0.104
+2026-06-24,Bosnia and Herzegovina v Qatar,Bosnia and Herzegovina,Arjan Malic,8,0.008,0.008,0.0
+2026-06-24,Bosnia and Herzegovina v Qatar,Bosnia and Herzegovina,Jovo Lukic,8,0.008,0.008,0.0
+2026-06-24,Bosnia and Herzegovina v Qatar,Bosnia and Herzegovina,Ermin Mahmic,8,0.008,0.008,0.0
+2026-06-24,Bosnia and Herzegovina v Qatar,Qatar,Mahmud Abunada,82,0.073,0.07,0.003
+2026-06-24,Bosnia and Herzegovina v Qatar,Qatar,Pedro Miguel,82,0.005,0.005,0.0
+2026-06-24,Bosnia and Herzegovina v Qatar,Qatar,Lucas Mendes,82,0.013,0.013,0.0
+2026-06-24,Bosnia and Herzegovina v Qatar,Qatar,Issa Laye,28,0.025,0.025,0.0
+2026-06-24,Bosnia and Herzegovina v Qatar,Qatar,Jassem Gaber,82,0.022,0.022,0.0
+2026-06-24,Bosnia and Herzegovina v Qatar,Qatar,Abdulaziz Hatem,28,0.025,0.025,0.0
+2026-06-24,Bosnia and Herzegovina v Qatar,Qatar,Ahmed Alaaeldin,82,0.183,0.167,0.015
+2026-06-24,Bosnia and Herzegovina v Qatar,Qatar,Edmilson Junior,82,0.084,0.08,0.003
+2026-06-24,Bosnia and Herzegovina v Qatar,Qatar,Mohammed Muntari,28,0.025,0.025,0.0
+2026-06-24,Bosnia and Herzegovina v Qatar,Qatar,Hassan Haydos,28,0.025,0.025,0.0
+2026-06-24,Bosnia and Herzegovina v Qatar,Qatar,Akram Afif,82,0.495,0.39,0.089
+2026-06-24,Bosnia and Herzegovina v Qatar,Qatar,Karim Boudiaf,28,0.025,0.025,0.0
+2026-06-24,Bosnia and Herzegovina v Qatar,Qatar,Ayoub Oui,8,0.007,0.007,0.0
+2026-06-24,Bosnia and Herzegovina v Qatar,Qatar,Homam Ahmed,8,0.007,0.007,0.0
+2026-06-24,Bosnia and Herzegovina v Qatar,Qatar,Yusuf Abdurisag,82,0.137,0.128,0.009
+2026-06-24,Bosnia and Herzegovina v Qatar,Qatar,Boualem Khoukhi,82,0.031,0.031,0.0
+2026-06-24,Bosnia and Herzegovina v Qatar,Qatar,Ahmed Ganehi,8,0.007,0.007,0.0
+2026-06-24,Bosnia and Herzegovina v Qatar,Qatar,Sultan Brake,8,0.007,0.007,0.0
+2026-06-24,Bosnia and Herzegovina v Qatar,Qatar,Almoez Ali,8,0.007,0.007,0.0
+2026-06-24,Bosnia and Herzegovina v Qatar,Qatar,Ahmed Fathy,8,0.007,0.007,0.0
+2026-06-24,Bosnia and Herzegovina v Qatar,Qatar,Salah Zakaria,82,0.002,0.002,0.0
+2026-06-24,Bosnia and Herzegovina v Qatar,Qatar,Meshaal Barsham,82,0.0,0.0,0.0
+2026-06-24,Bosnia and Herzegovina v Qatar,Qatar,Assim Madibo,8,0.007,0.007,0.0
+2026-06-24,Bosnia and Herzegovina v Qatar,Qatar,Tahsin Jamshid,8,0.007,0.007,0.0
+2026-06-24,Bosnia and Herzegovina v Qatar,Qatar,Al-Hashmi Hussain,8,0.007,0.007,0.0
+2026-06-24,Bosnia and Herzegovina v Qatar,Qatar,Mohamed Manai,8,0.007,0.007,0.0
+2026-06-24,Scotland v Brazil,Scotland,Angus Gunn,28,0.0,0.0,0.0
+2026-06-24,Scotland v Brazil,Scotland,Aaron Hickey,82,0.002,0.002,0.0
+2026-06-24,Scotland v Brazil,Scotland,Andy Robertson,8,0.002,0.002,0.0
+2026-06-24,Scotland v Brazil,Scotland,Scott Mctominay,82,0.047,0.046,0.001
+2026-06-24,Scotland v Brazil,Scotland,Grant Hanley,8,0.0,0.0,0.0
+2026-06-24,Scotland v Brazil,Scotland,Kieran Tierney,82,0.002,0.002,0.0
+2026-06-24,Scotland v Brazil,Scotland,John Mcginn,82,0.062,0.06,0.002
+2026-06-24,Scotland v Brazil,Scotland,Tyler Fletcher,8,0.003,0.003,0.0
+2026-06-24,Scotland v Brazil,Scotland,Lyndon Dykes,8,0.009,0.009,0.0
+2026-06-24,Scotland v Brazil,Scotland,Che Adams,82,0.098,0.094,0.005
+2026-06-24,Scotland v Brazil,Scotland,Ryan Christie,82,0.029,0.028,0.0
+2026-06-24,Scotland v Brazil,Scotland,Liam Kelly,8,0.0,0.0,0.0
+2026-06-24,Scotland v Brazil,Scotland,Jack Hendry,28,0.002,0.002,0.0
+2026-06-24,Scotland v Brazil,Scotland,Ross Stewart,82,0.054,0.053,0.001
+2026-06-24,Scotland v Brazil,Scotland,John Souttar,82,0.007,0.007,0.0
+2026-06-24,Scotland v Brazil,Scotland,Dominic Hyam,28,0.002,0.002,0.0
+2026-06-24,Scotland v Brazil,Scotland,Ben Gannon-Doak,8,0.002,0.002,0.0
+2026-06-24,Scotland v Brazil,Scotland,George Hirst,82,0.19,0.173,0.016
+2026-06-24,Scotland v Brazil,Scotland,Lewis Ferguson,82,0.007,0.007,0.0
+2026-06-24,Scotland v Brazil,Scotland,Lawrence Shankland,28,0.029,0.029,0.0
+2026-06-24,Scotland v Brazil,Scotland,Craig Gordon,8,0.0,0.0,0.0
+2026-06-24,Scotland v Brazil,Scotland,Nathan Patterson,82,0.003,0.003,0.0
+2026-06-24,Scotland v Brazil,Scotland,Kenny Mclean,8,0.001,0.001,0.0
+2026-06-24,Scotland v Brazil,Scotland,Anthony Ralston,8,0.0,0.0,0.0
+2026-06-24,Scotland v Brazil,Scotland,Findlay Curtis,8,0.003,0.003,0.0
+2026-06-24,Scotland v Brazil,Scotland,Scott Mckenna,28,0.001,0.001,0.0
+2026-06-24,Scotland v Brazil,Brazil,Alisson,28,0.0,0.0,0.0
+2026-06-24,Scotland v Brazil,Brazil,Ederson Silva,8,0.006,0.006,0.0
+2026-06-24,Scotland v Brazil,Brazil,Gabriel Magalhaes,82,0.012,0.012,0.0
+2026-06-24,Scotland v Brazil,Brazil,Marquinhos,82,0.018,0.018,0.0
+2026-06-24,Scotland v Brazil,Brazil,Casemiro,8,0.006,0.006,0.0
+2026-06-24,Scotland v Brazil,Brazil,Alex Sandro,8,0.001,0.001,0.0
+2026-06-24,Scotland v Brazil,Brazil,Vinicius Junior,82,0.204,0.185,0.018
+2026-06-24,Scotland v Brazil,Brazil,Bruno Guimaraes,82,0.082,0.078,0.003
+2026-06-24,Scotland v Brazil,Brazil,Matheus Cunha,82,0.919,0.601,0.234
+2026-06-24,Scotland v Brazil,Brazil,Neymar,8,0.04,0.039,0.001
+2026-06-24,Scotland v Brazil,Brazil,Raphinha,82,0.35,0.295,0.049
+2026-06-24,Scotland v Brazil,Brazil,Weverton,8,0.0,0.0,0.0
+2026-06-24,Scotland v Brazil,Brazil,Danilo Luiz,8,0.006,0.006,0.0
+2026-06-24,Scotland v Brazil,Brazil,Bremer,82,0.009,0.009,0.0
+2026-06-24,Scotland v Brazil,Brazil,Leo Pereira,8,0.003,0.003,0.0
+2026-06-24,Scotland v Brazil,Brazil,Douglas Santos,8,0.001,0.001,0.0
+2026-06-24,Scotland v Brazil,Brazil,Fabinho,28,0.004,0.004,0.0
+2026-06-24,Scotland v Brazil,Brazil,Danilo Santos,8,0.006,0.006,0.0
+2026-06-24,Scotland v Brazil,Brazil,Endrick,82,0.148,0.138,0.01
+2026-06-24,Scotland v Brazil,Brazil,Lucas Paqueta,82,0.138,0.129,0.009
+2026-06-24,Scotland v Brazil,Brazil,Luiz Henrique,82,0.247,0.219,0.026
+2026-06-24,Scotland v Brazil,Brazil,Gabriel Martinelli,82,0.134,0.125,0.008
+2026-06-24,Scotland v Brazil,Brazil,Ederson Moraes,8,0.006,0.006,0.0
+2026-06-24,Scotland v Brazil,Brazil,Roger Ibanez,28,0.006,0.006,0.0
+2026-06-24,Scotland v Brazil,Brazil,Igor Thiago,28,0.051,0.049,0.001
+2026-06-24,Scotland v Brazil,Brazil,Rayan,28,0.051,0.049,0.001
+2026-06-24,Morocco v Haiti,Morocco,Yassine Bounou,82,0.0,0.0,0.0
+2026-06-24,Morocco v Haiti,Morocco,Achraf Hakimi,82,0.025,0.024,0.0
+2026-06-24,Morocco v Haiti,Morocco,Noussair Mazraoui,82,0.014,0.014,0.0
+2026-06-24,Morocco v Haiti,Morocco,Sofyan Amrabat,82,0.113,0.107,0.006
+2026-06-24,Morocco v Haiti,Morocco,Marwane Saadane,28,0.028,0.028,0.0
+2026-06-24,Morocco v Haiti,Morocco,Ayyoub Bouaddi,28,0.028,0.028,0.0
+2026-06-24,Morocco v Haiti,Morocco,Chemsdine Talbi,82,0.206,0.186,0.018
+2026-06-24,Morocco v Haiti,Morocco,Azzedine Ounahi,82,0.176,0.162,0.014
+2026-06-24,Morocco v Haiti,Morocco,Soufiane Rahimi,28,0.028,0.028,0.0
+2026-06-24,Morocco v Haiti,Morocco,Brahim Diaz,82,0.92,0.601,0.235
+2026-06-24,Morocco v Haiti,Morocco,Ismael Saibari,82,0.113,0.107,0.006
+2026-06-24,Morocco v Haiti,Morocco,Munir Mohamedi,8,0.008,0.008,0.0
+2026-06-24,Morocco v Haiti,Morocco,Zakaria Ouahdi,8,0.008,0.008,0.0
+2026-06-24,Morocco v Haiti,Morocco,Issa Diop,82,0.03,0.029,0.0
+2026-06-24,Morocco v Haiti,Morocco,Samir Mourabet,8,0.008,0.008,0.0
+2026-06-24,Morocco v Haiti,Morocco,Gessime Yassine,82,0.319,0.273,0.041
+2026-06-24,Morocco v Haiti,Morocco,Amine Sbai,28,0.07,0.068,0.002
+2026-06-24,Morocco v Haiti,Morocco,Chadi Riad,82,0.011,0.011,0.0
+2026-06-24,Morocco v Haiti,Morocco,Youssef Belammari,8,0.008,0.008,0.0
+2026-06-24,Morocco v Haiti,Morocco,Ayoub Kaabi,8,0.008,0.008,0.0
+2026-06-24,Morocco v Haiti,Morocco,Ayoube Amaimouni,8,0.008,0.008,0.0
+2026-06-24,Morocco v Haiti,Morocco,Ahmed Reda Tagnaouti,8,0.008,0.008,0.0
+2026-06-24,Morocco v Haiti,Morocco,Bilal Khannouss,8,0.008,0.008,0.0
+2026-06-24,Morocco v Haiti,Morocco,Neil Aynaoui,8,0.008,0.008,0.0
+2026-06-24,Morocco v Haiti,Morocco,Redouane Halhal,28,0.005,0.005,0.0
+2026-06-24,Morocco v Haiti,Morocco,Anass Salah-Eddine,8,0.008,0.008,0.0
+2026-06-24,Morocco v Haiti,Haiti,Johny Placide,28,0.0,0.0,0.0
+2026-06-24,Morocco v Haiti,Haiti,Carlens Arcus,82,0.001,0.001,0.0
+2026-06-24,Morocco v Haiti,Haiti,Keeto Thermoncy,8,0.001,0.001,0.0
+2026-06-24,Morocco v Haiti,Haiti,Ricardo Ade,8,0.001,0.001,0.0
+2026-06-24,Morocco v Haiti,Haiti,Hannes Delcroix,82,0.001,0.001,0.0
+2026-06-24,Morocco v Haiti,Haiti,Carl Sainte,28,0.004,0.004,0.0
+2026-06-24,Morocco v Haiti,Haiti,Derrick Jr Etienne,8,0.001,0.001,0.0
+2026-06-24,Morocco v Haiti,Haiti,Martin Experience,82,0.003,0.003,0.0
+2026-06-24,Morocco v Haiti,Haiti,Duckens Nazon,82,0.111,0.105,0.006
+2026-06-24,Morocco v Haiti,Haiti,Jean-Ricner Bellegarde,82,0.007,0.007,0.0
+2026-06-24,Morocco v Haiti,Haiti,Louicius Deedson,8,0.001,0.001,0.0
+2026-06-24,Morocco v Haiti,Haiti,Alexandre Pierre,8,0.0,0.0,0.0
+2026-06-24,Morocco v Haiti,Haiti,Duke Lacroix,8,0.001,0.001,0.0
+2026-06-24,Morocco v Haiti,Haiti,Garven Metusala,8,0.001,0.001,0.0
+2026-06-24,Morocco v Haiti,Haiti,Ruben Providence,28,0.012,0.012,0.0
+2026-06-24,Morocco v Haiti,Haiti,Lenny Joseph,82,0.023,0.023,0.0
+2026-06-24,Morocco v Haiti,Haiti,Danley Jean Jacques,82,0.022,0.022,0.0
+2026-06-24,Morocco v Haiti,Haiti,Wilson Isidor,82,0.127,0.119,0.007
+2026-06-24,Morocco v Haiti,Haiti,Yassin Fortune,28,0.009,0.009,0.0
+2026-06-24,Morocco v Haiti,Haiti,Frantzdy Pierrot,82,0.136,0.127,0.008
+2026-06-24,Morocco v Haiti,Haiti,Josue Casimir,82,0.086,0.083,0.004
+2026-06-24,Morocco v Haiti,Haiti,Jean-Kevin Duverne,82,0.002,0.002,0.0
+2026-06-24,Morocco v Haiti,Haiti,Josue Duverger,8,0.001,0.001,0.0
+2026-06-24,Morocco v Haiti,Haiti,Wilguens Paugain,28,0.001,0.001,0.0
+2026-06-24,Morocco v Haiti,Haiti,Dominique Simon,8,0.001,0.001,0.0
+2026-06-24,Morocco v Haiti,Haiti,Woodensky Pierre,8,0.001,0.001,0.0

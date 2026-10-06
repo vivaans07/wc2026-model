@@ -1,0 +1,263 @@
+{
+  "split": {
+    "train_end": "2025-01-01",
+    "val_end": "2026-06-14",
+    "n_train": 16530,
+    "n_val_used": 1315
+  },
+  "dixon_coles_best": {
+    "half_life": 5.0,
+    "ridge": 1.0,
+    "n": 1315,
+    "brier": 0.4882,
+    "logloss": 0.8337,
+    "accuracy": 0.6183
+  },
+  "benchmarks": {
+    "elo_logistic": {
+      "n": 1315,
+      "brier": 0.4959,
+      "logloss": 0.8416,
+      "accuracy": 0.6046
+    },
+    "gbm": {
+      "n": 1315,
+      "brier": 0.4852,
+      "logloss": 0.8261,
+      "accuracy": 0.619
+    },
+    "nn_mlp": {
+      "n": 1315,
+      "brier": 0.4844,
+      "logloss": 0.8239,
+      "accuracy": 0.6205
+    }
+  },
+  "dc_grid": [
+    {
+      "n": 1315,
+      "brier": 0.5086,
+      "logloss": 0.8668,
+      "accuracy": 0.6038,
+      "half_life": 1.0,
+      "ridge": 1.0
+    },
+    {
+      "n": 1315,
+      "brier": 0.522,
+      "logloss": 0.8886,
+      "accuracy": 0.597,
+      "half_life": 1.0,
+      "ridge": 2.0
+    },
+    {
+      "n": 1315,
+      "brier": 0.5395,
+      "logloss": 0.916,
+      "accuracy": 0.5932,
+      "half_life": 1.0,
+      "ridge": 4.0
+    },
+    {
+      "n": 1315,
+      "brier": 0.5602,
+      "logloss": 0.9471,
+      "accuracy": 0.5757,
+      "half_life": 1.0,
+      "ridge": 8.0
+    },
+    {
+      "n": 1315,
+      "brier": 0.4996,
+      "logloss": 0.8523,
+      "accuracy": 0.6008,
+      "half_life": 1.5,
+      "ridge": 1.0
+    },
+    {
+      "n": 1315,
+      "brier": 0.5105,
+      "logloss": 0.8706,
+      "accuracy": 0.6008,
+      "half_life": 1.5,
+      "ridge": 2.0
+    },
+    {
+      "n": 1315,
+      "brier": 0.5253,
+      "logloss": 0.8947,
+      "accuracy": 0.5894,
+      "half_life": 1.5,
+      "ridge": 4.0
+    },
+    {
+      "n": 1315,
+      "brier": 0.5446,
+      "logloss": 0.9245,
+      "accuracy": 0.5833,
+      "half_life": 1.5,
+      "ridge": 8.0
+    },
+    {
+      "n": 1315,
+      "brier": 0.4947,
+      "logloss": 0.8445,
+      "accuracy": 0.6084,
+      "half_life": 2.0,
+      "ridge": 1.0
+    },
+    {
+      "n": 1315,
+      "brier": 0.5043,
+      "logloss": 0.8606,
+      "accuracy": 0.5985,
+      "half_life": 2.0,
+      "ridge": 2.0
+    },
+    {
+      "n": 1315,
+      "brier": 0.5173,
+      "logloss": 0.8822,
+      "accuracy": 0.5962,
+      "half_life": 2.0,
+      "ridge": 4.0
+    },
+    {
+      "n": 1315,
+      "brier": 0.5349,
+      "logloss": 0.91,
+      "accuracy": 0.584,
+      "half_life": 2.0,
+      "ridge": 8.0
+    },
+    {
+      "n": 1315,
+      "brier": 0.4902,
+      "logloss": 0.8371,
+      "accuracy": 0.6099,
+      "half_life": 3.0,
+      "ridge": 1.0
+    },
+    {
+      "n": 1315,
+      "brier": 0.4978,
+      "logloss": 0.8501,
+      "accuracy": 0.6129,
+      "half_life": 3.0,
+      "ridge": 2.0
+    },
+    {
+      "n": 1315,
+      "brier": 0.5086,
+      "logloss": 0.8683,
+      "accuracy": 0.6061,
+      "half_life": 3.0,
+      "ridge": 4.0
+    },
+    {
+      "n": 1315,
+      "brier": 0.5236,
+      "logloss": 0.8928,
+      "accuracy": 0.5947,
+      "half_life": 3.0,
+      "ridge": 8.0
+    },
+    {
+      "n": 1315,
+      "brier": 0.4887,
+      "logloss": 0.8345,
+      "accuracy": 0.616,
+      "half_life": 4.0,
+      "ridge": 1.0
+    },
+    {
+      "n": 1315,
+      "brier": 0.4948,
+      "logloss": 0.8452,
+      "accuracy": 0.6152,
+      "half_life": 4.0,
+      "ridge": 2.0
+    },
+    {
+      "n": 1315,
+      "brier": 0.5042,
+      "logloss": 0.8612,
+      "accuracy": 0.6114,
+      "half_life": 4.0,
+      "ridge": 4.0
+    },
+    {
+      "n": 1315,
+      "brier": 0.5175,
+      "logloss": 0.8832,
+      "accuracy": 0.5985,
+      "half_life": 4.0,
+      "ridge": 8.0
+    },
+    {
+      "n": 1315,
+      "brier": 0.4882,
+      "logloss": 0.8337,
+      "accuracy": 0.6183,
+      "half_life": 5.0,
+      "ridge": 1.0
+    },
+    {
+      "n": 1315,
+      "brier": 0.4935,
+      "logloss": 0.8429,
+      "accuracy": 0.6144,
+      "half_life": 5.0,
+      "ridge": 2.0
+    },
+    {
+      "n": 1315,
+      "brier": 0.5017,
+      "logloss": 0.8571,
+      "accuracy": 0.6099,
+      "half_life": 5.0,
+      "ridge": 4.0
+    },
+    {
+      "n": 1315,
+      "brier": 0.5138,
+      "logloss": 0.8774,
+      "accuracy": 0.6023,
+      "half_life": 5.0,
+      "ridge": 8.0
+    },
+    {
+      "n": 1315,
+      "brier": 0.4882,
+      "logloss": 0.8337,
+      "accuracy": 0.6167,
+      "half_life": 6.0,
+      "ridge": 1.0
+    },
+    {
+      "n": 1315,
+      "brier": 0.4928,
+      "logloss": 0.8417,
+      "accuracy": 0.6122,
+      "half_life": 6.0,
+      "ridge": 2.0
+    },
+    {
+      "n": 1315,
+      "brier": 0.5003,
+      "logloss": 0.8547,
+      "accuracy": 0.6099,
+      "half_life": 6.0,
+      "ridge": 4.0
+    },
+    {
+      "n": 1315,
+      "brier": 0.5115,
+      "logloss": 0.8736,
+      "accuracy": 0.6068,
+      "half_life": 6.0,
+      "ridge": 8.0
+    }
+  ],
+  "interpretation": "Lower logloss/Brier = better. The Dixon-Coles generative model is the primary engine; GBM/NN are benchmarks on DC-derived features and therefore cannot add much beyond DC. The NN does not (and cannot, with these aggregate inputs) do in-play/spatial prediction."
+}

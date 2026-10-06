@@ -1,0 +1,5 @@
+match,pred_score,xg_home,xg_away,exp_total,P_home,P_draw,P_away,over2.5,over3.5,home_TT_o1.5,away_TT_o1.5,btts_yes
+Portugal v Uzbekistan,2-0,1.95,0.7,2.65,0.666,0.213,0.121,0.495,0.276,0.581,0.156,0.436
+Colombia v DR Congo,1-0,1.84,0.6,2.44,0.668,0.221,0.11,0.44,0.229,0.548,0.122,0.383
+England v Ghana,2-0,2.09,0.58,2.67,0.723,0.189,0.088,0.5,0.28,0.618,0.116,0.391
+Panama v Croatia,0-2,0.9,1.94,2.84,0.164,0.223,0.614,0.539,0.316,0.226,0.577,0.511

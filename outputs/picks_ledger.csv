@@ -1,0 +1,6 @@
+pick_id,date,match,side,price_taken,line_seen,line_status,line_time,metric_type,value_pct
+1,2026-06-22,Argentina v Austria,Argentina ML,-182,-199 (67%),post,2026-06-23T03:31,TRUE CLV,3.2
+2,2026-06-22,France v Iraq,France ML,-260,-758 (88%),post,2026-06-23T03:31,TRUE CLV,22.3
+3,2026-06-23,Portugal v Uzbekistan,Portugal ML,-200,-509 (84%),pre,2026-06-23T03:31,current-line value (PENDING close),25.4
+4,2026-06-23,England v Ghana,England ML,-261,-398 (80%),pre,2026-06-23T03:31,current-line value (PENDING close),10.5
+5,2026-06-23,Colombia v DR Congo,Colombia ML,-201,-159 (61%),pre,2026-06-23T03:31,current-line value (PENDING close),-8.0

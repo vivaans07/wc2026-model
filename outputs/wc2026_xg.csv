@@ -1,0 +1,87 @@
+date,team,opponent,actual_goals,xg
+2026-06-11,Mexico,South Africa,2,1.448
+2026-06-11,South Africa,Mexico,0,0.724
+2026-06-12,South Korea,Czech Republic,2,2.171
+2026-06-12,Czech Republic,South Korea,1,1.448
+2026-06-12,Canada,Bosnia and Herzegovina,1,1.448
+2026-06-12,Bosnia and Herzegovina,Canada,1,1.086
+2026-06-13,United States,Paraguay,4,2.171
+2026-06-13,Paraguay,United States,1,0.362
+2026-06-13,Qatar,Switzerland,1,1.086
+2026-06-13,Switzerland,Qatar,1,2.533
+2026-06-13,Brazil,Morocco,1,1.809
+2026-06-13,Morocco,Brazil,1,1.086
+2026-06-14,Haiti,Scotland,0,0.724
+2026-06-14,Scotland,Haiti,1,0.724
+2026-06-14,Australia,Turkey,2,1.448
+2026-06-14,Turkey,Australia,0,2.895
+2026-06-14,Germany,Curaçao,7,4.343
+2026-06-14,Curaçao,Germany,1,0.724
+2026-06-14,Netherlands,Japan,2,2.171
+2026-06-14,Japan,Netherlands,2,1.086
+2026-06-14,Ivory Coast,Ecuador,1,1.448
+2026-06-14,Ecuador,Ivory Coast,0,0.362
+2026-06-15,Sweden,Tunisia,5,2.533
+2026-06-15,Tunisia,Sweden,1,0.724
+2026-06-15,Spain,Cape Verde,0,2.533
+2026-06-15,Cape Verde,Spain,0,0.362
+2026-06-15,Belgium,Egypt,1,1.086
+2026-06-15,Egypt,Belgium,1,1.086
+2026-06-15,Saudi Arabia,Uruguay,1,1.086
+2026-06-15,Uruguay,Saudi Arabia,1,3.619
+2026-06-16,Iran,New Zealand,2,1.448
+2026-06-16,New Zealand,Iran,2,2.895
+2026-06-16,France,Senegal,3,2.895
+2026-06-16,Senegal,France,1,0.724
+2026-06-16,Iraq,Norway,1,0.362
+2026-06-16,Norway,Iraq,4,1.809
+2026-06-17,Argentina,Algeria,3,2.171
+2026-06-17,Algeria,Argentina,0,0.362
+2026-06-17,Austria,Jordan,3,1.448
+2026-06-17,Jordan,Austria,1,1.448
+2026-06-17,Portugal,DR Congo,1,0.362
+2026-06-17,DR Congo,Portugal,1,0.724
+2026-06-17,England,Croatia,4,3.981
+2026-06-17,Croatia,England,2,1.809
+2026-06-17,Ghana,Panama,1,0.724
+2026-06-17,Panama,Ghana,0,1.448
+2026-06-18,Uzbekistan,Colombia,1,0.724
+2026-06-18,Colombia,Uzbekistan,3,1.448
+2026-06-18,Czech Republic,South Africa,1,1.086
+2026-06-18,South Africa,Czech Republic,1,1.448
+2026-06-18,Switzerland,Bosnia and Herzegovina,4,2.533
+2026-06-18,Bosnia and Herzegovina,Switzerland,1,1.086
+2026-06-18,Canada,Qatar,6,3.619
+2026-06-18,Qatar,Canada,0,0.0
+2026-06-19,Mexico,South Korea,1,1.448
+2026-06-19,South Korea,Mexico,0,0.724
+2026-06-19,United States,Australia,2,0.724
+2026-06-19,Australia,United States,0,0.724
+2026-06-19,Scotland,Morocco,0,0.0
+2026-06-19,Morocco,Scotland,1,0.724
+2026-06-20,Brazil,Haiti,3,1.809
+2026-06-20,Haiti,Brazil,0,1.086
+2026-06-20,Turkey,Paraguay,0,1.809
+2026-06-20,Paraguay,Turkey,1,0.724
+2026-06-20,Netherlands,Sweden,5,2.533
+2026-06-20,Sweden,Netherlands,1,2.895
+2026-06-20,Germany,Ivory Coast,2,2.533
+2026-06-20,Ivory Coast,Germany,1,0.724
+2026-06-21,Ecuador,Curaçao,0,5.428
+2026-06-21,Curaçao,Ecuador,0,1.086
+2026-06-21,Tunisia,Japan,0,0.0
+2026-06-21,Japan,Tunisia,4,1.809
+2026-06-21,Spain,Saudi Arabia,4,2.895
+2026-06-21,Saudi Arabia,Spain,0,0.362
+2026-06-21,Belgium,Iran,0,2.533
+2026-06-21,Iran,Belgium,0,1.086
+2026-06-21,Uruguay,Cape Verde,2,0.724
+2026-06-21,Cape Verde,Uruguay,2,1.448
+2026-06-22,New Zealand,Egypt,1,1.809
+2026-06-22,Egypt,New Zealand,3,2.533
+2026-06-22,Argentina,Austria,2,1.809
+2026-06-22,Austria,Argentina,0,0.362
+2026-06-22,France,Iraq,3,1.809
+2026-06-22,Iraq,France,0,0.0
+2026-06-23,Norway,Senegal,3,2.533
+2026-06-23,Senegal,Norway,2,1.448

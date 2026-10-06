@@ -1,0 +1,7 @@
+player,team,src_season,src_club,shots90,sot90,exp_shots,exp_sot,P_shots_o2.5,P_shots_o1.5,P_sot_o0.5,P_sot_o1.5
+Harry Kane,England,2024,Bayern München,3.39,2.03,3.09,1.85,0.596,0.814,0.843,0.553
+Bukayo Saka,England,2024,Arsenal,2.13,1.19,1.94,1.09,0.306,0.577,0.663,0.296
+Anthony Gordon,England,2024,Southampton,0.23,0.0,0.21,0.0,0.001,0.02,0.0,0.0
+Jude Bellingham,England,2024,Real Madrid,1.66,0.83,1.51,0.76,0.194,0.447,0.531,0.176
+Bruno Fernandes,Portugal,2024,Manchester United,1.93,0.86,1.76,0.79,0.259,0.526,0.545,0.186
+Goncalo Ramos,Portugal,2024,Paris Saint Germain,4.41,2.71,4.02,2.47,0.764,0.91,0.915,0.707

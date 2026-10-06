@@ -1,0 +1,14 @@
+stat,Czech Republic,South Africa,source
+goals,1.268,0.989,DATA-DRIVEN
+passes,424.757,371.681,assumed
+shots,13.85,11.619,calibrated
+shots_on_target,4.948,4.095,assumed
+corners,5.605,5.182,assumed
+free_kicks_won,12.11,11.902,assumed
+fouls_conceded,12.048,12.259,assumed
+penalties_won,0.15,0.146,assumed
+penalties_scored,0.119,0.114,assumed
+throwins_for_opp,15.957,15.738,assumed
+offside,1.965,1.927,assumed
+turnovers,75.247,76.128,assumed
+possessions,122.487,120.606,derived

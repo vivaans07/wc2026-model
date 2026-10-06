@@ -1,0 +1,5 @@
+date,match,venue,prediction,pred_prob,P_home,P_draw,P_away,exp_goals,most_likely_score,mc_P_home,mc_P_draw,mc_P_away,mc_max_error_pp,accuracy_rating,calibrated_hit_rate
+2026-06-18,Czech Republic vs South Africa,"Atlanta, United States",WIN Czech Republic,0.4199,0.4199,0.312,0.2681,1.16-0.87,1-0,0.4194,0.313,0.2676,0.096,Low (toss-up),0.474
+2026-06-18,Mexico vs South Korea,"Zapopan, Mexico",WIN Mexico,0.4887,0.4887,0.2711,0.2401,1.49-0.97,1-1,0.4884,0.2717,0.2398,0.059,Low (toss-up),0.474
+2026-06-18,Switzerland vs Bosnia and Herzegovina,"Inglewood, United States",WIN Switzerland,0.5915,0.5915,0.2441,0.1644,1.72-0.79,1-0,0.5909,0.2439,0.1652,0.07,Low-moderate,0.54
+2026-06-18,Canada vs Qatar,"Vancouver, Canada",WIN Canada,0.6519,0.6519,0.2042,0.1439,2.12-0.89,2-0,0.6517,0.2035,0.1448,0.09,Moderate,0.67

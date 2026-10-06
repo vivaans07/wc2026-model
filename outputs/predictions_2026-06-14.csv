@@ -1,0 +1,5 @@
+date,match,venue,prediction,pred_prob,P_home,P_draw,P_away,exp_goals,most_likely_score,mc_P_home,mc_P_draw,mc_P_away,mc_max_error_pp,accuracy_rating,calibrated_hit_rate
+2026-06-14,Germany vs Curaçao,"Houston, United States",WIN Germany,0.8415,0.8415,0.1104,0.0481,2.99-0.63,2-0,0.8411,0.1107,0.0482,0.036,High,0.908
+2026-06-14,Ivory Coast vs Ecuador,"Philadelphia, United States",WIN Ecuador,0.4192,0.2534,0.3274,0.4192,0.77-1.08,0-1,0.2527,0.3271,0.4202,0.1,Low (toss-up),0.474
+2026-06-14,Netherlands vs Japan,"Arlington, United States",WIN Netherlands,0.4052,0.4052,0.2741,0.3206,1.37-1.19,1-1,0.4043,0.2746,0.321,0.091,Low (toss-up),0.474
+2026-06-14,Sweden vs Tunisia,"Guadalupe, Mexico",WIN Sweden,0.3832,0.3832,0.3074,0.3094,1.13-0.98,1-1,0.3829,0.3084,0.3087,0.099,Low (toss-up),0.402

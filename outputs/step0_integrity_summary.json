@@ -1,0 +1,4106 @@
+[
+  {
+    "file": "award_winners.csv",
+    "size_bytes": 13060,
+    "is_lfs_stub": false,
+    "rows": 141,
+    "ncol": 12,
+    "columns": [
+      {
+        "name": "key_id",
+        "dtype": "int",
+        "null_rate": 0.0,
+        "n_unique": 141
+      },
+      {
+        "name": "tournament_id",
+        "dtype": "str",
+        "null_rate": 0.0,
+        "n_unique": 22
+      },
+      {
+        "name": "tournament_name",
+        "dtype": "str",
+        "null_rate": 0.0,
+        "n_unique": 22
+      },
+      {
+        "name": "award_id",
+        "dtype": "str",
+        "null_rate": 0.0,
+        "n_unique": 8
+      },
+      {
+        "name": "award_name",
+        "dtype": "str",
+        "null_rate": 0.0,
+        "n_unique": 8
+      },
+      {
+        "name": "shared",
+        "dtype": "int",
+        "null_rate": 0.0,
+        "n_unique": 2
+      },
+      {
+        "name": "player_id",
+        "dtype": "str",
+        "null_rate": 0.0,
+        "n_unique": 109
+      },
+      {
+        "name": "family_name",
+        "dtype": "str",
+        "null_rate": 0.0,
+        "n_unique": 108
+      },
+      {
+        "name": "given_name",
+        "dtype": "str",
+        "null_rate": 0.0,
+        "n_unique": 90
+      },
+      {
+        "name": "team_id",
+        "dtype": "str",
+        "null_rate": 0.0,
+        "n_unique": 30
+      },
+      {
+        "name": "team_name",
+        "dtype": "str",
+        "null_rate": 0.0,
+        "n_unique": 30
+      },
+      {
+        "name": "team_code",
+        "dtype": "str",
+        "null_rate": 0.0,
+        "n_unique": 29
+      }
+    ],
+    "sample3": [
+      {
+        "key_id": "1",
+        "tournament_id": "WC-1930",
+        "tournament_name": "1930 FIFA World Cup",
+        "award_id": "A-4",
+        "award_name": "Golden Boot",
+        "shared": "0",
+        "player_id": "P-01708",
+        "family_name": "St\u00e1bile",
+        "given_name": "Guillermo",
+        "team_id": "T-03",
+        "team_name": "Argentina",
+        "team_code": "ARG"
+      },
+      {
+        "key_id": "2",
+        "tournament_id": "WC-1930",
+        "tournament_name": "1930 FIFA World Cup",
+        "award_id": "A-5",
+        "award_name": "Silver Boot",
+        "shared": "0",
+        "player_id": "P-06624",
+        "family_name": "Cea",
+        "given_name": "Pedro",
+        "team_id": "T-81",
+        "team_name": "Uruguay",
+        "team_code": "URY"
+      },
+      {
+        "key_id": "3",
+        "tournament_id": "WC-1930",
+        "tournament_name": "1930 FIFA World Cup",
+        "award_id": "A-6",
+        "award_name": "Bronze Boot",
+        "shared": "0",
+        "player_id": "P-08936",
+        "family_name": "Patenaude",
+        "given_name": "Bert",
+        "team_id": "T-80",
+        "team_name": "United States",
+        "team_code": "USA"
+      }
+    ]
+  },
+  {
+    "file": "awards.csv",
+    "size_bytes": 397,
+    "is_lfs_stub": false,
+    "rows": 8,
+    "ncol": 5,
+    "columns": [
+      {
+        "name": "key_id",
+        "dtype": "int",
+        "null_rate": 0.0,
+        "n_unique": 8
+      },
+      {
+        "name": "award_id",
+        "dtype": "str",
+        "null_rate": 0.0,
+        "n_unique": 8
+      },
+      {
+        "name": "award_name",
+        "dtype": "str",
+        "null_rate": 0.0,
+        "n_unique": 8
+      },
+      {
+        "name": "award_description",
+        "dtype": "str",
+        "null_rate": 0.0,
+        "n_unique": 8
+      },
+      {
+        "name": "year_introduced",
+        "dtype": "int",
+        "null_rate": 0.0,
+        "n_unique": 4
+      }
+    ],
+    "sample3": [
+      {
+        "key_id": "1",
+        "award_id": "A-1",
+        "award_name": "Golden Ball",
+        "award_description": "best player",
+        "year_introduced": "1978"
+      },
+      {
+        "key_id": "2",
+        "award_id": "A-2",
+        "award_name": "Silver Ball",
+        "award_description": "second best player",
+        "year_introduced": "1978"
+      },
+      {
+        "key_id": "3",
+        "award_id": "A-3",
+        "award_name": "Bronze Ball",
+        "award_description": "third best player",
+        "year_introduced": "1978"
+      }
+    ]
+  },
+  {
+    "file": "bookings.csv",
+    "size_bytes": 487163,
+    "is_lfs_stub": false,
+    "rows": 2691,
+    "ncol": 26,
+    "columns": [
+      {
+        "name": "key_id",
+        "dtype": "int",
+        "null_rate": 0.0,
+        "n_unique": 2691
+      },
+      {
+        "name": "booking_id",
+        "dtype": "str",
+        "null_rate": 0.0,
+        "n_unique": 2691
+      },
+      {
+        "name": "tournament_id",
+        "dtype": "str",
+        "null_rate": 0.0,
+        "n_unique": 14
+      },
+      {
+        "name": "tournament_name",
+        "dtype": "str",
+        "null_rate": 0.0,
+        "n_unique": 14
+      },
+      {
+        "name": "match_id",
+        "dtype": "str",
+        "null_rate": 0.0,
+        "n_unique": 702
+      },
+      {
+        "name": "match_name",
+        "dtype": "str",
+        "null_rate": 0.0,
+        "n_unique": 600
+      },
+      {
+        "name": "match_date",
+        "dtype": "date",
+        "null_rate": 0.0,
+        "n_unique": 298
+      },
+      {
+        "name": "stage_name",
+        "dtype": "str",
+        "null_rate": 0.0,
+        "n_unique": 7
+      },
+      {
+        "name": "group_name",
+        "dtype": "str",
+        "null_rate": 0.0,
+        "n_unique": 15
+      },
+      {
+        "name": "team_id",
+        "dtype": "str",
+        "null_rate": 0.0,
+        "n_unique": 83
+      },
+      {
+        "name": "team_name",
+        "dtype": "str",
+        "null_rate": 0.0,
+        "n_unique": 83
+      },
+      {
+        "name": "team_code",
+        "dtype": "str",
+        "null_rate": 0.0,
+        "n_unique": 82
+      },
+      {
+        "name": "home_team",
+        "dtype": "int",
+        "null_rate": 0.0,
+        "n_unique": 2
+      },
+      {
+        "name": "away_team",
+        "dtype": "int",
+        "null_rate": 0.0,
+        "n_unique": 2
+      },
+      {
+        "name": "player_id",
+        "dtype": "str",
+        "null_rate": 0.0,
+        "n_unique": 1830
+      },
+      {
+        "name": "family_name",
+        "dtype": "str",
+        "null_rate": 0.0,
+        "n_unique": 1666
+      },
+      {
+        "name": "given_name",
+        "dtype": "str",
+        "null_rate": 0.0,
+        "n_unique": 1101
+      },
+      {
+        "name": "shirt_number",
+        "dtype": "int",
+        "null_rate": 0.0,
+        "n_unique": 26
+      },
+      {
+        "name": "minute_label",
+        "dtype": "str",
+        "null_rate": 0.0,
+        "n_unique": 141
+      },
+      {
+        "name": "minute_regulation",
+        "dtype": "int",
+        "null_rate": 0.0,
+        "n_unique": 118
+      },
+      {
+        "name": "minute_stoppage",
+        "dtype": "int",
+        "null_rate": 0.0,
+        "n_unique": 12
+      },
+      {
+        "name": "match_period",
+        "dtype": "str",
+        "null_rate": 0.0,
+        "n_unique": 8
+      },
+      {
+        "name": "yellow_card",
+        "dtype": "int",
+        "null_rate": 0.0,
+        "n_unique": 2
+      },
+      {
+        "name": "red_card",
+        "dtype": "int",
+        "null_rate": 0.0,
+        "n_unique": 2
+      },
+      {
+        "name": "second_yellow_card",
+        "dtype": "int",
+        "null_rate": 0.0,
+        "n_unique": 2
+      },
+      {
+        "name": "sending_off",
+        "dtype": "int",
+        "null_rate": 0.0,
+        "n_unique": 2
+      }
+    ],
+    "sample3": [
+      {
+        "key_id": "1",
+        "booking_id": "B-0001",
+        "tournament_id": "WC-1970",
+        "tournament_name": "1970 FIFA World Cup",
+        "match_id": "M-1970-01",
+        "match_name": "Mexico v Soviet Union",
+        "match_date": "1970-05-31",
+        "stage_name": "group stage",
+        "group_name": "Group 1",
+        "team_id": "T-70",
+        "team_name": "Soviet Union",
+        "team_code": "SUN",
+        "home_team": "0",
+        "away_team": "1",
+        "player_id": "P-02708",
+        "family_name": "Asatiani",
+        "given_name": "Kakhi",
+        "shirt_number": "11",
+        "minute_label": "30'",
+        "minute_regulation": "30",
+        "minute_stoppage": "0",
+        "match_period": "first half",
+        "yellow_card": "1",
+        "red_card": "0",
+        "second_yellow_card": "0",
+        "sending_off": "0"
+      },
+      {
+        "key_id": "2",
+        "booking_id": "B-0002",
+        "tournament_id": "WC-1970",
+        "tournament_name": "1970 FIFA World Cup",
+        "match_id": "M-1970-01",
+        "match_name": "Mexico v Soviet Union",
+        "match_date": "1970-05-31",
+        "stage_name": "group stage",
+        "group_name": "Group 1",
+        "team_id": "T-70",
+        "team_name": "Soviet Union",
+        "team_code": "SUN",
+        "home_team": "0",
+        "away_team": "1",
+        "player_id": "P-09857",
+        "family_name": "Nodia",
+        "given_name": "Givi",
+        "shirt_number": "19",
+        "minute_label": "31'",
+        "minute_regulation": "31",
+        "minute_stoppage": "0",
+        "match_period": "first half",
+        "yellow_card": "1",
+        "red_card": "0",
+        "second_yellow_card": "0",
+        "sending_off": "0"
+      },
+      {
+        "key_id": "3",
+        "booking_id": "B-0003",
+        "tournament_id": "WC-1970",
+        "tournament_name": "1970 FIFA World Cup",
+        "match_id": "M-1970-01",
+        "match_name": "Mexico v Soviet Union",
+        "match_date": "1970-05-31",
+        "stage_name": "group stage",
+        "group_name": "Group 1",
+        "team_id": "T-70",
+        "team_name": "Soviet Union",
+        "team_code": "SUN",
+        "home_team": "0",
+        "away_team": "1",
+        "player_id": "P-06460",
+        "family_name": "Lovchev",
+        "given_name": "Evgeny",
+        "shirt_number": "6",
+        "minute_label": "34'",
+        "minute_regulation": "34",
+        "minute_stoppage": "0",
+        "match_period": "first half",
+        "yellow_card": "1",
+        "red_card": "0",
+        "second_yellow_card": "0",
+        "sending_off": "0"
+      }
+    ]
+  },
+  {
+    "file": "confederations.csv",
+    "size_bytes": 715,
+    "is_lfs_stub": false,
+    "rows": 6,
+    "ncol": 5,
+    "columns": [
+      {
+        "name": "key_id",
+        "dtype": "int",
+        "null_rate": 0.0,
+        "n_unique": 6
+      },
+      {
+        "name": "confederation_id",
+        "dtype": "str",
+        "null_rate": 0.0,
+        "n_unique": 6
+      },
+      {
+        "name": "confederation_name",
+        "dtype": "str",
+        "null_rate": 0.0,
+        "n_unique": 6
+      },
+      {
+        "name": "confederation_code",
+        "dtype": "str",
+        "null_rate": 0.0,
+        "n_unique": 6
+      },
+      {
+        "name": "confederation_wikipedia_link",
+        "dtype": "str",
+        "null_rate": 0.0,
+        "n_unique": 6
+      }
+    ],
+    "sample3": [
+      {
+        "key_id": "1",
+        "confederation_id": "CF-1",
+        "confederation_name": "Asian Football Confederation",
+        "confederation_code": "AFC",
+        "confederation_wikipedia_link": "https://en.wikipedia.org/wiki/Asian_Football_Confederation"
+      },
+      {
+        "key_id": "2",
+        "confederation_id": "CF-2",
+        "confederation_name": "Confederation of African Football",
+        "confederation_code": "CAF",
+        "confederation_wikipedia_link": "https://en.wikipedia.org/wiki/Confederation_of_African_Football"
+      },
+      {
+        "key_id": "3",
+        "confederation_id": "CF-3",
+        "confederation_name": "Confederation of North, Central American and Caribbean Association Football",
+        "confederation_code": "CONCACAF",
+        "confederation_wikipedia_link": "https://en.wikipedia.org/wiki/CONCACAF"
+      }
+    ]
+  },
+  {
+    "file": "goals.csv",
+    "size_bytes": 529733,
+    "is_lfs_stub": false,
+    "rows": 2720,
+    "ncol": 27,
+    "columns": [
+      {
+        "name": "key_id",
+        "dtype": "int",
+        "null_rate": 0.0,
+        "n_unique": 2720
+      },
+      {
+        "name": "goal_id",
+        "dtype": "str",
+        "null_rate": 0.0,
+        "n_unique": 2720
+      },
+      {
+        "name": "tournament_id",
+        "dtype": "str",
+        "null_rate": 0.0,
+        "n_unique": 22
+      },
+      {
+        "name": "tournament_name",
+        "dtype": "str",
+        "null_rate": 0.0,
+        "n_unique": 22
+      },
+      {
+        "name": "match_id",
+        "dtype": "str",
+        "null_rate": 0.0,
+        "n_unique": 886
+      },
+      {
+        "name": "match_name",
+        "dtype": "str",
+        "null_rate": 0.0,
+        "n_unique": 708
+      },
+      {
+        "name": "match_date",
+        "dtype": "date",
+        "null_rate": 0.0,
+        "n_unique": 372
+      },
+      {
+        "name": "stage_name",
+        "dtype": "str",
+        "null_rate": 0.0,
+        "n_unique": 8
+      },
+      {
+        "name": "group_name",
+        "dtype": "str",
+        "null_rate": 0.0,
+        "n_unique": 15
+      },
+      {
+        "name": "team_id",
+        "dtype": "str",
+        "null_rate": 0.0,
+        "n_unique": 81
+      },
+      {
+        "name": "team_name",
+        "dtype": "str",
+        "null_rate": 0.0,
+        "n_unique": 81
+      },
+      {
+        "name": "team_code",
+        "dtype": "str",
+        "null_rate": 0.0,
+        "n_unique": 80
+      },
+      {
+        "name": "home_team",
+        "dtype": "int",
+        "null_rate": 0.0,
+        "n_unique": 2
+      },
+      {
+        "name": "away_team",
+        "dtype": "int",
+        "null_rate": 0.0,
+        "n_unique": 2
+      },
+      {
+        "name": "player_id",
+        "dtype": "str",
+        "null_rate": 0.0,
+        "n_unique": 1437
+      },
+      {
+        "name": "family_name",
+        "dtype": "str",
+        "null_rate": 0.0,
+        "n_unique": 1353
+      },
+      {
+        "name": "given_name",
+        "dtype": "str",
+        "null_rate": 0.0,
+        "n_unique": 879
+      },
+      {
+        "name": "shirt_number",
+        "dtype": "int",
+        "null_rate": 0.0,
+        "n_unique": 27
+      },
+      {
+        "name": "player_team_id",
+        "dtype": "str",
+        "null_rate": 0.0,
+        "n_unique": 82
+      },
+      {
+        "name": "player_team_name",
+        "dtype": "str",
+        "null_rate": 0.0,
+        "n_unique": 82
+      },
+      {
+        "name": "player_team_code",
+        "dtype": "str",
+        "null_rate": 0.0,
+        "n_unique": 81
+      },
+      {
+        "name": "minute_label",
+        "dtype": "str",
+        "null_rate": 0.0,
+        "n_unique": 133
+      },
+      {
+        "name": "minute_regulation",
+        "dtype": "int",
+        "null_rate": 0.0,
+        "n_unique": 116
+      },
+      {
+        "name": "minute_stoppage",
+        "dtype": "int",
+        "null_rate": 0.0,
+        "n_unique": 12
+      },
+      {
+        "name": "match_period",
+        "dtype": "str",
+        "null_rate": 0.0,
+        "n_unique": 8
+      },
+      {
+        "name": "own_goal",
+        "dtype": "int",
+        "null_rate": 0.0,
+        "n_unique": 2
+      },
+      {
+        "name": "penalty",
+        "dtype": "int",
+        "null_rate": 0.0,
+        "n_unique": 2
+      }
+    ],
+    "sample3": [
+      {
+        "key_id": "1",
+        "goal_id": "G-0001",
+        "tournament_id": "WC-1930",
+        "tournament_name": "1930 FIFA World Cup",
+        "match_id": "M-1930-01",
+        "match_name": "France v Mexico",
+        "match_date": "1930-07-13",
+        "stage_name": "group stage",
+        "group_name": "Group 1",
+        "team_id": "T-28",
+        "team_name": "France",
+        "team_code": "FRA",
+        "home_team": "1",
+        "away_team": "0",
+        "player_id": "P-08962",
+        "family_name": "Laurent",
+        "given_name": "Lucien",
+        "shirt_number": "0",
+        "player_team_id": "T-28",
+        "player_team_name": "France",
+        "player_team_code": "FRA",
+        "minute_label": "19'",
+        "minute_regulation": "19",
+        "minute_stoppage": "0",
+        "match_period": "first half",
+        "own_goal": "0",
+        "penalty": "0"
+      },
+      {
+        "key_id": "2",
+        "goal_id": "G-0002",
+        "tournament_id": "WC-1930",
+        "tournament_name": "1930 FIFA World Cup",
+        "match_id": "M-1930-01",
+        "match_name": "France v Mexico",
+        "match_date": "1930-07-13",
+        "stage_name": "group stage",
+        "group_name": "Group 1",
+        "team_id": "T-28",
+        "team_name": "France",
+        "team_code": "FRA",
+        "home_team": "1",
+        "away_team": "0",
+        "player_id": "P-00280",
+        "family_name": "Langiller",
+        "given_name": "Marcel",
+        "shirt_number": "0",
+        "player_team_id": "T-28",
+        "player_team_name": "France",
+        "player_team_code": "FRA",
+        "minute_label": "40'",
+        "minute_regulation": "40",
+        "minute_stoppage": "0",
+        "match_period": "first half",
+        "own_goal": "0",
+        "penalty": "0"
+      },
+      {
+        "key_id": "3",
+        "goal_id": "G-0003",
+        "tournament_id": "WC-1930",
+        "tournament_name": "1930 FIFA World Cup",
+        "match_id": "M-1930-01",
+        "match_name": "France v Mexico",
+        "match_date": "1930-07-13",
+        "stage_name": "group stage",
+        "group_name": "Group 1",
+        "team_id": "T-28",
+        "team_name": "France",
+        "team_code": "FRA",
+        "home_team": "1",
+        "away_team": "0",
+        "player_id": "P-09030",
+        "family_name": "Maschinot",
+        "given_name": "Andr\u00e9",
+        "shirt_number": "0",
+        "player_team_id": "T-28",
+        "player_team_name": "France",
+        "player_team_code": "FRA",
+        "minute_label": "43'",
+        "minute_regulation": "43",
+        "minute_stoppage": "0",
+        "match_period": "first half",
+        "own_goal": "0",
+        "penalty": "0"
+      }
+    ]
+  },
+  {
+    "file": "group_standings.csv",
+    "size_bytes": 45898,
+    "is_lfs_stub": false,
+    "rows": 490,
+    "ncol": 19,
+    "columns": [
+      {
+        "name": "key_id",
+        "dtype": "int",
+        "null_rate": 0.0,
+        "n_unique": 490
+      },
+      {
+        "name": "tournament_id",
+        "dtype": "str",
+        "null_rate": 0.0,
+        "n_unique": 20
+      },
+      {
+        "name": "tournament_name",
+        "dtype": "str",
+        "null_rate": 0.0,
+        "n_unique": 20
+      },
+      {
+        "name": "stage_number",
+        "dtype": "int",
+        "null_rate": 0.0,
+        "n_unique": 2
+      },
+      {
+        "name": "stage_name",
+        "dtype": "str",
+        "null_rate": 0.0,
+        "n_unique": 5
+      },
+      {
+        "name": "group_name",
+        "dtype": "str",
+        "null_rate": 0.0,
+        "n_unique": 14
+      },
+      {
+        "name": "position",
+        "dtype": "int",
+        "null_rate": 0.0,
+        "n_unique": 4
+      },
+      {
+        "name": "team_id",
+        "dtype": "str",
+        "null_rate": 0.0,
+        "n_unique": 83
+      },
+      {
+        "name": "team_name",
+        "dtype": "str",
+        "null_rate": 0.0,
+        "n_unique": 83
+      },
+      {
+        "name": "team_code",
+        "dtype": "str",
+        "null_rate": 0.0,
+        "n_unique": 82
+      },
+      {
+        "name": "played",
+        "dtype": "int",
+        "null_rate": 0.0,
+        "n_unique": 3
+      },
+      {
+        "name": "wins",
+        "dtype": "int",
+        "null_rate": 0.0,
+        "n_unique": 4
+      },
+      {
+        "name": "draws",
+        "dtype": "int",
+        "null_rate": 0.0,
+        "n_unique": 4
+      },
+      {
+        "name": "losses",
+        "dtype": "int",
+        "null_rate": 0.0,
+        "n_unique": 4
+      },
+      {
+        "name": "goals_for",
+        "dtype": "int",
+        "null_rate": 0.0,
+        "n_unique": 15
+      },
+      {
+        "name": "goals_against",
+        "dtype": "int",
+        "null_rate": 0.0,
+        "n_unique": 16
+      },
+      {
+        "name": "goal_difference",
+        "dtype": "int",
+        "null_rate": 0.0,
+        "n_unique": 26
+      },
+      {
+        "name": "points",
+        "dtype": "int",
+        "null_rate": 0.0,
+        "n_unique": 9
+      },
+      {
+        "name": "advanced",
+        "dtype": "int",
+        "null_rate": 0.0,
+        "n_unique": 2
+      }
+    ],
+    "sample3": [
+      {
+        "key_id": "1",
+        "tournament_id": "WC-1930",
+        "tournament_name": "1930 FIFA World Cup",
+        "stage_number": "1",
+        "stage_name": "group stage",
+        "group_name": "Group 1",
+        "position": "1",
+        "team_id": "T-03",
+        "team_name": "Argentina",
+        "team_code": "ARG",
+        "played": "3",
+        "wins": "3",
+        "draws": "0",
+        "losses": "0",
+        "goals_for": "10",
+        "goals_against": "4",
+        "goal_difference": "6",
+        "points": "6",
+        "advanced": "1"
+      },
+      {
+        "key_id": "2",
+        "tournament_id": "WC-1930",
+        "tournament_name": "1930 FIFA World Cup",
+        "stage_number": "1",
+        "stage_name": "group stage",
+        "group_name": "Group 1",
+        "position": "2",
+        "team_id": "T-13",
+        "team_name": "Chile",
+        "team_code": "CHL",
+        "played": "3",
+        "wins": "2",
+        "draws": "0",
+        "losses": "1",
+        "goals_for": "5",
+        "goals_against": "3",
+        "goal_difference": "2",
+        "points": "4",
+        "advanced": "0"
+      },
+      {
+        "key_id": "3",
+        "tournament_id": "WC-1930",
+        "tournament_name": "1930 FIFA World Cup",
+        "stage_number": "1",
+        "stage_name": "group stage",
+        "group_name": "Group 1",
+        "position": "3",
+        "team_id": "T-28",
+        "team_name": "France",
+        "team_code": "FRA",
+        "played": "3",
+        "wins": "1",
+        "draws": "0",
+        "losses": "2",
+        "goals_for": "4",
+        "goals_against": "3",
+        "goal_difference": "1",
+        "points": "2",
+        "advanced": "0"
+      }
+    ]
+  },
+  {
+    "file": "groups.csv",
+    "size_bytes": 7116,
+    "is_lfs_stub": false,
+    "rows": 125,
+    "ncol": 7,
+    "columns": [
+      {
+        "name": "key_id",
+        "dtype": "int",
+        "null_rate": 0.0,
+        "n_unique": 125
+      },
+      {
+        "name": "tournament_id",
+        "dtype": "str",
+        "null_rate": 0.0,
+        "n_unique": 20
+      },
+      {
+        "name": "tournament_name",
+        "dtype": "str",
+        "null_rate": 0.0,
+        "n_unique": 20
+      },
+      {
+        "name": "stage_number",
+        "dtype": "int",
+        "null_rate": 0.0,
+        "n_unique": 2
+      },
+      {
+        "name": "stage_name",
+        "dtype": "str",
+        "null_rate": 0.0,
+        "n_unique": 5
+      },
+      {
+        "name": "group_name",
+        "dtype": "str",
+        "null_rate": 0.0,
+        "n_unique": 14
+      },
+      {
+        "name": "count_teams",
+        "dtype": "int",
+        "null_rate": 0.0,
+        "n_unique": 3
+      }
+    ],
+    "sample3": [
+      {
+        "key_id": "1",
+        "tournament_id": "WC-1930",
+        "tournament_name": "1930 FIFA World Cup",
+        "stage_number": "1",
+        "stage_name": "group stage",
+        "group_name": "Group 1",
+        "count_teams": "4"
+      },
+      {
+        "key_id": "2",
+        "tournament_id": "WC-1930",
+        "tournament_name": "1930 FIFA World Cup",
+        "stage_number": "1",
+        "stage_name": "group stage",
+        "group_name": "Group 2",
+        "count_teams": "3"
+      },
+      {
+        "key_id": "3",
+        "tournament_id": "WC-1930",
+        "tournament_name": "1930 FIFA World Cup",
+        "stage_number": "1",
+        "stage_name": "group stage",
+        "group_name": "Group 3",
+        "count_teams": "3"
+      }
+    ]
+  },
+  {
+    "file": "host_countries.csv",
+    "size_bytes": 1459,
+    "is_lfs_stub": false,
+    "rows": 23,
+    "ncol": 7,
+    "columns": [
+      {
+        "name": "key_id",
+        "dtype": "int",
+        "null_rate": 0.0,
+        "n_unique": 23
+      },
+      {
+        "name": "tournament_id",
+        "dtype": "str",
+        "null_rate": 0.0,
+        "n_unique": 22
+      },
+      {
+        "name": "tournament_name",
+        "dtype": "str",
+        "null_rate": 0.0,
+        "n_unique": 22
+      },
+      {
+        "name": "team_id",
+        "dtype": "str",
+        "null_rate": 0.0,
+        "n_unique": 19
+      },
+      {
+        "name": "team_name",
+        "dtype": "str",
+        "null_rate": 0.0,
+        "n_unique": 19
+      },
+      {
+        "name": "team_code",
+        "dtype": "str",
+        "null_rate": 0.0,
+        "n_unique": 18
+      },
+      {
+        "name": "performance",
+        "dtype": "str",
+        "null_rate": 0.0,
+        "n_unique": 9
+      }
+    ],
+    "sample3": [
+      {
+        "key_id": "1",
+        "tournament_id": "WC-1930",
+        "tournament_name": "1930 FIFA World Cup",
+        "team_id": "T-81",
+        "team_name": "Uruguay",
+        "team_code": "URY",
+        "performance": "champions"
+      },
+      {
+        "key_id": "2",
+        "tournament_id": "WC-1934",
+        "tournament_name": "1934 FIFA World Cup",
+        "team_id": "T-39",
+        "team_name": "Italy",
+        "team_code": "ITA",
+        "performance": "champions"
+      },
+      {
+        "key_id": "3",
+        "tournament_id": "WC-1938",
+        "tournament_name": "1938 FIFA World Cup",
+        "team_id": "T-28",
+        "team_name": "France",
+        "team_code": "FRA",
+        "performance": "quater-finals"
+      }
+    ]
+  },
+  {
+    "file": "manager_appearances.csv",
+    "size_bytes": 291151,
+    "is_lfs_stub": false,
+    "rows": 1970,
+    "ncol": 17,
+    "columns": [
+      {
+        "name": "key_id",
+        "dtype": "int",
+        "null_rate": 0.0,
+        "n_unique": 1970
+      },
+      {
+        "name": "tournament_id",
+        "dtype": "str",
+        "null_rate": 0.0,
+        "n_unique": 22
+      },
+      {
+        "name": "tournament_name",
+        "dtype": "str",
+        "null_rate": 0.0,
+        "n_unique": 22
+      },
+      {
+        "name": "match_id",
+        "dtype": "str",
+        "null_rate": 0.0,
+        "n_unique": 964
+      },
+      {
+        "name": "match_name",
+        "dtype": "str",
+        "null_rate": 0.0,
+        "n_unique": 759
+      },
+      {
+        "name": "match_date",
+        "dtype": "date",
+        "null_rate": 0.0,
+        "n_unique": 378
+      },
+      {
+        "name": "stage_name",
+        "dtype": "str",
+        "null_rate": 0.0,
+        "n_unique": 8
+      },
+      {
+        "name": "group_name",
+        "dtype": "str",
+        "null_rate": 0.0,
+        "n_unique": 15
+      },
+      {
+        "name": "team_id",
+        "dtype": "str",
+        "null_rate": 0.0,
+        "n_unique": 85
+      },
+      {
+        "name": "team_name",
+        "dtype": "str",
+        "null_rate": 0.0,
+        "n_unique": 85
+      },
+      {
+        "name": "team_code",
+        "dtype": "str",
+        "null_rate": 0.0,
+        "n_unique": 84
+      },
+      {
+        "name": "home_team",
+        "dtype": "int",
+        "null_rate": 0.0,
+        "n_unique": 2
+      },
+      {
+        "name": "away_team",
+        "dtype": "int",
+        "null_rate": 0.0,
+        "n_unique": 2
+      },
+      {
+        "name": "manager_id",
+        "dtype": "str",
+        "null_rate": 0.0,
+        "n_unique": 376
+      },
+      {
+        "name": "family_name",
+        "dtype": "str",
+        "null_rate": 0.0,
+        "n_unique": 368
+      },
+      {
+        "name": "given_name",
+        "dtype": "str",
+        "null_rate": 0.0,
+        "n_unique": 302
+      },
+      {
+        "name": "country_name",
+        "dtype": "str",
+        "null_rate": 0.0,
+        "n_unique": 71
+      }
+    ],
+    "sample3": [
+      {
+        "key_id": "1",
+        "tournament_id": "WC-1930",
+        "tournament_name": "1930 FIFA World Cup",
+        "match_id": "M-1930-01",
+        "match_name": "France v Mexico",
+        "match_date": "1930-07-13",
+        "stage_name": "group stage",
+        "group_name": "Group 1",
+        "team_id": "T-28",
+        "team_name": "France",
+        "team_code": "FRA",
+        "home_team": "1",
+        "away_team": "0",
+        "manager_id": "M-059",
+        "family_name": "Caudron",
+        "given_name": "Raoul",
+        "country_name": "France"
+      },
+      {
+        "key_id": "2",
+        "tournament_id": "WC-1930",
+        "tournament_name": "1930 FIFA World Cup",
+        "match_id": "M-1930-01",
+        "match_name": "France v Mexico",
+        "match_date": "1930-07-13",
+        "stage_name": "group stage",
+        "group_name": "Group 1",
+        "team_id": "T-44",
+        "team_name": "Mexico",
+        "team_code": "MEX",
+        "home_team": "0",
+        "away_team": "1",
+        "manager_id": "M-185",
+        "family_name": "Luque de Serrallonga",
+        "given_name": "Juan",
+        "country_name": "Mexico"
+      },
+      {
+        "key_id": "3",
+        "tournament_id": "WC-1930",
+        "tournament_name": "1930 FIFA World Cup",
+        "match_id": "M-1930-02",
+        "match_name": "United States v Belgium",
+        "match_date": "1930-07-13",
+        "stage_name": "group stage",
+        "group_name": "Group 4",
+        "team_id": "T-80",
+        "team_name": "United States",
+        "team_code": "USA",
+        "home_team": "1",
+        "away_team": "0",
+        "manager_id": "M-211",
+        "family_name": "Millar",
+        "given_name": "Robert",
+        "country_name": "Scotland"
+      }
+    ]
+  },
+  {
+    "file": "manager_appointments.csv",
+    "size_bytes": 40199,
+    "is_lfs_stub": false,
+    "rows": 501,
+    "ncol": 10,
+    "columns": [
+      {
+        "name": "key_id",
+        "dtype": "int",
+        "null_rate": 0.0,
+        "n_unique": 501
+      },
+      {
+        "name": "tournament_id",
+        "dtype": "str",
+        "null_rate": 0.0,
+        "n_unique": 22
+      },
+      {
+        "name": "tournament_name",
+        "dtype": "str",
+        "null_rate": 0.0,
+        "n_unique": 22
+      },
+      {
+        "name": "team_id",
+        "dtype": "str",
+        "null_rate": 0.0,
+        "n_unique": 85
+      },
+      {
+        "name": "team_name",
+        "dtype": "str",
+        "null_rate": 0.0,
+        "n_unique": 85
+      },
+      {
+        "name": "team_code",
+        "dtype": "str",
+        "null_rate": 0.0,
+        "n_unique": 84
+      },
+      {
+        "name": "manager_id",
+        "dtype": "str",
+        "null_rate": 0.0,
+        "n_unique": 376
+      },
+      {
+        "name": "family_name",
+        "dtype": "str",
+        "null_rate": 0.0,
+        "n_unique": 368
+      },
+      {
+        "name": "given_name",
+        "dtype": "str",
+        "null_rate": 0.0,
+        "n_unique": 302
+      },
+      {
+        "name": "country_name",
+        "dtype": "str",
+        "null_rate": 0.0,
+        "n_unique": 71
+      }
+    ],
+    "sample3": [
+      {
+        "key_id": "1",
+        "tournament_id": "WC-1930",
+        "tournament_name": "1930 FIFA World Cup",
+        "team_id": "T-54",
+        "team_name": "Peru",
+        "team_code": "PER",
+        "manager_id": "M-046",
+        "family_name": "Bru",
+        "given_name": "Francisco",
+        "country_name": "Spain"
+      },
+      {
+        "key_id": "2",
+        "tournament_id": "WC-1930",
+        "tournament_name": "1930 FIFA World Cup",
+        "team_id": "T-28",
+        "team_name": "France",
+        "team_code": "FRA",
+        "manager_id": "M-059",
+        "family_name": "Caudron",
+        "given_name": "Raoul",
+        "country_name": "France"
+      },
+      {
+        "key_id": "3",
+        "tournament_id": "WC-1930",
+        "tournament_name": "1930 FIFA World Cup",
+        "team_id": "T-09",
+        "team_name": "Brazil",
+        "team_code": "BRA",
+        "manager_id": "M-072",
+        "family_name": "de Carvalho Rodrigues",
+        "given_name": "P\u00edndaro",
+        "country_name": "Brazil"
+      }
+    ]
+  },
+  {
+    "file": "managers.csv",
+    "size_bytes": 31067,
+    "is_lfs_stub": false,
+    "rows": 376,
+    "ncol": 6,
+    "columns": [
+      {
+        "name": "key_id",
+        "dtype": "int",
+        "null_rate": 0.0,
+        "n_unique": 376
+      },
+      {
+        "name": "manager_id",
+        "dtype": "str",
+        "null_rate": 0.0,
+        "n_unique": 376
+      },
+      {
+        "name": "family_name",
+        "dtype": "str",
+        "null_rate": 0.0,
+        "n_unique": 368
+      },
+      {
+        "name": "given_name",
+        "dtype": "str",
+        "null_rate": 0.0,
+        "n_unique": 302
+      },
+      {
+        "name": "country_name",
+        "dtype": "str",
+        "null_rate": 0.0,
+        "n_unique": 71
+      },
+      {
+        "name": "manager_wikipedia_link",
+        "dtype": "str",
+        "null_rate": 0.0,
+        "n_unique": 376
+      }
+    ],
+    "sample3": [
+      {
+        "key_id": "1",
+        "manager_id": "M-001",
+        "family_name": "Acosta",
+        "given_name": "Nelson",
+        "country_name": "Uruguay",
+        "manager_wikipedia_link": "https://en.wikipedia.org/wiki/Nelson_Acosta"
+      },
+      {
+        "key_id": "2",
+        "manager_id": "M-002",
+        "family_name": "Addo",
+        "given_name": "Otto",
+        "country_name": "Ghana",
+        "manager_wikipedia_link": "https://en.wikipedia.org/wiki/Otto_Addo"
+      },
+      {
+        "key_id": "3",
+        "manager_id": "M-003",
+        "family_name": "Adshead",
+        "given_name": "John",
+        "country_name": "England",
+        "manager_wikipedia_link": "https://en.wikipedia.org/wiki/John_Adshead"
+      }
+    ]
+  },
+  {
+    "file": "matches.csv",
+    "size_bytes": 223951,
+    "is_lfs_stub": false,
+    "rows": 964,
+    "ncol": 37,
+    "columns": [
+      {
+        "name": "key_id",
+        "dtype": "int",
+        "null_rate": 0.0,
+        "n_unique": 964
+      },
+      {
+        "name": "tournament_id",
+        "dtype": "str",
+        "null_rate": 0.0,
+        "n_unique": 22
+      },
+      {
+        "name": "tournament_name",
+        "dtype": "str",
+        "null_rate": 0.0,
+        "n_unique": 22
+      },
+      {
+        "name": "match_id",
+        "dtype": "str",
+        "null_rate": 0.0,
+        "n_unique": 964
+      },
+      {
+        "name": "match_name",
+        "dtype": "str",
+        "null_rate": 0.0,
+        "n_unique": 759
+      },
+      {
+        "name": "stage_name",
+        "dtype": "str",
+        "null_rate": 0.0,
+        "n_unique": 8
+      },
+      {
+        "name": "group_name",
+        "dtype": "str",
+        "null_rate": 0.0,
+        "n_unique": 15
+      },
+      {
+        "name": "group_stage",
+        "dtype": "int",
+        "null_rate": 0.0,
+        "n_unique": 2
+      },
+      {
+        "name": "knockout_stage",
+        "dtype": "int",
+        "null_rate": 0.0,
+        "n_unique": 2
+      },
+      {
+        "name": "replayed",
+        "dtype": "int",
+        "null_rate": 0.0,
+        "n_unique": 2
+      },
+      {
+        "name": "replay",
+        "dtype": "int",
+        "null_rate": 0.0,
+        "n_unique": 2
+      },
+      {
+        "name": "match_date",
+        "dtype": "date",
+        "null_rate": 0.0,
+        "n_unique": 378
+      },
+      {
+        "name": "match_time",
+        "dtype": "str",
+        "null_rate": 0.0,
+        "n_unique": 35
+      },
+      {
+        "name": "stadium_id",
+        "dtype": "str",
+        "null_rate": 0.0,
+        "n_unique": 193
+      },
+      {
+        "name": "stadium_name",
+        "dtype": "str",
+        "null_rate": 0.0,
+        "n_unique": 192
+      },
+      {
+        "name": "city_name",
+        "dtype": "str",
+        "null_rate": 0.0,
+        "n_unique": 165
+      },
+      {
+        "name": "country_name",
+        "dtype": "str",
+        "null_rate": 0.0,
+        "n_unique": 18
+      },
+      {
+        "name": "home_team_id",
+        "dtype": "str",
+        "null_rate": 0.0,
+        "n_unique": 81
+      },
+      {
+        "name": "home_team_name",
+        "dtype": "str",
+        "null_rate": 0.0,
+        "n_unique": 81
+      },
+      {
+        "name": "home_team_code",
+        "dtype": "str",
+        "null_rate": 0.0,
+        "n_unique": 80
+      },
+      {
+        "name": "away_team_id",
+        "dtype": "str",
+        "null_rate": 0.0,
+        "n_unique": 85
+      },
+      {
+        "name": "away_team_name",
+        "dtype": "str",
+        "null_rate": 0.0,
+        "n_unique": 85
+      },
+      {
+        "name": "away_team_code",
+        "dtype": "str",
+        "null_rate": 0.0,
+        "n_unique": 84
+      },
+      {
+        "name": "score",
+        "dtype": "str",
+        "null_rate": 0.0,
+        "n_unique": 48
+      },
+      {
+        "name": "home_team_score",
+        "dtype": "int",
+        "null_rate": 0.0,
+        "n_unique": 11
+      },
+      {
+        "name": "away_team_score",
+        "dtype": "int",
+        "null_rate": 0.0,
+        "n_unique": 7
+      },
+      {
+        "name": "home_team_score_margin",
+        "dtype": "int",
+        "null_rate": 0.0,
+        "n_unique": 16
+      },
+      {
+        "name": "away_team_score_margin",
+        "dtype": "int",
+        "null_rate": 0.0,
+        "n_unique": 16
+      },
+      {
+        "name": "extra_time",
+        "dtype": "int",
+        "null_rate": 0.0,
+        "n_unique": 2
+      },
+      {
+        "name": "penalty_shootout",
+        "dtype": "int",
+        "null_rate": 0.0,
+        "n_unique": 2
+      },
+      {
+        "name": "score_penalties",
+        "dtype": "str",
+        "null_rate": 0.0,
+        "n_unique": 14
+      },
+      {
+        "name": "home_team_score_penalties",
+        "dtype": "int",
+        "null_rate": 0.0,
+        "n_unique": 6
+      },
+      {
+        "name": "away_team_score_penalties",
+        "dtype": "int",
+        "null_rate": 0.0,
+        "n_unique": 6
+      },
+      {
+        "name": "result",
+        "dtype": "str",
+        "null_rate": 0.0,
+        "n_unique": 3
+      },
+      {
+        "name": "home_team_win",
+        "dtype": "int",
+        "null_rate": 0.0,
+        "n_unique": 2
+      },
+      {
+        "name": "away_team_win",
+        "dtype": "int",
+        "null_rate": 0.0,
+        "n_unique": 2
+      },
+      {
+        "name": "draw",
+        "dtype": "int",
+        "null_rate": 0.0,
+        "n_unique": 2
+      }
+    ],
+    "sample3": [
+      {
+        "key_id": "1",
+        "tournament_id": "WC-1930",
+        "tournament_name": "1930 FIFA World Cup",
+        "match_id": "M-1930-01",
+        "match_name": "France v Mexico",
+        "stage_name": "group stage",
+        "group_name": "Group 1",
+        "group_stage": "1",
+        "knockout_stage": "0",
+        "replayed": "0",
+        "replay": "0",
+        "match_date": "1930-07-13",
+        "match_time": "15:00",
+        "stadium_id": "S-193",
+        "stadium_name": "Estadio Pocitos",
+        "city_name": "Montevideo",
+        "country_name": "Uruguay",
+        "home_team_id": "T-28",
+        "home_team_name": "France",
+        "home_team_code": "FRA",
+        "away_team_id": "T-44",
+        "away_team_name": "Mexico",
+        "away_team_code": "MEX",
+        "score": "4\u20131",
+        "home_team_score": "4",
+        "away_team_score": "1",
+        "home_team_score_margin": "3",
+        "away_team_score_margin": "-3",
+        "extra_time": "0",
+        "penalty_shootout": "0",
+        "score_penalties": "0-0",
+        "home_team_score_penalties": "0",
+        "away_team_score_penalties": "0",
+        "result": "home team win",
+        "home_team_win": "1",
+        "away_team_win": "0",
+        "draw": "0"
+      },
+      {
+        "key_id": "2",
+        "tournament_id": "WC-1930",
+        "tournament_name": "1930 FIFA World Cup",
+        "match_id": "M-1930-02",
+        "match_name": "United States v Belgium",
+        "stage_name": "group stage",
+        "group_name": "Group 4",
+        "group_stage": "1",
+        "knockout_stage": "0",
+        "replayed": "0",
+        "replay": "0",
+        "match_date": "1930-07-13",
+        "match_time": "15:00",
+        "stadium_id": "S-192",
+        "stadium_name": "Estadio Gran Parque Central",
+        "city_name": "Montevideo",
+        "country_name": "Uruguay",
+        "home_team_id": "T-80",
+        "home_team_name": "United States",
+        "home_team_code": "USA",
+        "away_team_id": "T-06",
+        "away_team_name": "Belgium",
+        "away_team_code": "BEL",
+        "score": "3\u20130",
+        "home_team_score": "3",
+        "away_team_score": "0",
+        "home_team_score_margin": "3",
+        "away_team_score_margin": "-3",
+        "extra_time": "0",
+        "penalty_shootout": "0",
+        "score_penalties": "0-0",
+        "home_team_score_penalties": "0",
+        "away_team_score_penalties": "0",
+        "result": "home team win",
+        "home_team_win": "1",
+        "away_team_win": "0",
+        "draw": "0"
+      },
+      {
+        "key_id": "3",
+        "tournament_id": "WC-1930",
+        "tournament_name": "1930 FIFA World Cup",
+        "match_id": "M-1930-03",
+        "match_name": "Yugoslavia v Brazil",
+        "stage_name": "group stage",
+        "group_name": "Group 2",
+        "group_stage": "1",
+        "knockout_stage": "0",
+        "replayed": "0",
+        "replay": "0",
+        "match_date": "1930-07-14",
+        "match_time": "12:45",
+        "stadium_id": "S-192",
+        "stadium_name": "Estadio Gran Parque Central",
+        "city_name": "Montevideo",
+        "country_name": "Uruguay",
+        "home_team_id": "T-84",
+        "home_team_name": "Yugoslavia",
+        "home_team_code": "YUG",
+        "away_team_id": "T-09",
+        "away_team_name": "Brazil",
+        "away_team_code": "BRA",
+        "score": "2\u20131",
+        "home_team_score": "2",
+        "away_team_score": "1",
+        "home_team_score_margin": "1",
+        "away_team_score_margin": "-1",
+        "extra_time": "0",
+        "penalty_shootout": "0",
+        "score_penalties": "0-0",
+        "home_team_score_penalties": "0",
+        "away_team_score_penalties": "0",
+        "result": "home team win",
+        "home_team_win": "1",
+        "away_team_win": "0",
+        "draw": "0"
+      }
+    ]
+  },
+  {
+    "file": "penalty_kicks.csv",
+    "size_bytes": 50404,
+    "is_lfs_stub": false,
+    "rows": 320,
+    "ncol": 19,
+    "columns": [
+      {
+        "name": "key_id",
+        "dtype": "int",
+        "null_rate": 0.0,
+        "n_unique": 320
+      },
+      {
+        "name": "penalty_kick_id",
+        "dtype": "str",
+        "null_rate": 0.0,
+        "n_unique": 320
+      },
+      {
+        "name": "tournament_id",
+        "dtype": "str",
+        "null_rate": 0.0,
+        "n_unique": 11
+      },
+      {
+        "name": "tournament_name",
+        "dtype": "str",
+        "null_rate": 0.0,
+        "n_unique": 11
+      },
+      {
+        "name": "match_id",
+        "dtype": "str",
+        "null_rate": 0.0,
+        "n_unique": 35
+      },
+      {
+        "name": "match_name",
+        "dtype": "str",
+        "null_rate": 0.0,
+        "n_unique": 33
+      },
+      {
+        "name": "match_date",
+        "dtype": "date",
+        "null_rate": 0.0,
+        "n_unique": 32
+      },
+      {
+        "name": "stage_name",
+        "dtype": "str",
+        "null_rate": 0.0,
+        "n_unique": 4
+      },
+      {
+        "name": "group_name",
+        "dtype": "str",
+        "null_rate": 0.0,
+        "n_unique": 1
+      },
+      {
+        "name": "team_id",
+        "dtype": "str",
+        "null_rate": 0.0,
+        "n_unique": 32
+      },
+      {
+        "name": "team_name",
+        "dtype": "str",
+        "null_rate": 0.0,
+        "n_unique": 32
+      },
+      {
+        "name": "team_code",
+        "dtype": "str",
+        "null_rate": 0.0,
+        "n_unique": 31
+      },
+      {
+        "name": "home_team",
+        "dtype": "int",
+        "null_rate": 0.0,
+        "n_unique": 2
+      },
+      {
+        "name": "away_team",
+        "dtype": "int",
+        "null_rate": 0.0,
+        "n_unique": 2
+      },
+      {
+        "name": "player_id",
+        "dtype": "str",
+        "null_rate": 0.0,
+        "n_unique": 281
+      },
+      {
+        "name": "family_name",
+        "dtype": "str",
+        "null_rate": 0.0,
+        "n_unique": 277
+      },
+      {
+        "name": "given_name",
+        "dtype": "str",
+        "null_rate": 0.0,
+        "n_unique": 212
+      },
+      {
+        "name": "shirt_number",
+        "dtype": "int",
+        "null_rate": 0.0,
+        "n_unique": 24
+      },
+      {
+        "name": "converted",
+        "dtype": "int",
+        "null_rate": 0.0,
+        "n_unique": 2
+      }
+    ],
+    "sample3": [
+      {
+        "key_id": "1",
+        "penalty_kick_id": "PK-001",
+        "tournament_id": "WC-1982",
+        "tournament_name": "1982 FIFA World Cup",
+        "match_id": "M-1982-50",
+        "match_name": "West Germany v France",
+        "match_date": "1982-07-08",
+        "stage_name": "semi-finals",
+        "group_name": "not applicable",
+        "team_id": "T-83",
+        "team_name": "West Germany",
+        "team_code": "DEU",
+        "home_team": "1",
+        "away_team": "0",
+        "player_id": "P-07966",
+        "family_name": "Kaltz",
+        "given_name": "Manfred",
+        "shirt_number": "20",
+        "converted": "1"
+      },
+      {
+        "key_id": "2",
+        "penalty_kick_id": "PK-002",
+        "tournament_id": "WC-1982",
+        "tournament_name": "1982 FIFA World Cup",
+        "match_id": "M-1982-50",
+        "match_name": "West Germany v France",
+        "match_date": "1982-07-08",
+        "stage_name": "semi-finals",
+        "group_name": "not applicable",
+        "team_id": "T-83",
+        "team_name": "West Germany",
+        "team_code": "DEU",
+        "home_team": "1",
+        "away_team": "0",
+        "player_id": "P-02579",
+        "family_name": "Breitner",
+        "given_name": "Paul",
+        "shirt_number": "3",
+        "converted": "1"
+      },
+      {
+        "key_id": "3",
+        "penalty_kick_id": "PK-003",
+        "tournament_id": "WC-1982",
+        "tournament_name": "1982 FIFA World Cup",
+        "match_id": "M-1982-50",
+        "match_name": "West Germany v France",
+        "match_date": "1982-07-08",
+        "stage_name": "semi-finals",
+        "group_name": "not applicable",
+        "team_id": "T-83",
+        "team_name": "West Germany",
+        "team_code": "DEU",
+        "home_team": "1",
+        "away_team": "0",
+        "player_id": "P-07440",
+        "family_name": "Stielike",
+        "given_name": "Uli",
+        "shirt_number": "15",
+        "converted": "0"
+      }
+    ]
+  },
+  {
+    "file": "player_appearances.csv",
+    "size_bytes": 3405532,
+    "is_lfs_stub": false,
+    "rows": 20618,
+    "ncol": 22,
+    "columns": [
+      {
+        "name": "key_id",
+        "dtype": "int",
+        "null_rate": 0.0,
+        "n_unique": 20618
+      },
+      {
+        "name": "tournament_id",
+        "dtype": "str",
+        "null_rate": 0.0,
+        "n_unique": 14
+      },
+      {
+        "name": "tournament_name",
+        "dtype": "str",
+        "null_rate": 0.0,
+        "n_unique": 14
+      },
+      {
+        "name": "match_id",
+        "dtype": "str",
+        "null_rate": 0.0,
+        "n_unique": 764
+      },
+      {
+        "name": "match_name",
+        "dtype": "str",
+        "null_rate": 0.0,
+        "n_unique": 647
+      },
+      {
+        "name": "match_date",
+        "dtype": "date",
+        "null_rate": 0.0,
+        "n_unique": 302
+      },
+      {
+        "name": "stage_name",
+        "dtype": "str",
+        "null_rate": 0.0,
+        "n_unique": 7
+      },
+      {
+        "name": "group_name",
+        "dtype": "str",
+        "null_rate": 0.0,
+        "n_unique": 15
+      },
+      {
+        "name": "team_id",
+        "dtype": "str",
+        "null_rate": 0.0,
+        "n_unique": 83
+      },
+      {
+        "name": "team_name",
+        "dtype": "str",
+        "null_rate": 0.0,
+        "n_unique": 83
+      },
+      {
+        "name": "team_code",
+        "dtype": "str",
+        "null_rate": 0.0,
+        "n_unique": 82
+      },
+      {
+        "name": "home_team",
+        "dtype": "int",
+        "null_rate": 0.0,
+        "n_unique": 2
+      },
+      {
+        "name": "away_team",
+        "dtype": "int",
+        "null_rate": 0.0,
+        "n_unique": 2
+      },
+      {
+        "name": "player_id",
+        "dtype": "str",
+        "null_rate": 0.0,
+        "n_unique": 5102
+      },
+      {
+        "name": "family_name",
+        "dtype": "str",
+        "null_rate": 0.0,
+        "n_unique": 4325
+      },
+      {
+        "name": "given_name",
+        "dtype": "str",
+        "null_rate": 0.0,
+        "n_unique": 2331
+      },
+      {
+        "name": "shirt_number",
+        "dtype": "int",
+        "null_rate": 0.0,
+        "n_unique": 26
+      },
+      {
+        "name": "position_name",
+        "dtype": "str",
+        "null_rate": 0.0,
+        "n_unique": 21
+      },
+      {
+        "name": "position_code",
+        "dtype": "str",
+        "null_rate": 0.0,
+        "n_unique": 21
+      },
+      {
+        "name": "starter",
+        "dtype": "int",
+        "null_rate": 0.0,
+        "n_unique": 2
+      },
+      {
+        "name": "substitute",
+        "dtype": "int",
+        "null_rate": 0.0,
+        "n_unique": 2
+      },
+      {
+        "name": "captain",
+        "dtype": "int",
+        "null_rate": 0.0,
+        "n_unique": 2
+      }
+    ],
+    "sample3": [
+      {
+        "key_id": "1",
+        "tournament_id": "WC-1970",
+        "tournament_name": "1970 FIFA World Cup",
+        "match_id": "M-1970-01",
+        "match_name": "Mexico v Soviet Union",
+        "match_date": "1970-05-31",
+        "stage_name": "group stage",
+        "group_name": "Group 1",
+        "team_id": "T-44",
+        "team_name": "Mexico",
+        "team_code": "MEX",
+        "home_team": "1",
+        "away_team": "0",
+        "player_id": "P-07042",
+        "family_name": "Calder\u00f3n",
+        "given_name": "Ignacio",
+        "shirt_number": "1",
+        "position_name": "goal keeper",
+        "position_code": "GK",
+        "starter": "1",
+        "substitute": "0",
+        "captain": "0"
+      },
+      {
+        "key_id": "2",
+        "tournament_id": "WC-1970",
+        "tournament_name": "1970 FIFA World Cup",
+        "match_id": "M-1970-01",
+        "match_name": "Mexico v Soviet Union",
+        "match_date": "1970-05-31",
+        "stage_name": "group stage",
+        "group_name": "Group 1",
+        "team_id": "T-44",
+        "team_name": "Mexico",
+        "team_code": "MEX",
+        "home_team": "1",
+        "away_team": "0",
+        "player_id": "P-07391",
+        "family_name": "Pe\u00f1a",
+        "given_name": "Gustavo",
+        "shirt_number": "3",
+        "position_name": "defender",
+        "position_code": "DF",
+        "starter": "1",
+        "substitute": "0",
+        "captain": "1"
+      },
+      {
+        "key_id": "3",
+        "tournament_id": "WC-1970",
+        "tournament_name": "1970 FIFA World Cup",
+        "match_id": "M-1970-01",
+        "match_name": "Mexico v Soviet Union",
+        "match_date": "1970-05-31",
+        "stage_name": "group stage",
+        "group_name": "Group 1",
+        "team_id": "T-44",
+        "team_name": "Mexico",
+        "team_code": "MEX",
+        "home_team": "1",
+        "away_team": "0",
+        "player_id": "P-07599",
+        "family_name": "P\u00e9rez",
+        "given_name": "Mario",
+        "shirt_number": "5",
+        "position_name": "defender",
+        "position_code": "DF",
+        "starter": "1",
+        "substitute": "0",
+        "captain": "0"
+      }
+    ]
+  },
+  {
+    "file": "players.csv",
+    "size_bytes": 891427,
+    "is_lfs_stub": false,
+    "rows": 8485,
+    "ncol": 12,
+    "columns": [
+      {
+        "name": "key_id",
+        "dtype": "int",
+        "null_rate": 0.0,
+        "n_unique": 8485
+      },
+      {
+        "name": "player_id",
+        "dtype": "str",
+        "null_rate": 0.0,
+        "n_unique": 8485
+      },
+      {
+        "name": "family_name",
+        "dtype": "str",
+        "null_rate": 0.0,
+        "n_unique": 6830
+      },
+      {
+        "name": "given_name",
+        "dtype": "str",
+        "null_rate": 0.0,
+        "n_unique": 3139
+      },
+      {
+        "name": "birth_date",
+        "dtype": "str",
+        "null_rate": 0.0001,
+        "n_unique": 7300
+      },
+      {
+        "name": "goal_keeper",
+        "dtype": "int",
+        "null_rate": 0.0,
+        "n_unique": 2
+      },
+      {
+        "name": "defender",
+        "dtype": "int",
+        "null_rate": 0.0,
+        "n_unique": 2
+      },
+      {
+        "name": "midfielder",
+        "dtype": "int",
+        "null_rate": 0.0,
+        "n_unique": 2
+      },
+      {
+        "name": "forward",
+        "dtype": "int",
+        "null_rate": 0.0,
+        "n_unique": 2
+      },
+      {
+        "name": "count_tournaments",
+        "dtype": "int",
+        "null_rate": 0.0,
+        "n_unique": 5
+      },
+      {
+        "name": "list_tournaments",
+        "dtype": "str",
+        "null_rate": 0.0,
+        "n_unique": 135
+      },
+      {
+        "name": "player_wikipedia_link",
+        "dtype": "str",
+        "null_rate": 0.0,
+        "n_unique": 8479
+      }
+    ],
+    "sample3": [
+      {
+        "key_id": "1",
+        "player_id": "P-08891",
+        "family_name": "A'Court",
+        "given_name": "Alan",
+        "birth_date": "1934-09-30",
+        "goal_keeper": "0",
+        "defender": "0",
+        "midfielder": "0",
+        "forward": "1",
+        "count_tournaments": "1",
+        "list_tournaments": "1958",
+        "player_wikipedia_link": "https://en.wikipedia.org/wiki/Alan_A%27Court"
+      },
+      {
+        "key_id": "2",
+        "player_id": "P-08589",
+        "family_name": "Aaronson",
+        "given_name": "Brenden",
+        "birth_date": "2000-10-22",
+        "goal_keeper": "0",
+        "defender": "0",
+        "midfielder": "0",
+        "forward": "1",
+        "count_tournaments": "1",
+        "list_tournaments": "2022",
+        "player_wikipedia_link": "https://en.wikipedia.org/wiki/Brenden_Aaronson"
+      },
+      {
+        "key_id": "3",
+        "player_id": "P-04897",
+        "family_name": "Abadzhiev",
+        "given_name": "Stefan",
+        "birth_date": "1934-07-03",
+        "goal_keeper": "0",
+        "defender": "0",
+        "midfielder": "0",
+        "forward": "1",
+        "count_tournaments": "1",
+        "list_tournaments": "1966",
+        "player_wikipedia_link": "https://en.wikipedia.org/wiki/Stefan_Abadzhiev"
+      }
+    ]
+  },
+  {
+    "file": "qualified_teams.csv",
+    "size_bytes": 31536,
+    "is_lfs_stub": false,
+    "rows": 489,
+    "ncol": 8,
+    "columns": [
+      {
+        "name": "key_id",
+        "dtype": "int",
+        "null_rate": 0.0,
+        "n_unique": 489
+      },
+      {
+        "name": "tournament_id",
+        "dtype": "str",
+        "null_rate": 0.0,
+        "n_unique": 22
+      },
+      {
+        "name": "tournament_name",
+        "dtype": "str",
+        "null_rate": 0.0,
+        "n_unique": 22
+      },
+      {
+        "name": "team_id",
+        "dtype": "str",
+        "null_rate": 0.0,
+        "n_unique": 85
+      },
+      {
+        "name": "team_name",
+        "dtype": "str",
+        "null_rate": 0.0,
+        "n_unique": 85
+      },
+      {
+        "name": "team_code",
+        "dtype": "str",
+        "null_rate": 0.0,
+        "n_unique": 84
+      },
+      {
+        "name": "count_matches",
+        "dtype": "int",
+        "null_rate": 0.0,
+        "n_unique": 7
+      },
+      {
+        "name": "performance",
+        "dtype": "str",
+        "null_rate": 0.0,
+        "n_unique": 8
+      }
+    ],
+    "sample3": [
+      {
+        "key_id": "1",
+        "tournament_id": "WC-1930",
+        "tournament_name": "1930 FIFA World Cup",
+        "team_id": "T-03",
+        "team_name": "Argentina",
+        "team_code": "ARG",
+        "count_matches": "5",
+        "performance": "final"
+      },
+      {
+        "key_id": "2",
+        "tournament_id": "WC-1930",
+        "tournament_name": "1930 FIFA World Cup",
+        "team_id": "T-06",
+        "team_name": "Belgium",
+        "team_code": "BEL",
+        "count_matches": "2",
+        "performance": "group stage"
+      },
+      {
+        "key_id": "3",
+        "tournament_id": "WC-1930",
+        "tournament_name": "1930 FIFA World Cup",
+        "team_id": "T-07",
+        "team_name": "Bolivia",
+        "team_code": "BOL",
+        "count_matches": "2",
+        "performance": "group stage"
+      }
+    ]
+  },
+  {
+    "file": "referee_appearances.csv",
+    "size_bytes": 172425,
+    "is_lfs_stub": false,
+    "rows": 964,
+    "ncol": 15,
+    "columns": [
+      {
+        "name": "key_id",
+        "dtype": "int",
+        "null_rate": 0.0,
+        "n_unique": 964
+      },
+      {
+        "name": "tournament_id",
+        "dtype": "str",
+        "null_rate": 0.0,
+        "n_unique": 22
+      },
+      {
+        "name": "tournament_name",
+        "dtype": "str",
+        "null_rate": 0.0,
+        "n_unique": 22
+      },
+      {
+        "name": "match_id",
+        "dtype": "str",
+        "null_rate": 0.0,
+        "n_unique": 964
+      },
+      {
+        "name": "match_name",
+        "dtype": "str",
+        "null_rate": 0.0,
+        "n_unique": 759
+      },
+      {
+        "name": "match_date",
+        "dtype": "date",
+        "null_rate": 0.0,
+        "n_unique": 378
+      },
+      {
+        "name": "stage_name",
+        "dtype": "str",
+        "null_rate": 0.0,
+        "n_unique": 8
+      },
+      {
+        "name": "group_name",
+        "dtype": "str",
+        "null_rate": 0.0,
+        "n_unique": 15
+      },
+      {
+        "name": "referee_id",
+        "dtype": "str",
+        "null_rate": 0.0,
+        "n_unique": 400
+      },
+      {
+        "name": "family_name",
+        "dtype": "str",
+        "null_rate": 0.0,
+        "n_unique": 394
+      },
+      {
+        "name": "given_name",
+        "dtype": "str",
+        "null_rate": 0.0,
+        "n_unique": 329
+      },
+      {
+        "name": "country_name",
+        "dtype": "str",
+        "null_rate": 0.0,
+        "n_unique": 85
+      },
+      {
+        "name": "confederation_id",
+        "dtype": "str",
+        "null_rate": 0.0,
+        "n_unique": 6
+      },
+      {
+        "name": "confederation_name",
+        "dtype": "str",
+        "null_rate": 0.0,
+        "n_unique": 6
+      },
+      {
+        "name": "confederation_code",
+        "dtype": "str",
+        "null_rate": 0.0,
+        "n_unique": 6
+      }
+    ],
+    "sample3": [
+      {
+        "key_id": "1",
+        "tournament_id": "WC-1930",
+        "tournament_name": "1930 FIFA World Cup",
+        "match_id": "M-1930-01",
+        "match_name": "France v Mexico",
+        "match_date": "1930-07-13",
+        "stage_name": "group stage",
+        "group_name": "Group 1",
+        "referee_id": "R-204",
+        "family_name": "Lombardi",
+        "given_name": "Domingo",
+        "country_name": "Uruguay",
+        "confederation_id": "CF-4",
+        "confederation_name": "South American Football Confederation",
+        "confederation_code": "CONMEBOL"
+      },
+      {
+        "key_id": "2",
+        "tournament_id": "WC-1930",
+        "tournament_name": "1930 FIFA World Cup",
+        "match_id": "M-1930-02",
+        "match_name": "United States v Belgium",
+        "match_date": "1930-07-13",
+        "stage_name": "group stage",
+        "group_name": "Group 4",
+        "referee_id": "R-213",
+        "family_name": "Mac\u00edas",
+        "given_name": "Jos\u00e9",
+        "country_name": "Argentina",
+        "confederation_id": "CF-4",
+        "confederation_name": "South American Football Confederation",
+        "confederation_code": "CONMEBOL"
+      },
+      {
+        "key_id": "3",
+        "tournament_id": "WC-1930",
+        "tournament_name": "1930 FIFA World Cup",
+        "match_id": "M-1930-03",
+        "match_name": "Yugoslavia v Brazil",
+        "match_date": "1930-07-14",
+        "stage_name": "group stage",
+        "group_name": "Group 2",
+        "referee_id": "R-350",
+        "family_name": "Tejada",
+        "given_name": "An\u00edbal",
+        "country_name": "Uruguay",
+        "confederation_id": "CF-4",
+        "confederation_name": "South American Football Confederation",
+        "confederation_code": "CONMEBOL"
+      }
+    ]
+  },
+  {
+    "file": "referee_appointments.csv",
+    "size_bytes": 62259,
+    "is_lfs_stub": false,
+    "rows": 540,
+    "ncol": 10,
+    "columns": [
+      {
+        "name": "key_id",
+        "dtype": "int",
+        "null_rate": 0.0,
+        "n_unique": 540
+      },
+      {
+        "name": "tournament_id",
+        "dtype": "str",
+        "null_rate": 0.0,
+        "n_unique": 22
+      },
+      {
+        "name": "tournament_name",
+        "dtype": "str",
+        "null_rate": 0.0,
+        "n_unique": 22
+      },
+      {
+        "name": "referee_id",
+        "dtype": "str",
+        "null_rate": 0.0,
+        "n_unique": 400
+      },
+      {
+        "name": "family_name",
+        "dtype": "str",
+        "null_rate": 0.0,
+        "n_unique": 394
+      },
+      {
+        "name": "given_name",
+        "dtype": "str",
+        "null_rate": 0.0,
+        "n_unique": 329
+      },
+      {
+        "name": "country_name",
+        "dtype": "str",
+        "null_rate": 0.0,
+        "n_unique": 85
+      },
+      {
+        "name": "confederation_id",
+        "dtype": "str",
+        "null_rate": 0.0,
+        "n_unique": 6
+      },
+      {
+        "name": "confederation_name",
+        "dtype": "str",
+        "null_rate": 0.0,
+        "n_unique": 6
+      },
+      {
+        "name": "confederation_code",
+        "dtype": "str",
+        "null_rate": 0.0,
+        "n_unique": 6
+      }
+    ],
+    "sample3": [
+      {
+        "key_id": "1",
+        "tournament_id": "WC-1930",
+        "tournament_name": "1930 FIFA World Cup",
+        "referee_id": "R-032",
+        "family_name": "Balvay",
+        "given_name": "Thomas",
+        "country_name": "France",
+        "confederation_id": "CF-6",
+        "confederation_name": "Union of European Football Associations",
+        "confederation_code": "UEFA"
+      },
+      {
+        "key_id": "2",
+        "tournament_id": "WC-1930",
+        "tournament_name": "1930 FIFA World Cup",
+        "referee_id": "R-073",
+        "family_name": "Christophe",
+        "given_name": "Henri",
+        "country_name": "Belgium",
+        "confederation_id": "CF-6",
+        "confederation_name": "Union of European Football Associations",
+        "confederation_code": "UEFA"
+      },
+      {
+        "key_id": "3",
+        "tournament_id": "WC-1930",
+        "tournament_name": "1930 FIFA World Cup",
+        "referee_id": "R-096",
+        "family_name": "de Almeida R\u00eago",
+        "given_name": "Gilberto",
+        "country_name": "Brazil",
+        "confederation_id": "CF-4",
+        "confederation_name": "South American Football Confederation",
+        "confederation_code": "CONMEBOL"
+      }
+    ]
+  },
+  {
+    "file": "referees.csv",
+    "size_bytes": 51288,
+    "is_lfs_stub": false,
+    "rows": 400,
+    "ncol": 9,
+    "columns": [
+      {
+        "name": "key_id",
+        "dtype": "int",
+        "null_rate": 0.0,
+        "n_unique": 400
+      },
+      {
+        "name": "referee_id",
+        "dtype": "str",
+        "null_rate": 0.0,
+        "n_unique": 400
+      },
+      {
+        "name": "family_name",
+        "dtype": "str",
+        "null_rate": 0.0,
+        "n_unique": 394
+      },
+      {
+        "name": "given_name",
+        "dtype": "str",
+        "null_rate": 0.0,
+        "n_unique": 329
+      },
+      {
+        "name": "country_name",
+        "dtype": "str",
+        "null_rate": 0.0,
+        "n_unique": 85
+      },
+      {
+        "name": "confederation_id",
+        "dtype": "str",
+        "null_rate": 0.0,
+        "n_unique": 6
+      },
+      {
+        "name": "confederation_name",
+        "dtype": "str",
+        "null_rate": 0.0,
+        "n_unique": 6
+      },
+      {
+        "name": "confederation_code",
+        "dtype": "str",
+        "null_rate": 0.0,
+        "n_unique": 6
+      },
+      {
+        "name": "referee_wikipedia_link",
+        "dtype": "str",
+        "null_rate": 0.0,
+        "n_unique": 314
+      }
+    ],
+    "sample3": [
+      {
+        "key_id": "1",
+        "referee_id": "R-001",
+        "family_name": "Abdel-Fatah",
+        "given_name": "Essam",
+        "country_name": "Egypt",
+        "confederation_id": "CF-2",
+        "confederation_name": "Confederation of African Football",
+        "confederation_code": "CAF",
+        "referee_wikipedia_link": "https://en.wikipedia.org/wiki/Essam_Abd_El_Fatah"
+      },
+      {
+        "key_id": "2",
+        "referee_id": "R-002",
+        "family_name": "Adair",
+        "given_name": "John",
+        "country_name": "Northern Ireland",
+        "confederation_id": "CF-6",
+        "confederation_name": "Union of European Football Associations",
+        "confederation_code": "UEFA",
+        "referee_wikipedia_link": "not available"
+      },
+      {
+        "key_id": "3",
+        "referee_id": "R-003",
+        "family_name": "Agnolin",
+        "given_name": "Luigi",
+        "country_name": "Italy",
+        "confederation_id": "CF-6",
+        "confederation_name": "Union of European Football Associations",
+        "confederation_code": "UEFA",
+        "referee_wikipedia_link": "https://en.wikipedia.org/wiki/Luigi_Agnolin"
+      }
+    ]
+  },
+  {
+    "file": "squads.csv",
+    "size_bytes": 984728,
+    "is_lfs_stub": false,
+    "rows": 10973,
+    "ncol": 12,
+    "columns": [
+      {
+        "name": "key_id",
+        "dtype": "int",
+        "null_rate": 0.0,
+        "n_unique": 10973
+      },
+      {
+        "name": "tournament_id",
+        "dtype": "str",
+        "null_rate": 0.0,
+        "n_unique": 22
+      },
+      {
+        "name": "tournament_name",
+        "dtype": "str",
+        "null_rate": 0.0,
+        "n_unique": 22
+      },
+      {
+        "name": "team_id",
+        "dtype": "str",
+        "null_rate": 0.0,
+        "n_unique": 85
+      },
+      {
+        "name": "team_name",
+        "dtype": "str",
+        "null_rate": 0.0,
+        "n_unique": 85
+      },
+      {
+        "name": "team_code",
+        "dtype": "str",
+        "null_rate": 0.0,
+        "n_unique": 84
+      },
+      {
+        "name": "player_id",
+        "dtype": "str",
+        "null_rate": 0.0,
+        "n_unique": 8485
+      },
+      {
+        "name": "family_name",
+        "dtype": "str",
+        "null_rate": 0.0,
+        "n_unique": 6830
+      },
+      {
+        "name": "given_name",
+        "dtype": "str",
+        "null_rate": 0.0,
+        "n_unique": 3139
+      },
+      {
+        "name": "shirt_number",
+        "dtype": "int",
+        "null_rate": 0.0,
+        "n_unique": 27
+      },
+      {
+        "name": "position_name",
+        "dtype": "str",
+        "null_rate": 0.0,
+        "n_unique": 4
+      },
+      {
+        "name": "position_code",
+        "dtype": "str",
+        "null_rate": 0.0,
+        "n_unique": 4
+      }
+    ],
+    "sample3": [
+      {
+        "key_id": "1",
+        "tournament_id": "WC-1930",
+        "tournament_name": "1930 FIFA World Cup",
+        "team_id": "T-03",
+        "team_name": "Argentina",
+        "team_code": "ARG",
+        "player_id": "P-06987",
+        "family_name": "Bossio",
+        "given_name": "\u00c1ngel",
+        "shirt_number": "0",
+        "position_name": "goal keeper",
+        "position_code": "GK"
+      },
+      {
+        "key_id": "2",
+        "tournament_id": "WC-1930",
+        "tournament_name": "1930 FIFA World Cup",
+        "team_id": "T-03",
+        "team_name": "Argentina",
+        "team_code": "ARG",
+        "player_id": "P-00287",
+        "family_name": "Botasso",
+        "given_name": "Juan",
+        "shirt_number": "0",
+        "position_name": "goal keeper",
+        "position_code": "GK"
+      },
+      {
+        "key_id": "3",
+        "tournament_id": "WC-1930",
+        "tournament_name": "1930 FIFA World Cup",
+        "team_id": "T-03",
+        "team_name": "Argentina",
+        "team_code": "ARG",
+        "player_id": "P-01435",
+        "family_name": "Cherro",
+        "given_name": "Roberto",
+        "shirt_number": "0",
+        "position_name": "forward",
+        "position_code": "FW"
+      }
+    ]
+  },
+  {
+    "file": "stadiums.csv",
+    "size_bytes": 27590,
+    "is_lfs_stub": false,
+    "rows": 193,
+    "ncol": 8,
+    "columns": [
+      {
+        "name": "key_id",
+        "dtype": "int",
+        "null_rate": 0.0,
+        "n_unique": 193
+      },
+      {
+        "name": "stadium_id",
+        "dtype": "str",
+        "null_rate": 0.0,
+        "n_unique": 193
+      },
+      {
+        "name": "stadium_name",
+        "dtype": "str",
+        "null_rate": 0.0,
+        "n_unique": 192
+      },
+      {
+        "name": "city_name",
+        "dtype": "str",
+        "null_rate": 0.0,
+        "n_unique": 165
+      },
+      {
+        "name": "country_name",
+        "dtype": "str",
+        "null_rate": 0.0,
+        "n_unique": 18
+      },
+      {
+        "name": "stadium_capacity",
+        "dtype": "int",
+        "null_rate": 0.0,
+        "n_unique": 64
+      },
+      {
+        "name": "stadium_wikipedia_link",
+        "dtype": "str",
+        "null_rate": 0.0,
+        "n_unique": 193
+      },
+      {
+        "name": "city_wikipedia_link",
+        "dtype": "str",
+        "null_rate": 0.0,
+        "n_unique": 165
+      }
+    ],
+    "sample3": [
+      {
+        "key_id": "1",
+        "stadium_id": "S-001",
+        "stadium_name": "Estadio Jos\u00e9 Amalfitani",
+        "city_name": "Buenos Aires",
+        "country_name": "Argentina",
+        "stadium_capacity": "49000",
+        "stadium_wikipedia_link": "https://en.wikipedia.org/wiki/Jos\u00e9_Amalfitani_Stadium",
+        "city_wikipedia_link": "https://en.wikipedia.org/wiki/Buenos_Aires"
+      },
+      {
+        "key_id": "2",
+        "stadium_id": "S-002",
+        "stadium_name": "Estadio Monumental",
+        "city_name": "Buenos Aires",
+        "country_name": "Argentina",
+        "stadium_capacity": "75000",
+        "stadium_wikipedia_link": "https://en.wikipedia.org/wiki/Estadio_Monumental_Antonio_Vespucio_Liberti",
+        "city_wikipedia_link": "https://en.wikipedia.org/wiki/Buenos_Aires"
+      },
+      {
+        "key_id": "3",
+        "stadium_id": "S-003",
+        "stadium_name": "Estadio Chateau Carreras",
+        "city_name": "C\u00f3rdoba",
+        "country_name": "Argentina",
+        "stadium_capacity": "47000",
+        "stadium_wikipedia_link": "https://en.wikipedia.org/wiki/Estadio_Mario_Alberto_Kempes",
+        "city_wikipedia_link": "https://en.wikipedia.org/wiki/C\u00f3rdoba,_Argentina"
+      }
+    ]
+  },
+  {
+    "file": "substitutions.csv",
+    "size_bytes": 1347248,
+    "is_lfs_stub": false,
+    "rows": 7637,
+    "ncol": 24,
+    "columns": [
+      {
+        "name": "key_id",
+        "dtype": "int",
+        "null_rate": 0.0,
+        "n_unique": 7637
+      },
+      {
+        "name": "substitution_id",
+        "dtype": "str",
+        "null_rate": 0.0,
+        "n_unique": 7637
+      },
+      {
+        "name": "tournament_id",
+        "dtype": "str",
+        "null_rate": 0.0,
+        "n_unique": 14
+      },
+      {
+        "name": "tournament_name",
+        "dtype": "str",
+        "null_rate": 0.0,
+        "n_unique": 14
+      },
+      {
+        "name": "match_id",
+        "dtype": "str",
+        "null_rate": 0.0,
+        "n_unique": 761
+      },
+      {
+        "name": "match_name",
+        "dtype": "str",
+        "null_rate": 0.0,
+        "n_unique": 645
+      },
+      {
+        "name": "match_date",
+        "dtype": "date",
+        "null_rate": 0.0,
+        "n_unique": 301
+      },
+      {
+        "name": "stage_name",
+        "dtype": "str",
+        "null_rate": 0.0,
+        "n_unique": 7
+      },
+      {
+        "name": "group_name",
+        "dtype": "str",
+        "null_rate": 0.0,
+        "n_unique": 15
+      },
+      {
+        "name": "team_id",
+        "dtype": "str",
+        "null_rate": 0.0,
+        "n_unique": 83
+      },
+      {
+        "name": "team_name",
+        "dtype": "str",
+        "null_rate": 0.0,
+        "n_unique": 83
+      },
+      {
+        "name": "team_code",
+        "dtype": "str",
+        "null_rate": 0.0,
+        "n_unique": 82
+      },
+      {
+        "name": "home_team",
+        "dtype": "int",
+        "null_rate": 0.0,
+        "n_unique": 2
+      },
+      {
+        "name": "away_team",
+        "dtype": "int",
+        "null_rate": 0.0,
+        "n_unique": 2
+      },
+      {
+        "name": "player_id",
+        "dtype": "str",
+        "null_rate": 0.0,
+        "n_unique": 3450
+      },
+      {
+        "name": "family_name",
+        "dtype": "str",
+        "null_rate": 0.0,
+        "n_unique": 3015
+      },
+      {
+        "name": "given_name",
+        "dtype": "str",
+        "null_rate": 0.0,
+        "n_unique": 1778
+      },
+      {
+        "name": "shirt_number",
+        "dtype": "int",
+        "null_rate": 0.0,
+        "n_unique": 26
+      },
+      {
+        "name": "minute_label",
+        "dtype": "str",
+        "null_rate": 0.0,
+        "n_unique": 129
+      },
+      {
+        "name": "minute_regulation",
+        "dtype": "int",
+        "null_rate": 0.0,
+        "n_unique": 113
+      },
+      {
+        "name": "minute_stoppage",
+        "dtype": "int",
+        "null_rate": 0.0,
+        "n_unique": 10
+      },
+      {
+        "name": "match_period",
+        "dtype": "str",
+        "null_rate": 0.0,
+        "n_unique": 8
+      },
+      {
+        "name": "going_off",
+        "dtype": "int",
+        "null_rate": 0.0,
+        "n_unique": 2
+      },
+      {
+        "name": "coming_on",
+        "dtype": "int",
+        "null_rate": 0.0,
+        "n_unique": 2
+      }
+    ],
+    "sample3": [
+      {
+        "key_id": "1",
+        "substitution_id": "S-0001",
+        "tournament_id": "WC-1970",
+        "tournament_name": "1970 FIFA World Cup",
+        "match_id": "M-1970-01",
+        "match_name": "Mexico v Soviet Union",
+        "match_date": "1970-05-31",
+        "stage_name": "group stage",
+        "group_name": "Group 1",
+        "team_id": "T-70",
+        "team_name": "Soviet Union",
+        "team_code": "SUN",
+        "home_team": "0",
+        "away_team": "1",
+        "player_id": "P-04378",
+        "family_name": "Serebryanikov",
+        "given_name": "Viktor",
+        "shirt_number": "15",
+        "minute_label": "46'",
+        "minute_regulation": "46",
+        "minute_stoppage": "0",
+        "match_period": "second half",
+        "going_off": "1",
+        "coming_on": "0"
+      },
+      {
+        "key_id": "2",
+        "substitution_id": "S-0002",
+        "tournament_id": "WC-1970",
+        "tournament_name": "1970 FIFA World Cup",
+        "match_id": "M-1970-01",
+        "match_name": "Mexico v Soviet Union",
+        "match_date": "1970-05-31",
+        "stage_name": "group stage",
+        "group_name": "Group 1",
+        "team_id": "T-70",
+        "team_name": "Soviet Union",
+        "team_code": "SUN",
+        "home_team": "0",
+        "away_team": "1",
+        "player_id": "P-03867",
+        "family_name": "Puzach",
+        "given_name": "Anatoliy",
+        "shirt_number": "20",
+        "minute_label": "46'",
+        "minute_regulation": "46",
+        "minute_stoppage": "0",
+        "match_period": "second half",
+        "going_off": "0",
+        "coming_on": "1"
+      },
+      {
+        "key_id": "3",
+        "substitution_id": "S-0003",
+        "tournament_id": "WC-1970",
+        "tournament_name": "1970 FIFA World Cup",
+        "match_id": "M-1970-01",
+        "match_name": "Mexico v Soviet Union",
+        "match_date": "1970-05-31",
+        "stage_name": "group stage",
+        "group_name": "Group 1",
+        "team_id": "T-70",
+        "team_name": "Soviet Union",
+        "team_code": "SUN",
+        "home_team": "0",
+        "away_team": "1",
+        "player_id": "P-09857",
+        "family_name": "Nodia",
+        "given_name": "Givi",
+        "shirt_number": "19",
+        "minute_label": "66'",
+        "minute_regulation": "66",
+        "minute_stoppage": "0",
+        "match_period": "second half",
+        "going_off": "1",
+        "coming_on": "0"
+      }
+    ]
+  },
+  {
+    "file": "team_appearances.csv",
+    "size_bytes": 417120,
+    "is_lfs_stub": false,
+    "rows": 1928,
+    "ncol": 36,
+    "columns": [
+      {
+        "name": "key_id",
+        "dtype": "int",
+        "null_rate": 0.0,
+        "n_unique": 1928
+      },
+      {
+        "name": "tournament_id",
+        "dtype": "str",
+        "null_rate": 0.0,
+        "n_unique": 22
+      },
+      {
+        "name": "tournament_name",
+        "dtype": "str",
+        "null_rate": 0.0,
+        "n_unique": 22
+      },
+      {
+        "name": "match_id",
+        "dtype": "str",
+        "null_rate": 0.0,
+        "n_unique": 964
+      },
+      {
+        "name": "match_name",
+        "dtype": "str",
+        "null_rate": 0.0,
+        "n_unique": 759
+      },
+      {
+        "name": "stage_name",
+        "dtype": "str",
+        "null_rate": 0.0,
+        "n_unique": 8
+      },
+      {
+        "name": "group_name",
+        "dtype": "str",
+        "null_rate": 0.0,
+        "n_unique": 15
+      },
+      {
+        "name": "group_stage",
+        "dtype": "int",
+        "null_rate": 0.0,
+        "n_unique": 2
+      },
+      {
+        "name": "knockout_stage",
+        "dtype": "int",
+        "null_rate": 0.0,
+        "n_unique": 2
+      },
+      {
+        "name": "replayed",
+        "dtype": "int",
+        "null_rate": 0.0,
+        "n_unique": 2
+      },
+      {
+        "name": "replay",
+        "dtype": "int",
+        "null_rate": 0.0,
+        "n_unique": 2
+      },
+      {
+        "name": "match_date",
+        "dtype": "date",
+        "null_rate": 0.0,
+        "n_unique": 378
+      },
+      {
+        "name": "match_time",
+        "dtype": "str",
+        "null_rate": 0.0,
+        "n_unique": 35
+      },
+      {
+        "name": "stadium_id",
+        "dtype": "str",
+        "null_rate": 0.0,
+        "n_unique": 193
+      },
+      {
+        "name": "stadium_name",
+        "dtype": "str",
+        "null_rate": 0.0,
+        "n_unique": 192
+      },
+      {
+        "name": "city_name",
+        "dtype": "str",
+        "null_rate": 0.0,
+        "n_unique": 165
+      },
+      {
+        "name": "country_name",
+        "dtype": "str",
+        "null_rate": 0.0,
+        "n_unique": 18
+      },
+      {
+        "name": "team_id",
+        "dtype": "str",
+        "null_rate": 0.0,
+        "n_unique": 85
+      },
+      {
+        "name": "team_name",
+        "dtype": "str",
+        "null_rate": 0.0,
+        "n_unique": 85
+      },
+      {
+        "name": "team_code",
+        "dtype": "str",
+        "null_rate": 0.0,
+        "n_unique": 84
+      },
+      {
+        "name": "opponent_id",
+        "dtype": "str",
+        "null_rate": 0.0,
+        "n_unique": 85
+      },
+      {
+        "name": "opponent_name",
+        "dtype": "str",
+        "null_rate": 0.0,
+        "n_unique": 85
+      },
+      {
+        "name": "opponent_code",
+        "dtype": "str",
+        "null_rate": 0.0,
+        "n_unique": 84
+      },
+      {
+        "name": "home_team",
+        "dtype": "int",
+        "null_rate": 0.0,
+        "n_unique": 2
+      },
+      {
+        "name": "away_team",
+        "dtype": "int",
+        "null_rate": 0.0,
+        "n_unique": 2
+      },
+      {
+        "name": "goals_for",
+        "dtype": "int",
+        "null_rate": 0.0,
+        "n_unique": 11
+      },
+      {
+        "name": "goals_against",
+        "dtype": "int",
+        "null_rate": 0.0,
+        "n_unique": 11
+      },
+      {
+        "name": "goal_differential",
+        "dtype": "int",
+        "null_rate": 0.0,
+        "n_unique": 19
+      },
+      {
+        "name": "extra_time",
+        "dtype": "int",
+        "null_rate": 0.0,
+        "n_unique": 2
+      },
+      {
+        "name": "penalty_shootout",
+        "dtype": "int",
+        "null_rate": 0.0,
+        "n_unique": 2
+      },
+      {
+        "name": "penalties_for",
+        "dtype": "int",
+        "null_rate": 0.0,
+        "n_unique": 6
+      },
+      {
+        "name": "penalties_against",
+        "dtype": "int",
+        "null_rate": 0.0,
+        "n_unique": 6
+      },
+      {
+        "name": "result",
+        "dtype": "str",
+        "null_rate": 0.0,
+        "n_unique": 3
+      },
+      {
+        "name": "win",
+        "dtype": "int",
+        "null_rate": 0.0,
+        "n_unique": 2
+      },
+      {
+        "name": "lose",
+        "dtype": "int",
+        "null_rate": 0.0,
+        "n_unique": 2
+      },
+      {
+        "name": "draw",
+        "dtype": "int",
+        "null_rate": 0.0,
+        "n_unique": 2
+      }
+    ],
+    "sample3": [
+      {
+        "key_id": "1",
+        "tournament_id": "WC-1930",
+        "tournament_name": "1930 FIFA World Cup",
+        "match_id": "M-1930-01",
+        "match_name": "France v Mexico",
+        "stage_name": "group stage",
+        "group_name": "Group 1",
+        "group_stage": "1",
+        "knockout_stage": "0",
+        "replayed": "0",
+        "replay": "0",
+        "match_date": "1930-07-13",
+        "match_time": "15:00",
+        "stadium_id": "S-193",
+        "stadium_name": "Estadio Pocitos",
+        "city_name": "Montevideo",
+        "country_name": "Uruguay",
+        "team_id": "T-28",
+        "team_name": "France",
+        "team_code": "FRA",
+        "opponent_id": "T-44",
+        "opponent_name": "Mexico",
+        "opponent_code": "MEX",
+        "home_team": "1",
+        "away_team": "0",
+        "goals_for": "4",
+        "goals_against": "1",
+        "goal_differential": "3",
+        "extra_time": "0",
+        "penalty_shootout": "0",
+        "penalties_for": "0",
+        "penalties_against": "0",
+        "result": "win",
+        "win": "1",
+        "lose": "0",
+        "draw": "0"
+      },
+      {
+        "key_id": "2",
+        "tournament_id": "WC-1930",
+        "tournament_name": "1930 FIFA World Cup",
+        "match_id": "M-1930-01",
+        "match_name": "France v Mexico",
+        "stage_name": "group stage",
+        "group_name": "Group 1",
+        "group_stage": "1",
+        "knockout_stage": "0",
+        "replayed": "0",
+        "replay": "0",
+        "match_date": "1930-07-13",
+        "match_time": "15:00",
+        "stadium_id": "S-193",
+        "stadium_name": "Estadio Pocitos",
+        "city_name": "Montevideo",
+        "country_name": "Uruguay",
+        "team_id": "T-44",
+        "team_name": "Mexico",
+        "team_code": "MEX",
+        "opponent_id": "T-28",
+        "opponent_name": "France",
+        "opponent_code": "FRA",
+        "home_team": "0",
+        "away_team": "1",
+        "goals_for": "1",
+        "goals_against": "4",
+        "goal_differential": "-3",
+        "extra_time": "0",
+        "penalty_shootout": "0",
+        "penalties_for": "0",
+        "penalties_against": "0",
+        "result": "lose",
+        "win": "0",
+        "lose": "1",
+        "draw": "0"
+      },
+      {
+        "key_id": "3",
+        "tournament_id": "WC-1930",
+        "tournament_name": "1930 FIFA World Cup",
+        "match_id": "M-1930-02",
+        "match_name": "United States v Belgium",
+        "stage_name": "group stage",
+        "group_name": "Group 4",
+        "group_stage": "1",
+        "knockout_stage": "0",
+        "replayed": "0",
+        "replay": "0",
+        "match_date": "1930-07-13",
+        "match_time": "15:00",
+        "stadium_id": "S-192",
+        "stadium_name": "Estadio Gran Parque Central",
+        "city_name": "Montevideo",
+        "country_name": "Uruguay",
+        "team_id": "T-80",
+        "team_name": "United States",
+        "team_code": "USA",
+        "opponent_id": "T-06",
+        "opponent_name": "Belgium",
+        "opponent_code": "BEL",
+        "home_team": "1",
+        "away_team": "0",
+        "goals_for": "3",
+        "goals_against": "0",
+        "goal_differential": "3",
+        "extra_time": "0",
+        "penalty_shootout": "0",
+        "penalties_for": "0",
+        "penalties_against": "0",
+        "result": "win",
+        "win": "1",
+        "lose": "0",
+        "draw": "0"
+      }
+    ]
+  },
+  {
+    "file": "teams.csv",
+    "size_bytes": 20495,
+    "is_lfs_stub": false,
+    "rows": 85,
+    "ncol": 11,
+    "columns": [
+      {
+        "name": "key_id",
+        "dtype": "int",
+        "null_rate": 0.0,
+        "n_unique": 85
+      },
+      {
+        "name": "team_id",
+        "dtype": "str",
+        "null_rate": 0.0,
+        "n_unique": 85
+      },
+      {
+        "name": "team_name",
+        "dtype": "str",
+        "null_rate": 0.0,
+        "n_unique": 85
+      },
+      {
+        "name": "team_code",
+        "dtype": "str",
+        "null_rate": 0.0,
+        "n_unique": 84
+      },
+      {
+        "name": "federation_name",
+        "dtype": "str",
+        "null_rate": 0.0,
+        "n_unique": 84
+      },
+      {
+        "name": "region_name",
+        "dtype": "str",
+        "null_rate": 0.0,
+        "n_unique": 11
+      },
+      {
+        "name": "confederation_id",
+        "dtype": "str",
+        "null_rate": 0.0,
+        "n_unique": 6
+      },
+      {
+        "name": "confederation_name",
+        "dtype": "str",
+        "null_rate": 0.0,
+        "n_unique": 6
+      },
+      {
+        "name": "confederation_code",
+        "dtype": "str",
+        "null_rate": 0.0,
+        "n_unique": 6
+      },
+      {
+        "name": "team_wikipedia_link",
+        "dtype": "str",
+        "null_rate": 0.0,
+        "n_unique": 84
+      },
+      {
+        "name": "federation_wikipedia_link",
+        "dtype": "str",
+        "null_rate": 0.0,
+        "n_unique": 83
+      }
+    ],
+    "sample3": [
+      {
+        "key_id": "1",
+        "team_id": "T-01",
+        "team_name": "Algeria",
+        "team_code": "DZA",
+        "federation_name": "Algerian Football Federation",
+        "region_name": "Africa",
+        "confederation_id": "CF-2",
+        "confederation_name": "Confederation of African Football",
+        "confederation_code": "CAF",
+        "team_wikipedia_link": "https://en.wikipedia.org/wiki/Algeria_national_football_team",
+        "federation_wikipedia_link": "https://en.wikipedia.org/wiki/Algerian_Football_Federation"
+      },
+      {
+        "key_id": "2",
+        "team_id": "T-02",
+        "team_name": "Angola",
+        "team_code": "AGO",
+        "federation_name": "Angolan Football Federation",
+        "region_name": "Africa",
+        "confederation_id": "CF-2",
+        "confederation_name": "Confederation of African Football",
+        "confederation_code": "CAF",
+        "team_wikipedia_link": "https://en.wikipedia.org/wiki/Angola_national_football_team",
+        "federation_wikipedia_link": "https://en.wikipedia.org/wiki/Angolan_Football_Federation"
+      },
+      {
+        "key_id": "3",
+        "team_id": "T-03",
+        "team_name": "Argentina",
+        "team_code": "ARG",
+        "federation_name": "Argentine Football Association",
+        "region_name": "South America",
+        "confederation_id": "CF-4",
+        "confederation_name": "South American Football Confederation",
+        "confederation_code": "CONMEBOL",
+        "team_wikipedia_link": "https://en.wikipedia.org/wiki/Argentina_national_football_team",
+        "federation_wikipedia_link": "https://en.wikipedia.org/wiki/Argentine_Football_Association"
+      }
+    ]
+  },
+  {
+    "file": "tournament_stages.csv",
+    "size_bytes": 9968,
+    "is_lfs_stub": false,
+    "rows": 113,
+    "ncol": 16,
+    "columns": [
+      {
+        "name": "key_id",
+        "dtype": "int",
+        "null_rate": 0.0,
+        "n_unique": 113
+      },
+      {
+        "name": "tournament_id",
+        "dtype": "str",
+        "null_rate": 0.0,
+        "n_unique": 22
+      },
+      {
+        "name": "tournament_name",
+        "dtype": "str",
+        "null_rate": 0.0,
+        "n_unique": 22
+      },
+      {
+        "name": "stage_number",
+        "dtype": "int",
+        "null_rate": 0.0,
+        "n_unique": 6
+      },
+      {
+        "name": "stage_name",
+        "dtype": "str",
+        "null_rate": 0.0,
+        "n_unique": 8
+      },
+      {
+        "name": "group_stage",
+        "dtype": "int",
+        "null_rate": 0.0,
+        "n_unique": 2
+      },
+      {
+        "name": "knockout_stage",
+        "dtype": "int",
+        "null_rate": 0.0,
+        "n_unique": 2
+      },
+      {
+        "name": "unbalanced_groups",
+        "dtype": "int",
+        "null_rate": 0.0,
+        "n_unique": 2
+      },
+      {
+        "name": "start_date",
+        "dtype": "date",
+        "null_rate": 0.0,
+        "n_unique": 112
+      },
+      {
+        "name": "end_date",
+        "dtype": "date",
+        "null_rate": 0.0,
+        "n_unique": 112
+      },
+      {
+        "name": "count_matches",
+        "dtype": "int",
+        "null_rate": 0.0,
+        "n_unique": 15
+      },
+      {
+        "name": "count_teams",
+        "dtype": "int",
+        "null_rate": 0.0,
+        "n_unique": 8
+      },
+      {
+        "name": "count_scheduled",
+        "dtype": "int",
+        "null_rate": 0.0,
+        "n_unique": 11
+      },
+      {
+        "name": "count_replays",
+        "dtype": "int",
+        "null_rate": 0.0,
+        "n_unique": 3
+      },
+      {
+        "name": "count_playoffs",
+        "dtype": "int",
+        "null_rate": 0.0,
+        "n_unique": 3
+      },
+      {
+        "name": "count_walkovers",
+        "dtype": "int",
+        "null_rate": 0.0,
+        "n_unique": 2
+      }
+    ],
+    "sample3": [
+      {
+        "key_id": "1",
+        "tournament_id": "WC-1930",
+        "tournament_name": "1930 FIFA World Cup",
+        "stage_number": "1",
+        "stage_name": "group stage",
+        "group_stage": "1",
+        "knockout_stage": "0",
+        "unbalanced_groups": "1",
+        "start_date": "1930-07-13",
+        "end_date": "1930-07-22",
+        "count_matches": "15",
+        "count_teams": "13",
+        "count_scheduled": "15",
+        "count_replays": "0",
+        "count_playoffs": "0",
+        "count_walkovers": "0"
+      },
+      {
+        "key_id": "2",
+        "tournament_id": "WC-1930",
+        "tournament_name": "1930 FIFA World Cup",
+        "stage_number": "2",
+        "stage_name": "semi-finals",
+        "group_stage": "0",
+        "knockout_stage": "1",
+        "unbalanced_groups": "0",
+        "start_date": "1930-07-26",
+        "end_date": "1930-07-27",
+        "count_matches": "2",
+        "count_teams": "4",
+        "count_scheduled": "2",
+        "count_replays": "0",
+        "count_playoffs": "0",
+        "count_walkovers": "0"
+      },
+      {
+        "key_id": "3",
+        "tournament_id": "WC-1930",
+        "tournament_name": "1930 FIFA World Cup",
+        "stage_number": "3",
+        "stage_name": "final",
+        "group_stage": "0",
+        "knockout_stage": "1",
+        "unbalanced_groups": "0",
+        "start_date": "1930-07-30",
+        "end_date": "1930-07-30",
+        "count_matches": "1",
+        "count_teams": "2",
+        "count_scheduled": "1",
+        "count_replays": "0",
+        "count_playoffs": "0",
+        "count_walkovers": "0"
+      }
+    ]
+  },
+  {
+    "file": "tournament_standings.csv",
+    "size_bytes": 4528,
+    "is_lfs_stub": false,
+    "rows": 88,
+    "ncol": 7,
+    "columns": [
+      {
+        "name": "key_id",
+        "dtype": "int",
+        "null_rate": 0.0,
+        "n_unique": 88
+      },
+      {
+        "name": "tournament_id",
+        "dtype": "str",
+        "null_rate": 0.0,
+        "n_unique": 22
+      },
+      {
+        "name": "tournament_name",
+        "dtype": "str",
+        "null_rate": 0.0,
+        "n_unique": 22
+      },
+      {
+        "name": "position",
+        "dtype": "int",
+        "null_rate": 0.0,
+        "n_unique": 4
+      },
+      {
+        "name": "team_id",
+        "dtype": "str",
+        "null_rate": 0.0,
+        "n_unique": 26
+      },
+      {
+        "name": "team_name",
+        "dtype": "str",
+        "null_rate": 0.0,
+        "n_unique": 26
+      },
+      {
+        "name": "team_code",
+        "dtype": "str",
+        "null_rate": 0.0,
+        "n_unique": 25
+      }
+    ],
+    "sample3": [
+      {
+        "key_id": "1",
+        "tournament_id": "WC-1930",
+        "tournament_name": "1930 FIFA World Cup",
+        "position": "1",
+        "team_id": "T-81",
+        "team_name": "Uruguay",
+        "team_code": "URY"
+      },
+      {
+        "key_id": "2",
+        "tournament_id": "WC-1930",
+        "tournament_name": "1930 FIFA World Cup",
+        "position": "2",
+        "team_id": "T-03",
+        "team_name": "Argentina",
+        "team_code": "ARG"
+      },
+      {
+        "key_id": "3",
+        "tournament_id": "WC-1930",
+        "tournament_name": "1930 FIFA World Cup",
+        "position": "3",
+        "team_id": "T-80",
+        "team_name": "United States",
+        "team_code": "USA"
+      }
+    ]
+  },
+  {
+    "file": "tournaments.csv",
+    "size_bytes": 2305,
+    "is_lfs_stub": false,
+    "rows": 22,
+    "ncol": 18,
+    "columns": [
+      {
+        "name": "key_id",
+        "dtype": "int",
+        "null_rate": 0.0,
+        "n_unique": 22
+      },
+      {
+        "name": "tournament_id",
+        "dtype": "str",
+        "null_rate": 0.0,
+        "n_unique": 22
+      },
+      {
+        "name": "tournament_name",
+        "dtype": "str",
+        "null_rate": 0.0,
+        "n_unique": 22
+      },
+      {
+        "name": "year",
+        "dtype": "int",
+        "null_rate": 0.0,
+        "n_unique": 22
+      },
+      {
+        "name": "start_date",
+        "dtype": "date",
+        "null_rate": 0.0,
+        "n_unique": 22
+      },
+      {
+        "name": "end_date",
+        "dtype": "date",
+        "null_rate": 0.0,
+        "n_unique": 22
+      },
+      {
+        "name": "host_country",
+        "dtype": "str",
+        "null_rate": 0.0,
+        "n_unique": 18
+      },
+      {
+        "name": "winner",
+        "dtype": "str",
+        "null_rate": 0.0,
+        "n_unique": 9
+      },
+      {
+        "name": "host_won",
+        "dtype": "int",
+        "null_rate": 0.0,
+        "n_unique": 2
+      },
+      {
+        "name": "count_teams",
+        "dtype": "int",
+        "null_rate": 0.0,
+        "n_unique": 5
+      },
+      {
+        "name": "group_stage",
+        "dtype": "int",
+        "null_rate": 0.0,
+        "n_unique": 2
+      },
+      {
+        "name": "second_group_stage",
+        "dtype": "int",
+        "null_rate": 0.0,
+        "n_unique": 2
+      },
+      {
+        "name": "final_round",
+        "dtype": "int",
+        "null_rate": 0.0,
+        "n_unique": 2
+      },
+      {
+        "name": "round_of_16",
+        "dtype": "int",
+        "null_rate": 0.0,
+        "n_unique": 2
+      },
+      {
+        "name": "quarter_finals",
+        "dtype": "int",
+        "null_rate": 0.0,
+        "n_unique": 2
+      },
+      {
+        "name": "semi_finals",
+        "dtype": "int",
+        "null_rate": 0.0,
+        "n_unique": 2
+      },
+      {
+        "name": "third_place_match",
+        "dtype": "int",
+        "null_rate": 0.0,
+        "n_unique": 2
+      },
+      {
+        "name": "final",
+        "dtype": "int",
+        "null_rate": 0.0,
+        "n_unique": 2
+      }
+    ],
+    "sample3": [
+      {
+        "key_id": "1",
+        "tournament_id": "WC-1930",
+        "tournament_name": "1930 FIFA World Cup",
+        "year": "1930",
+        "start_date": "1930-07-13",
+        "end_date": "1930-07-30",
+        "host_country": "Uruguay",
+        "winner": "Uruguay",
+        "host_won": "1",
+        "count_teams": "13",
+        "group_stage": "1",
+        "second_group_stage": "0",
+        "final_round": "0",
+        "round_of_16": "0",
+        "quarter_finals": "0",
+        "semi_finals": "1",
+        "third_place_match": "0",
+        "final": "1"
+      },
+      {
+        "key_id": "2",
+        "tournament_id": "WC-1934",
+        "tournament_name": "1934 FIFA World Cup",
+        "year": "1934",
+        "start_date": "1934-05-27",
+        "end_date": "1934-06-10",
+        "host_country": "Italy",
+        "winner": "Italy",
+        "host_won": "1",
+        "count_teams": "16",
+        "group_stage": "0",
+        "second_group_stage": "0",
+        "final_round": "0",
+        "round_of_16": "1",
+        "quarter_finals": "1",
+        "semi_finals": "1",
+        "third_place_match": "1",
+        "final": "1"
+      },
+      {
+        "key_id": "3",
+        "tournament_id": "WC-1938",
+        "tournament_name": "1938 FIFA World Cup",
+        "year": "1938",
+        "start_date": "1938-06-04",
+        "end_date": "1938-06-19",
+        "host_country": "France",
+        "winner": "Italy",
+        "host_won": "0",
+        "count_teams": "15",
+        "group_stage": "0",
+        "second_group_stage": "0",
+        "final_round": "0",
+        "round_of_16": "1",
+        "quarter_finals": "1",
+        "semi_finals": "1",
+        "third_place_match": "1",
+        "final": "1"
+      }
+    ]
+  }
+]

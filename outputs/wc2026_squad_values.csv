@@ -1,0 +1,1249 @@
+country_name,player_name,position,tm_player_id,main_position,market_value_eur,pos_cat,value_share
+Czech Republic,Matej Kovar,GK,550829,Goalkeeper,5000000,GK,0.0383
+Czech Republic,David Zima,DF,544149,Defender,5500000,DEF,0.0421
+Czech Republic,Tomas Holes,DF,,,,,
+Czech Republic,Robin Hranac,DF,620217,Defender,3500000,DEF,0.0268
+Czech Republic,Vladimir Coufal,DF,157672,Defender,5000000,DEF,0.0383
+Czech Republic,Stepan Chaloupek,DF,,,,,
+Czech Republic,Ladislav Krejci,DF,,,,,
+Czech Republic,Vladimir Darida,MF,179643,Midfield,500000,MID,0.0038
+Czech Republic,Adam Hlozek,FW,552057,Attack,18000000,ATT,0.1377
+Czech Republic,Patrik Schick,FW,242086,Attack,27000000,ATT,0.2066
+Czech Republic,Jan Kuchta,FW,334802,Attack,4000000,ATT,0.0306
+Czech Republic,Lukas Cerv,MF,611049,Midfield,4500000,MID,0.0344
+Czech Republic,Mojmir Chytil,FW,,,,,
+Czech Republic,David Jurasek,DF,500054,Defender,5000000,DEF,0.0383
+Czech Republic,Pavel Sulc,FW,500053,Midfield,10000000,MID,0.0765
+Czech Republic,Jindrich Stanek,GK,242089,Goalkeeper,3000000,GK,0.023
+Czech Republic,Lukas Provod,MF,,,,,
+Czech Republic,Michal Sadilek,MF,321204,Midfield,8000000,MID,0.0612
+Czech Republic,Tomas Chory,FW,198614,Attack,3500000,ATT,0.0268
+Czech Republic,Jaroslav Zeleny,DF,,,,,
+Czech Republic,David Doudera,DF,493758,Midfield,3000000,MID,0.023
+Czech Republic,Tomas Soucek,MF,283628,Midfield,18000000,MID,0.1377
+Czech Republic,Lukas Hornicek,GK,629773,Goalkeeper,6000000,GK,0.0459
+Czech Republic,Alexandr Sojka,MF,,,,,
+Czech Republic,Hugo Sochurek,MF,,,,,
+Czech Republic,Denis Visinsky,FW,652060,Midfield,1200000,MID,0.0092
+Mexico,Raul Rangel,GK,802855,Goalkeeper,5000000,GK,0.0265
+Mexico,Jorge Sanchez,DF,356044,Defender,2500000,DEF,0.0133
+Mexico,Cesar Montes,DF,387687,Defender,4500000,DEF,0.0239
+Mexico,Edson Alvarez,DF,401356,Midfield,25000000,MID,0.1326
+Mexico,Johan Vasquez,DF,532937,Defender,14000000,DEF,0.0743
+Mexico,Erik Lira,MF,602324,Midfield,8000000,MID,0.0424
+Mexico,Luis Romo,MF,532938,Midfield,4500000,MID,0.0239
+Mexico,Alvaro Fidalgo,MF,261503,Midfield,9000000,MID,0.0477
+Mexico,Raul Jimenez,FW,206040,Attack,5000000,ATT,0.0265
+Mexico,Alexis Vega,FW,424689,Attack,10000000,ATT,0.0531
+Mexico,Santiago Gimenez,FW,552955,Attack,30000000,ATT,0.1592
+Mexico,Carlos Acevedo,GK,356042,Goalkeeper,3000000,GK,0.0159
+Mexico,Guillermo Ochoa,GK,29559,Goalkeeper,500000,GK,0.0027
+Mexico,Armando Gonzalez,FW,837619,Attack,1500000,ATT,0.008
+Mexico,Israel Reyes,DF,687558,Defender,4000000,DEF,0.0212
+Mexico,Julian Quinones,FW,416090,Attack,12000000,ATT,0.0637
+Mexico,Orbelin Pineda,MF,334042,Midfield,7000000,MID,0.0371
+Mexico,Obed Vargas,MF,889435,Midfield,6000000,MID,0.0318
+Mexico,Gilberto Mora,MF,1155723,Midfield,3000000,MID,0.0159
+Mexico,Mateo Chavez,DF,1066953,Defender,3000000,DEF,0.0159
+Mexico,Cesar Huerta,FW,540315,Attack,6000000,ATT,0.0318
+Mexico,Guillermo Martinez,FW,347932,Attack,2000000,ATT,0.0106
+Mexico,Jesus Gallardo,DF,344854,Defender,3500000,DEF,0.0186
+Mexico,Luis Chavez,MF,331059,Midfield,8000000,MID,0.0424
+Mexico,Roberto Alvarado,FW,353583,Attack,6500000,ATT,0.0345
+Mexico,Brian Gutierrez,MF,724443,Midfield,5000000,MID,0.0265
+South Africa,Ronwen Williams,GK,,,,,
+South Africa,Thabang Matuludi,DF,,,,,
+South Africa,Khulumani Ndamane,DF,,,,,
+South Africa,Teboho Mokoena,MF,,,,,
+South Africa,Thalente Mbatha,MF,,,,,
+South Africa,Aubrey Modiba,DF,,,,,
+South Africa,Oswin Appollis,FW,,,,,
+South Africa,Tshepang Moremi,FW,,,,,
+South Africa,Lyle Foster,FW,467623,Attack,6000000,ATT,0.7407
+South Africa,Relebohile Mofokeng,FW,,,,,
+South Africa,Themba Zwane,MF,,,,,
+South Africa,Thapelo Maseko,FW,,,,,
+South Africa,Sphephelo Sithole,MF,401736,Midfield,200000,MID,0.0247
+South Africa,Mbekezeli Mbokazi,DF,,,,,
+South Africa,Iqraam Rayners,FW,,,,,
+South Africa,Sipho Chaine,GK,,,,,
+South Africa,Evidence Makgopa,FW,,,,,
+South Africa,Samukele Kabini,DF,,,,,
+South Africa,Nkosinathi Sibisi,DF,,,,,
+South Africa,Khuliso Mudau,DF,,,,,
+South Africa,Ime Okon,DF,1107265,Defender,850000,DEF,0.1049
+South Africa,Ricardo Goss,GK,,,,,
+South Africa,Jayden Adams,MF,,,,,
+South Africa,Olwethu Makhanya,DF,1069801,Defender,400000,DEF,0.0494
+South Africa,Kamogelo Sebelebele,FW,,,,,
+South Africa,Bradley Cross,DF,555209,Defender,650000,DEF,0.0802
+South Korea,Seung-gyu Kim,GK,,,,,
+South Korea,Han-beom Lee,DF,706963,Defender,1000000,DEF,0.0072
+South Korea,Gi-hyuk Lee,MF,763349,Defender,550000,DEF,0.004
+South Korea,Min-jae Kim,DF,503482,Defender,40000000,DEF,0.2874
+South Korea,Tae-hyeon Kim,DF,645847,Defender,550000,DEF,0.004
+South Korea,In-beom Hwang,MF,365394,Midfield,10000000,MID,0.0718
+South Korea,Heung-min Son,FW,91845,Attack,20000000,ATT,0.1437
+South Korea,Seung-ho Paik,MF,282689,Midfield,1500000,MID,0.0108
+South Korea,Gue-sung Cho,FW,652537,Attack,3500000,ATT,0.0251
+South Korea,Jae-sung Lee,MF,114871,Defender,50000,DEF,0.0004
+South Korea,Hee-chan Hwang,MF,292246,Attack,12000000,ATT,0.0862
+South Korea,Bum-keun Song,GK,,,,,
+South Korea,Tae-seok Lee,DF,639027,Defender,750000,DEF,0.0054
+South Korea,Wi-je Cho,DF,550978,Defender,450000,DEF,0.0032
+South Korea,Moon-hwan Kim,DF,524592,Defender,750000,DEF,0.0054
+South Korea,Jin-seob Park,DF,,,,,
+South Korea,Jun-ho Bae,MF,912081,Midfield,3000000,MID,0.0216
+South Korea,Hyeon-gyu Oh,FW,639246,Attack,3500000,ATT,0.0251
+South Korea,Kang-in Lee,MF,557149,Attack,25000000,ATT,0.1796
+South Korea,Hyun-jun Yang,MF,853110,Attack,2500000,ATT,0.018
+South Korea,Hyeon-woo Jo,GK,260171,Goalkeeper,800000,GK,0.0057
+South Korea,Young-woo Seol,DF,639414,Defender,4500000,DEF,0.0323
+South Korea,Jens Castrop,DF,613192,Midfield,6000000,MID,0.0431
+South Korea,Jin-gyu Kim,MF,,,,,
+South Korea,Ji-sung Eom,MF,706968,Attack,1400000,ATT,0.0101
+South Korea,Dong-gyeong Lee,MF,558086,Midfield,1400000,MID,0.0101
+Bosnia and Herzegovina,Nikola Vasilj,GK,248454,Goalkeeper,3500000,GK,0.042
+Bosnia and Herzegovina,Nihad Mujakic,DF,,,,,
+Bosnia and Herzegovina,Dennis Hadzikadunic,DF,322065,Defender,2000000,DEF,0.024
+Bosnia and Herzegovina,Tarik Muharemovic,DF,679423,Defender,7000000,DEF,0.084
+Bosnia and Herzegovina,Sead Kolasinac,DF,94005,Defender,7000000,DEF,0.084
+Bosnia and Herzegovina,Benjamin Tahirovic,MF,787907,Midfield,3000000,MID,0.036
+Bosnia and Herzegovina,Amar Dedic,DF,519184,Defender,12000000,DEF,0.1441
+Bosnia and Herzegovina,Armin Gigovic,MF,651269,Midfield,3000000,MID,0.036
+Bosnia and Herzegovina,Samed Bazdar,FW,710969,Attack,2000000,ATT,0.024
+Bosnia and Herzegovina,Ermedin Demirovic,FW,335457,Attack,22000000,ATT,0.2641
+Bosnia and Herzegovina,Edin Dzeko,FW,28396,Attack,1600000,ATT,0.0192
+Bosnia and Herzegovina,Mladen Jurkas,GK,,,,,
+Bosnia and Herzegovina,Ivan Basic,MF,620560,Midfield,1200000,MID,0.0144
+Bosnia and Herzegovina,Ivan Sunjic,MF,226097,Midfield,1500000,MID,0.018
+Bosnia and Herzegovina,Amar Memic,MF,,,,,
+Bosnia and Herzegovina,Amir Hadziahmetovic,MF,293213,Midfield,4500000,MID,0.054
+Bosnia and Herzegovina,Dzenis Burnic,MF,251295,Midfield,1200000,MID,0.0144
+Bosnia and Herzegovina,Nikola Katic,DF,422051,Defender,1500000,DEF,0.018
+Bosnia and Herzegovina,Kerim Alajbegovic,FW,,,,,
+Bosnia and Herzegovina,Esmir Bajraktarevic,FW,925862,Attack,3000000,ATT,0.036
+Bosnia and Herzegovina,Stjepan Radeljic,DF,384568,Defender,2800000,DEF,0.0336
+Bosnia and Herzegovina,Martin Zlomislic,GK,495320,Goalkeeper,2000000,GK,0.024
+Bosnia and Herzegovina,Haris Tabakovic,FW,203123,Attack,2500000,ATT,0.03
+Bosnia and Herzegovina,Arjan Malic,DF,,,,,
+Bosnia and Herzegovina,Jovo Lukic,FW,,,,,
+Bosnia and Herzegovina,Ermin Mahmic,MF,,,,,
+Canada,Dayne St Clair,GK,439750,Goalkeeper,2800000,GK,0.015
+Canada,Alistair Johnston,DF,637446,Defender,10000000,DEF,0.0536
+Canada,Alfie Jones,DF,340990,Defender,4000000,DEF,0.0215
+Canada,Luc de Fougerolles,DF,921995,Defender,250000,DEF,0.0013
+Canada,Joel Waterman,DF,441738,Defender,2500000,DEF,0.0134
+Canada,Mathieu Choiniere,MF,589006,Midfield,800000,MID,0.0043
+Canada,Stephen Eustaquio,MF,512913,Midfield,10000000,MID,0.0536
+Canada,Ismael Kone,MF,921655,Midfield,9000000,MID,0.0483
+Canada,Cyle Larin,FW,343463,Attack,3500000,ATT,0.0188
+Canada,Jonathan David,FW,533738,Attack,45000000,ATT,0.2414
+Canada,Liam Millar,MF,487417,Attack,3000000,ATT,0.0161
+Canada,Tani Oluwaseyi,FW,972465,Attack,5000000,ATT,0.0268
+Canada,Derek Cornelius,DF,328609,Defender,5000000,DEF,0.0268
+Canada,Jacob Shaffelburg,MF,637632,Attack,4000000,ATT,0.0215
+Canada,Moise Bombito,DF,1089202,Defender,10000000,DEF,0.0536
+Canada,Maxime Crepeau,GK,189014,Goalkeeper,3000000,GK,0.0161
+Canada,Tajon Buchanan,FW,638793,Attack,6000000,ATT,0.0322
+Canada,Owen Goodman,GK,814848,Goalkeeper,600000,GK,0.0032
+Canada,Alphonso Davies,DF,424204,Defender,50000000,DEF,0.2682
+Canada,Ali Ahmed,FW,995642,Midfield,3000000,MID,0.0161
+Canada,Jonathan Osorio,MF,260807,Midfield,1500000,MID,0.008
+Canada,Richie Laryea,DF,417348,Defender,1000000,DEF,0.0054
+Canada,Niko Sigur,DF,1045375,Midfield,4000000,MID,0.0215
+Canada,Promise David,FW,,,,,
+Canada,Nathan Saliba,MF,,,,,
+Canada,Jayden Nelson,FW,635445,Attack,2500000,ATT,0.0134
+Qatar,Mahmud Abunada,GK,,,,,
+Qatar,Pedro Miguel,DF,228727,Defender,200000,DEF,0.0142
+Qatar,Lucas Mendes,DF,83983,Defender,400000,DEF,0.0284
+Qatar,Issa Laye,DF,,,,,
+Qatar,Jassem Gaber,DF,735813,Defender,700000,DEF,0.0496
+Qatar,Abdulaziz Hatem,MF,,,,,
+Qatar,Ahmed Alaaeldin,FW,187987,Attack,400000,ATT,0.0284
+Qatar,Edmilson Junior,FW,237846,Attack,2500000,ATT,0.1773
+Qatar,Mohammed Muntari,FW,,,,,
+Qatar,Hassan Haydos,FW,,,,,
+Qatar,Akram Afif,FW,336646,Attack,8000000,ATT,0.5674
+Qatar,Karim Boudiaf,MF,,,,,
+Qatar,Ayoub Oui,DF,,,,,
+Qatar,Homam Ahmed,DF,,,,,
+Qatar,Yusuf Abdurisag,FW,589099,Attack,300000,ATT,0.0213
+Qatar,Boualem Khoukhi,DF,222669,Defender,250000,DEF,0.0177
+Qatar,Ahmed Ganehi,MF,,,,,
+Qatar,Sultan Brake,DF,,,,,
+Qatar,Almoez Ali,FW,,,,,
+Qatar,Ahmed Fathy,MF,,,,,
+Qatar,Salah Zakaria,GK,632912,Goalkeeper,500000,GK,0.0355
+Qatar,Meshaal Barsham,GK,560423,Goalkeeper,850000,GK,0.0603
+Qatar,Assim Madibo,MF,,,,,
+Qatar,Tahsin Jamshid,FW,,,,,
+Qatar,Al-Hashmi Hussain,DF,,,,,
+Qatar,Mohamed Manai,FW,,,,,
+Switzerland,Gregor Kobel,GK,257814,Goalkeeper,40000000,GK,0.1333
+Switzerland,Miro Muheim,DF,298603,Defender,4000000,DEF,0.0133
+Switzerland,Silvan Widmer,DF,,,,,
+Switzerland,Nico Elvedi,DF,192635,Defender,8000000,DEF,0.0267
+Switzerland,Manuel Akanji,DF,284730,Defender,28000000,DEF,0.0933
+Switzerland,Denis Zakaria,MF,334526,Midfield,30000000,MID,0.1
+Switzerland,Breel Embolo,FW,237662,Attack,12000000,ATT,0.04
+Switzerland,Remo Freuler,MF,148252,Midfield,5000000,MID,0.0167
+Switzerland,Johan Manzambi,MF,927353,Midfield,8000000,MID,0.0267
+Switzerland,Granit Xhaka,MF,111455,Midfield,12000000,MID,0.04
+Switzerland,Dan Ndoye,FW,365108,Attack,35000000,ATT,0.1167
+Switzerland,Yvon Mvogo,GK,147051,Goalkeeper,3000000,GK,0.01
+Switzerland,Ricardo Rodriguez,DF,86784,Defender,2000000,DEF,0.0067
+Switzerland,Ardon Jashari,MF,608172,Midfield,32000000,MID,0.1067
+Switzerland,Djibril Sow,MF,212723,Midfield,7500000,MID,0.025
+Switzerland,Christian Fassnacht,FW,250490,Attack,2000000,ATT,0.0067
+Switzerland,Ruben Vargas,FW,345886,Attack,7000000,ATT,0.0233
+Switzerland,Eray Comert,DF,298583,Defender,2000000,DEF,0.0067
+Switzerland,Noah Okafor,FW,346890,Attack,13000000,ATT,0.0433
+Switzerland,Michel Aebischer,MF,237658,Midfield,7500000,MID,0.025
+Switzerland,Marvin Keller,GK,500763,Goalkeeper,9000000,GK,0.03
+Switzerland,Fabian Rieder,MF,507341,Midfield,6000000,MID,0.02
+Switzerland,Zeki Amdouni,FW,548729,Attack,12000000,ATT,0.04
+Switzerland,Aurele Amenda,DF,635645,Defender,7500000,DEF,0.025
+Switzerland,Luca Jaquez,DF,539798,Defender,6000000,DEF,0.02
+Switzerland,Cedric Itten,FW,243856,Attack,1500000,ATT,0.005
+Brazil,Alisson,GK,105470,Goalkeeper,20000000,GK,0.024
+Brazil,Ederson Silva,MF,,,,,
+Brazil,Gabriel Magalhaes,DF,435338,Defender,75000000,DEF,0.0901
+Brazil,Marquinhos,DF,181767,Defender,35000000,DEF,0.042
+Brazil,Casemiro,MF,16306,Midfield,10000000,MID,0.012
+Brazil,Alex Sandro,DF,79960,Defender,1800000,DEF,0.0022
+Brazil,Vinicius Junior,FW,371998,Attack,170000000,ATT,0.2041
+Brazil,Bruno Guimaraes,MF,520624,Midfield,80000000,MID,0.0961
+Brazil,Matheus Cunha,FW,517894,Attack,60000000,ATT,0.072
+Brazil,Neymar,FW,68290,Midfield,11000000,MID,0.0132
+Brazil,Raphinha,FW,411295,Attack,90000000,ATT,0.1081
+Brazil,Weverton,GK,69400,Goalkeeper,1000000,GK,0.0012
+Brazil,Danilo Luiz,DF,,,,,
+Brazil,Bremer,DF,516716,Defender,50000000,DEF,0.06
+Brazil,Leo Pereira,DF,288431,Defender,9000000,DEF,0.0108
+Brazil,Douglas Santos,DF,220793,Defender,9000000,DEF,0.0108
+Brazil,Fabinho,MF,225693,Midfield,15000000,MID,0.018
+Brazil,Danilo Santos,MF,,,,,
+Brazil,Endrick,FW,971570,Attack,35000000,ATT,0.042
+Brazil,Lucas Paqueta,MF,444523,Midfield,28000000,MID,0.0336
+Brazil,Luiz Henrique,FW,800175,Attack,25000000,ATT,0.03
+Brazil,Gabriel Martinelli,FW,655488,Attack,55000000,ATT,0.066
+Brazil,Ederson Moraes,GK,,,,,
+Brazil,Roger Ibanez,DF,524481,Defender,17000000,DEF,0.0204
+Brazil,Igor Thiago,FW,739443,Attack,18000000,ATT,0.0216
+Brazil,Rayan,FW,1012564,Attack,18000000,ATT,0.0216
+Haiti,Johny Placide,GK,51035,Goalkeeper,200000,GK,0.0039
+Haiti,Carlens Arcus,DF,371686,Defender,1800000,DEF,0.0355
+Haiti,Keeto Thermoncy,DF,,,,,
+Haiti,Ricardo Ade,DF,,,,,
+Haiti,Hannes Delcroix,DF,338635,Defender,3500000,DEF,0.0689
+Haiti,Carl Sainte,MF,718244,Midfield,150000,MID,0.003
+Haiti,Derrick Jr Etienne,FW,,,,,
+Haiti,Martin Experience,DF,804885,Defender,400000,DEF,0.0079
+Haiti,Duckens Nazon,FW,345763,Attack,1200000,ATT,0.0236
+Haiti,Jean-Ricner Bellegarde,MF,450050,Midfield,18000000,MID,0.3545
+Haiti,Louicius Deedson,FW,,,,,
+Haiti,Alexandre Pierre,GK,838947,Goalkeeper,25000,GK,0.0005
+Haiti,Duke Lacroix,DF,,,,,
+Haiti,Garven Metusala,DF,,,,,
+Haiti,Ruben Providence,FW,536520,Attack,350000,ATT,0.0069
+Haiti,Lenny Joseph,FW,815359,Attack,1000000,ATT,0.0197
+Haiti,Danley Jean Jacques,MF,628834,Midfield,2000000,MID,0.0394
+Haiti,Wilson Isidor,FW,494237,Attack,12000000,ATT,0.2363
+Haiti,Yassin Fortune,FW,342878,Attack,250000,ATT,0.0049
+Haiti,Frantzdy Pierrot,FW,492955,Attack,3200000,ATT,0.063
+Haiti,Josue Casimir,FW,763182,Attack,4000000,ATT,0.0788
+Haiti,Jean-Kevin Duverne,DF,344864,Defender,2500000,DEF,0.0492
+Haiti,Josue Duverger,GK,,,,,
+Haiti,Wilguens Paugain,DF,609691,Defender,200000,DEF,0.0039
+Haiti,Dominique Simon,MF,,,,,
+Haiti,Woodensky Pierre,MF,,,,,
+Morocco,Yassine Bounou,GK,207834,Goalkeeper,5500000,GK,0.0225
+Morocco,Achraf Hakimi,DF,398073,Defender,80000000,DEF,0.3271
+Morocco,Noussair Mazraoui,DF,340456,Defender,25000000,DEF,0.1022
+Morocco,Sofyan Amrabat,MF,287579,Midfield,17000000,MID,0.0695
+Morocco,Marwane Saadane,DF,,,,,
+Morocco,Ayyoub Bouaddi,MF,,,,,
+Morocco,Chemsdine Talbi,MF,743384,Attack,8000000,ATT,0.0327
+Morocco,Azzedine Ounahi,MF,593482,Midfield,10000000,MID,0.0409
+Morocco,Soufiane Rahimi,FW,,,,,
+Morocco,Brahim Diaz,FW,314678,Attack,40000000,ATT,0.1635
+Morocco,Ismael Saibari,MF,702869,Midfield,27000000,MID,0.1104
+Morocco,Munir Mohamedi,GK,,,,,
+Morocco,Zakaria Ouahdi,DF,,,,,
+Morocco,Issa Diop,DF,272622,Defender,14000000,DEF,0.0572
+Morocco,Samir Mourabet,MF,,,,,
+Morocco,Gessime Yassine,MF,1151929,Attack,2000000,ATT,0.0082
+Morocco,Amine Sbai,FW,851220,Attack,750000,ATT,0.0031
+Morocco,Chadi Riad,DF,689637,Defender,15000000,DEF,0.0613
+Morocco,Youssef Belammari,DF,,,,,
+Morocco,Ayoub Kaabi,FW,,,,,
+Morocco,Ayoube Amaimouni,FW,,,,,
+Morocco,Ahmed Reda Tagnaouti,GK,,,,,
+Morocco,Bilal Khannouss,MF,,,,,
+Morocco,Neil Aynaoui,MF,,,,,
+Morocco,Redouane Halhal,DF,913660,Defender,350000,DEF,0.0014
+Morocco,Anass Salah-Eddine,DF,,,,,
+Scotland,Angus Gunn,GK,201574,Goalkeeper,2200000,GK,0.012
+Scotland,Aaron Hickey,DF,591949,Defender,10000000,DEF,0.0546
+Scotland,Andy Robertson,DF,,,,,
+Scotland,Scott Mctominay,MF,315969,Midfield,50000000,MID,0.2731
+Scotland,Grant Hanley,DF,121385,Defender,600000,DEF,0.0033
+Scotland,Kieran Tierney,DF,300716,Defender,9000000,DEF,0.0492
+Scotland,John Mcginn,MF,193116,Midfield,16000000,MID,0.0874
+Scotland,Tyler Fletcher,MF,1049911,Midfield,,MID,
+Scotland,Lyndon Dykes,FW,347138,Attack,1200000,ATT,0.0066
+Scotland,Che Adams,FW,346779,Attack,15000000,ATT,0.0819
+Scotland,Ryan Christie,MF,188077,Midfield,10000000,MID,0.0546
+Scotland,Liam Kelly,GK,208772,Goalkeeper,800000,GK,0.0044
+Scotland,Jack Hendry,DF,363223,Defender,2500000,DEF,0.0137
+Scotland,Ross Stewart,FW,447995,Attack,4000000,ATT,0.0219
+Scotland,John Souttar,DF,235767,Defender,4000000,DEF,0.0219
+Scotland,Dominic Hyam,DF,263268,Defender,2000000,DEF,0.0109
+Scotland,Ben Gannon-Doak,FW,,,,,
+Scotland,George Hirst,FW,420808,Attack,4000000,ATT,0.0219
+Scotland,Lewis Ferguson,MF,428563,Midfield,28000000,MID,0.153
+Scotland,Lawrence Shankland,FW,225744,Attack,2500000,ATT,0.0137
+Scotland,Craig Gordon,GK,12589,Goalkeeper,50000,GK,0.0003
+Scotland,Nathan Patterson,DF,424015,Defender,15000000,DEF,0.0819
+Scotland,Kenny Mclean,MF,126600,Midfield,600000,MID,0.0033
+Scotland,Anthony Ralston,DF,388171,Defender,1500000,DEF,0.0082
+Scotland,Findlay Curtis,FW,1082993,Midfield,100000,MID,0.0005
+Scotland,Scott Mckenna,DF,255906,Defender,4000000,DEF,0.0219
+Australia,Mathew Ryan,GK,128969,Goalkeeper,2500000,GK,0.0582
+Australia,Milos Degenek,DF,187353,Defender,500000,DEF,0.0116
+Australia,Alessandro Circati,DF,867137,Defender,8000000,DEF,0.1863
+Australia,Jacob Italiano,DF,,,,,
+Australia,Jordan Bos,DF,855731,Defender,2700000,DEF,0.0629
+Australia,Jason Geria,DF,185175,Defender,450000,DEF,0.0105
+Australia,Mathew Leckie,FW,126214,Attack,400000,ATT,0.0093
+Australia,Connor Metcalfe,MF,522223,Midfield,2500000,MID,0.0582
+Australia,Mohamed Toure,FW,742770,Attack,900000,ATT,0.021
+Australia,Ajdin Hrustic,FW,265625,Midfield,400000,MID,0.0093
+Australia,Awer Mabil,FW,255729,Attack,300000,ATT,0.007
+Australia,Paul Izzo,GK,181921,Goalkeeper,600000,GK,0.014
+Australia,Aiden Oneill,MF,,,,,
+Australia,Cammy Devlin,MF,399162,Midfield,1000000,MID,0.0233
+Australia,Kai Trewin,DF,691326,Defender,750000,DEF,0.0175
+Australia,Aziz Behich,DF,136834,Defender,300000,DEF,0.007
+Australia,Nestory Irankunda,FW,956920,Attack,4000000,ATT,0.0931
+Australia,Patrick Beach,GK,983578,Goalkeeper,500000,GK,0.0116
+Australia,Harry Souttar,DF,298091,Defender,6000000,DEF,0.1397
+Australia,Cristian Volpato,FW,746891,Midfield,6500000,MID,0.1513
+Australia,Cameron Burgess,DF,255788,Defender,2000000,DEF,0.0466
+Australia,Jackson Irvine,MF,192557,Midfield,2000000,MID,0.0466
+Australia,Nishan Velupillay,FW,888140,Attack,500000,ATT,0.0116
+Australia,Paul Okon-Engstler,MF,,,,,
+Australia,Lucas Herrington,DF,,,,,
+Australia,Tete Yengi,FW,849429,Attack,150000,ATT,0.0035
+Paraguay,Gatito Fernandez,GK,,,,,
+Paraguay,Gustavo Velazquez,DF,389399,Defender,800000,DEF,0.0067
+Paraguay,Omar Alderete,DF,353032,Defender,8000000,DEF,0.0665
+Paraguay,Juan Jose Caceres,DF,,,,,
+Paraguay,Fabian Balbuena,DF,285548,Defender,2000000,DEF,0.0166
+Paraguay,Junior Alonso,DF,273000,Defender,3000000,DEF,0.0249
+Paraguay,Ramon Sosa,MF,745191,Attack,12000000,ATT,0.0998
+Paraguay,Diego Gomez,MF,996897,Midfield,14000000,MID,0.1164
+Paraguay,Antonio Sanabria,FW,234523,Attack,2800000,ATT,0.0233
+Paraguay,Miguel Almiron,MF,272999,Attack,10000000,ATT,0.0831
+Paraguay,Mauricio,MF,678439,Midfield,12000000,MID,0.0998
+Paraguay,Orlando Gill,GK,,,,,
+Paraguay,Jose Canale,DF,,,,,
+Paraguay,Andres Cubas,MF,323872,Midfield,4000000,MID,0.0333
+Paraguay,Gustavo Gomez,DF,215390,Defender,5000000,DEF,0.0416
+Paraguay,Damian Bobadilla,MF,861852,Midfield,4000000,MID,0.0333
+Paraguay,Kaku,FW,355817,Midfield,4500000,MID,0.0374
+Paraguay,Alex Arce,FW,,,,,
+Paraguay,Julio Enciso,FW,660867,Midfield,22000000,MID,0.1829
+Paraguay,Braian Ojeda,MF,491596,Midfield,4000000,MID,0.0333
+Paraguay,Gabriel Avalos,FW,,,,,
+Paraguay,Gaston Olveira,GK,,,,,
+Paraguay,Matias Galarza,MF,909737,Midfield,4700000,MID,0.0391
+Paraguay,Gustavo Caballero,MF,,,,,
+Paraguay,Isidro Pitta,FW,675178,Attack,7500000,ATT,0.0623
+Paraguay,Alexandro Maidana,DF,,,,,
+Turkey,Mert Gunok,GK,51894,Goalkeeper,1000000,GK,0.0045
+Turkey,Zeki Celik,DF,251075,Defender,6000000,DEF,0.0268
+Turkey,Merih Demiral,DF,340879,Defender,13000000,DEF,0.0582
+Turkey,Caglar Soyuncu,DF,,,,,
+Turkey,Salih Ozcan,MF,244940,Midfield,4000000,MID,0.0179
+Turkey,Orkun Kokcu,MF,454567,Midfield,30000000,MID,0.1342
+Turkey,Kerem Akturkoglu,FW,382528,Attack,24000000,ATT,0.1074
+Turkey,Arda Guler,FW,861410,Midfield,45000000,MID,0.2013
+Turkey,Deniz Gul,FW,1063292,Attack,4000000,ATT,0.0179
+Turkey,Hakan Calhanoglu,MF,126414,Midfield,30000000,MID,0.1342
+Turkey,Kenan Yildiz,FW,,,,,
+Turkey,Altay Bayindir,GK,,,,,
+Turkey,Eren Elmali,DF,,,,,
+Turkey,Abdulkerim Bardakci,DF,,,,,
+Turkey,Ozan Kabak,DF,361260,Defender,5000000,DEF,0.0224
+Turkey,Ismail Yuksek,MF,613725,Midfield,11000000,MID,0.0492
+Turkey,Irfan Can Kahveci,FW,216603,Attack,7000000,ATT,0.0313
+Turkey,Mert Muldur,DF,353922,Defender,6000000,DEF,0.0268
+Turkey,Yunus Akgun,FW,396908,Attack,14000000,ATT,0.0626
+Turkey,Ferdi Kadioglu,DF,,,,,
+Turkey,Baris Alper Yilmaz,FW,,,,,
+Turkey,Kaan Ayhan,MF,119031,Midfield,4000000,MID,0.0179
+Turkey,Ugurcan Cakir,GK,,,,,
+Turkey,Oguz Aydin,FW,,,,,
+Turkey,Samet Akaydin,DF,295024,Defender,1500000,DEF,0.0067
+Turkey,Can Uzun,FW,816585,Midfield,18000000,MID,0.0805
+United States,Matt Turner,GK,425306,Goalkeeper,2500000,GK,0.0081
+United States,Sergino Dest,DF,361104,Defender,16000000,DEF,0.052
+United States,Chris Richards,DF,578539,Defender,14000000,DEF,0.0455
+United States,Tyler Adams,MF,332705,Midfield,18000000,MID,0.0585
+United States,Antonee Robinson,DF,349701,Defender,35000000,DEF,0.1138
+United States,Auston Trusty,DF,389253,Defender,6000000,DEF,0.0195
+United States,Giovanni Reyna,MF,504215,Midfield,7000000,MID,0.0228
+United States,Weston Mckennie,MF,332697,Midfield,22000000,MID,0.0715
+United States,Ricardo Pepi,FW,627207,Attack,16000000,ATT,0.052
+United States,Christian Pulisic,FW,315779,Attack,50000000,ATT,0.1625
+United States,Brenden Aaronson,FW,393323,Midfield,15000000,MID,0.0488
+United States,Miles Robinson,DF,468022,Defender,3500000,DEF,0.0114
+United States,Tim Ream,DF,145466,Defender,300000,DEF,0.001
+United States,Sebastian Berhalter,MF,734761,Midfield,2000000,MID,0.0065
+United States,Cristian Roldan,MF,354792,Midfield,4000000,MID,0.013
+United States,Alex Freeman,DF,985806,Defender,2000000,DEF,0.0065
+United States,Malik Tillman,MF,467437,Midfield,32000000,MID,0.104
+United States,Max Arfsten,DF,,,,,
+United States,Haji Wright,FW,315291,Attack,8000000,ATT,0.026
+United States,Folarin Balogun,FW,503770,Attack,18000000,ATT,0.0585
+United States,Timothy Weah,FW,370846,Attack,17000000,ATT,0.0553
+United States,Mark Mckenzie,DF,429259,Defender,6000000,DEF,0.0195
+United States,Joe Scally,DF,504153,Defender,10000000,DEF,0.0325
+United States,Matt Freese,GK,500309,Goalkeeper,800000,GK,0.0026
+United States,Chris Brady,GK,765504,Goalkeeper,2500000,GK,0.0081
+United States,Alejandro Zendejas,FW,,,,,
+Curaçao,Eloy Room,GK,79294,Goalkeeper,200000,GK,0.0086
+Curaçao,Shurandy Sambo,DF,412937,Defender,2000000,DEF,0.0858
+Curaçao,Jurien Gaari,DF,328455,Defender,400000,DEF,0.0172
+Curaçao,Roshon van Eijma,DF,401029,Defender,450000,DEF,0.0193
+Curaçao,Sherel Floranus,DF,315211,Defender,850000,DEF,0.0365
+Curaçao,Godfried Roemeratoe,MF,393241,Midfield,500000,MID,0.0215
+Curaçao,Juninho Bacuna,MF,348863,Midfield,3000000,MID,0.1288
+Curaçao,Livano Comenencia,MF,626764,Defender,500000,DEF,0.0215
+Curaçao,Jurgen Locadia,FW,166240,Attack,200000,ATT,0.0086
+Curaçao,Leandro Bacuna,MF,126014,Midfield,300000,MID,0.0129
+Curaçao,Jeremy Antonisse,FW,594273,Attack,700000,ATT,0.03
+Curaçao,Sontje Hansen,FW,485582,Attack,4000000,ATT,0.1717
+Curaçao,Tyrese Noslin,FW,708005,Midfield,400000,MID,0.0172
+Curaçao,Kenji Gorre,FW,374889,Attack,750000,ATT,0.0322
+Curaçao,Arjany Martha,MF,,,,,
+Curaçao,Jearl Margaritha,FW,538958,Attack,400000,ATT,0.0172
+Curaçao,Brandley Kuwas,FW,232219,Attack,300000,ATT,0.0129
+Curaçao,Armando Obispo,DF,,,,,
+Curaçao,Gervane Kastaneer,FW,240752,Attack,175000,ATT,0.0075
+Curaçao,Joshua Brenet,DF,,,,,
+Curaçao,Tahith Chong,MF,344830,Midfield,5000000,MID,0.2146
+Curaçao,Kevin Felida,MF,,,,,
+Curaçao,Riechedly Bazoer,DF,216443,Defender,3000000,DEF,0.1288
+Curaçao,Deveron Fonville,DF,,,,,
+Curaçao,Tyrick Bodak,GK,663961,Goalkeeper,25000,GK,0.0011
+Curaçao,Trevor Doornbusch,GK,390814,Goalkeeper,150000,GK,0.0064
+Ecuador,Hernan Galindez,GK,,,,,
+Ecuador,Felix Torres,DF,468174,Defender,1500000,DEF,0.0048
+Ecuador,Piero Hincapie,DF,659813,Defender,50000000,DEF,0.159
+Ecuador,Joel Ordonez,DF,893661,Defender,28000000,DEF,0.0891
+Ecuador,Jordy Alcivar,MF,,,,,
+Ecuador,Willian Pacho,DF,661171,Defender,65000000,DEF,0.2067
+Ecuador,Pervis Estupinan,DF,349599,Defender,30000000,DEF,0.0954
+Ecuador,Anthony Valencia,MF,974374,Attack,1200000,ATT,0.0038
+Ecuador,John Yeboah,FW,439914,Midfield,2800000,MID,0.0089
+Ecuador,Kendry Paez,MF,1052439,Midfield,10000000,MID,0.0318
+Ecuador,Kevin Rodriguez,FW,684159,Attack,1500000,ATT,0.0048
+Ecuador,Moises Ramirez,GK,,,,,
+Ecuador,Enner Valencia,FW,139503,Attack,1700000,ATT,0.0054
+Ecuador,Alan Minda,MF,897051,Attack,3000000,ATT,0.0095
+Ecuador,Pedro Vite,MF,659806,Midfield,5000000,MID,0.0159
+Ecuador,Jordy Caicedo,FW,360412,Attack,1200000,ATT,0.0038
+Ecuador,Angelo Preciado,DF,450241,Defender,3800000,DEF,0.0121
+Ecuador,Denil Castillo,MF,941418,Midfield,3500000,MID,0.0111
+Ecuador,Gonzalo Plata,FW,592735,Attack,8000000,ATT,0.0254
+Ecuador,Nilson Angulo,FW,903611,Attack,2000000,ATT,0.0064
+Ecuador,Alan Franco,MF,400960,Midfield,4000000,MID,0.0127
+Ecuador,Gonzalo Valle,GK,,,,,
+Ecuador,Moises Caicedo,MF,687626,Midfield,90000000,MID,0.2863
+Ecuador,Jeremy Arevalo,FW,971663,Attack,200000,ATT,0.0006
+Ecuador,Jackson Porozo,DF,491616,Defender,2000000,DEF,0.0064
+Ecuador,Yaimar Medina,DF,,,,,
+Germany,Manuel Neuer,GK,17259,Goalkeeper,4000000,GK,0.0046
+Germany,Antonio Rudiger,DF,86202,Defender,20000000,DEF,0.0229
+Germany,Waldemar Anton,DF,193004,Defender,18000000,DEF,0.0206
+Germany,Jonathan Tah,DF,196357,Defender,30000000,DEF,0.0343
+Germany,Aleksandar Pavlovic,MF,792380,Midfield,55000000,MID,0.0629
+Germany,Joshua Kimmich,DF,161056,Midfield,45000000,MID,0.0515
+Germany,Kai Havertz,FW,309400,Attack,65000000,ATT,0.0744
+Germany,Leon Goretzka,MF,153084,Midfield,22000000,MID,0.0252
+Germany,Jamie Leweling,MF,518505,Attack,20000000,ATT,0.0229
+Germany,Jamal Musiala,MF,580195,Midfield,140000000,MID,0.1602
+Germany,Nick Woltemade,FW,455661,Attack,30000000,ATT,0.0343
+Germany,Oliver Baumann,GK,55089,Goalkeeper,3000000,GK,0.0034
+Germany,Pascal Gross,MF,,,,,
+Germany,Maximilian Beier,FW,578392,Attack,25000000,ATT,0.0286
+Germany,Nico Schlotterbeck,DF,388198,Defender,40000000,DEF,0.0458
+Germany,Angelo Stiller,MF,443710,Midfield,45000000,MID,0.0515
+Germany,Florian Wirtz,MF,598577,Midfield,140000000,MID,0.1602
+Germany,Nathaniel Brown,DF,691892,Defender,22000000,DEF,0.0252
+Germany,Leroy Sane,MF,192565,Attack,32000000,ATT,0.0366
+Germany,Nadiem Amiri,MF,232454,Midfield,20000000,MID,0.0229
+Germany,Alexander Nubel,GK,195778,Goalkeeper,12000000,GK,0.0137
+Germany,David Raum,DF,318204,Defender,20000000,DEF,0.0229
+Germany,Felix Nmecha,MF,406640,Midfield,28000000,MID,0.032
+Germany,Malick Thiaw,DF,521964,Defender,18000000,DEF,0.0206
+Germany,Assan Ouedraogo,MF,,,,,
+Germany,Deniz Undav,FW,339314,Attack,20000000,ATT,0.0229
+Ivory Coast,Yahia Fofana,GK,418651,Goalkeeper,7000000,GK,0.0179
+Ivory Coast,Ousmane Diomande,DF,974982,Defender,45000000,DEF,0.1153
+Ivory Coast,Ghislain Konan,DF,422850,Defender,1000000,DEF,0.0026
+Ivory Coast,Jean Michael Seri,MF,178614,Midfield,200000,MID,0.0005
+Ivory Coast,Wilfried Singo,DF,648779,Defender,25000000,DEF,0.0641
+Ivory Coast,Seko Fofana,MF,182893,Midfield,10000000,MID,0.0256
+Ivory Coast,Odilon Kossounou,DF,644771,Defender,25000000,DEF,0.0641
+Ivory Coast,Franck Kessie,MF,294808,Midfield,14000000,MID,0.0359
+Ivory Coast,Ange-Yoan Bonny,FW,827734,Attack,20000000,ATT,0.0512
+Ivory Coast,Simon Adingra,FW,658536,Attack,28000000,ATT,0.0717
+Ivory Coast,Yan Diomande,FW,1390649,Attack,1500000,ATT,0.0038
+Ivory Coast,Elye Wahi,FW,659542,Attack,22000000,ATT,0.0564
+Ivory Coast,Christopher Operi,DF,469976,Defender,3800000,DEF,0.0097
+Ivory Coast,Oumar Diakite,FW,847279,Attack,6000000,ATT,0.0154
+Ivory Coast,Amad Diallo,FW,536835,Attack,45000000,ATT,0.1153
+Ivory Coast,Mohamed Kone,GK,911985,Goalkeeper,1200000,GK,0.0031
+Ivory Coast,Guela Doue,DF,711980,Defender,18000000,DEF,0.0461
+Ivory Coast,Ibrahim Sangare,MF,375885,Midfield,24000000,MID,0.0615
+Ivory Coast,Nicolas Pepe,FW,343052,Attack,6000000,ATT,0.0154
+Ivory Coast,Emmanuel Agbadou,DF,683895,Defender,20000000,DEF,0.0512
+Ivory Coast,Evan Ndicka,DF,371149,Defender,30000000,DEF,0.0769
+Ivory Coast,Evann Guessand,FW,500689,Attack,25000000,ATT,0.0641
+Ivory Coast,Alban Lafont,GK,357117,Goalkeeper,3000000,GK,0.0077
+Ivory Coast,Bazoumana Toure,FW,1067904,Attack,9000000,ATT,0.0231
+Ivory Coast,Parfait Guiagon,MF,,,,,
+Ivory Coast,Christ Inao Oulai,MF,1279526,Midfield,600000,MID,0.0015
+Japan,Zion Suzuki,GK,432298,Goalkeeper,20000000,GK,0.0808
+Japan,Yukinari Sugawara,DF,405385,Defender,11000000,DEF,0.0444
+Japan,Shogo Taniguchi,DF,307870,Defender,1000000,DEF,0.004
+Japan,Ko Itakura,DF,355816,Defender,12000000,DEF,0.0485
+Japan,Yuto Nagatomo,DF,79522,Defender,125000,DEF,0.0005
+Japan,Shuto Machino,FW,,,,,
+Japan,Ao Tanaka,MF,489359,Midfield,10000000,MID,0.0404
+Japan,Takefusa Kubo,MF,405398,Attack,30000000,ATT,0.1212
+Japan,Keisuke Goto,FW,916623,Attack,1200000,ATT,0.0048
+Japan,Ritsu Doan,MF,358504,Attack,25000000,ATT,0.101
+Japan,Daizen Maeda,MF,420931,Attack,15000000,ATT,0.0606
+Japan,Keisuke Osako,GK,415521,Goalkeeper,1700000,GK,0.0069
+Japan,Keito Nakamura,MF,405397,Attack,8000000,ATT,0.0323
+Japan,Junya Ito,MF,348791,Attack,6000000,ATT,0.0242
+Japan,Daichi Kamada,MF,356141,Midfield,12000000,MID,0.0485
+Japan,Tsuyoshi Watanabe,DF,598791,Defender,9000000,DEF,0.0364
+Japan,Yuito Suzuki,MF,668606,Midfield,10000000,MID,0.0404
+Japan,Ayase Ueda,FW,589128,Attack,8000000,ATT,0.0323
+Japan,Koki Ogawa,FW,351567,Attack,2500000,ATT,0.0101
+Japan,Ayumu Seko,DF,405389,Defender,1000000,DEF,0.004
+Japan,Hiroki Ito,DF,353892,Defender,25000000,DEF,0.101
+Japan,Takehiro Tomiyasu,DF,331560,Defender,18000000,DEF,0.0727
+Japan,Tomoki Hayakawa,GK,683271,Goalkeeper,1000000,GK,0.004
+Japan,Kaishu Sano,MF,643574,Midfield,20000000,MID,0.0808
+Japan,Junnosuke Suzuki,DF,,,,,
+Japan,Kento Shiogai,FW,,,,,
+Netherlands,Bart Verbruggen,GK,565093,Goalkeeper,30000000,GK,0.0393
+Netherlands,Lutsharel Geertruida,DF,420210,Defender,20000000,DEF,0.0262
+Netherlands,Marten de Roon,MF,133179,Midfield,5000000,MID,0.0066
+Netherlands,Virgil van Dijk,DF,139208,Defender,23000000,DEF,0.0301
+Netherlands,Nathan Ake,DF,177476,Defender,25000000,DEF,0.0328
+Netherlands,Jan Paul van Hecke,DF,576314,Defender,32000000,DEF,0.0419
+Netherlands,Justin Kluivert,MF,330659,Midfield,35000000,MID,0.0459
+Netherlands,Ryan Gravenberch,MF,478573,Midfield,75000000,MID,0.0983
+Netherlands,Wout Weghorst,FW,228645,Attack,4000000,ATT,0.0052
+Netherlands,Memphis Depay,FW,167850,Attack,9000000,ATT,0.0118
+Netherlands,Cody Gakpo,FW,434675,Attack,70000000,ATT,0.0917
+Netherlands,Mats Wieffer,DF,415381,Midfield,25000000,MID,0.0328
+Netherlands,Robin Roefs,GK,646991,Goalkeeper,4000000,GK,0.0052
+Netherlands,Tijjani Reijnders,MF,460939,Midfield,60000000,MID,0.0786
+Netherlands,Micky van de Ven,DF,557459,Defender,50000000,DEF,0.0655
+Netherlands,Guus Til,MF,372267,Midfield,12000000,MID,0.0157
+Netherlands,Noa Lang,FW,339332,Attack,25000000,ATT,0.0328
+Netherlands,Donyell Malen,FW,326029,Attack,25000000,ATT,0.0328
+Netherlands,Brian Brobbey,FW,473169,Attack,22000000,ATT,0.0288
+Netherlands,Teun Koopmeiners,MF,360518,Midfield,35000000,MID,0.0459
+Netherlands,Frenkie de Jong,MF,326330,Midfield,45000000,MID,0.059
+Netherlands,Denzel Dumfries,DF,321528,Defender,35000000,DEF,0.0459
+Netherlands,Mark Flekken,GK,125714,Goalkeeper,10000000,GK,0.0131
+Netherlands,Crysencio Summerville,FW,474701,Attack,22000000,ATT,0.0288
+Netherlands,Jorrel Hato,DF,904802,Defender,35000000,DEF,0.0459
+Netherlands,Quinten Timber,MF,420213,Midfield,30000000,MID,0.0393
+Sweden,Jacob Widell Zetterstrom,GK,549440,Goalkeeper,2500000,GK,0.0059
+Sweden,Gustaf Lagerbielke,DF,485395,Defender,3000000,DEF,0.0071
+Sweden,Victor Lindelof,DF,184573,Defender,8000000,DEF,0.0189
+Sweden,Isak Hien,DF,503075,Defender,30000000,DEF,0.0709
+Sweden,Gabriel Gudmundsson,DF,362108,Defender,7000000,DEF,0.0165
+Sweden,Herman Johansson,DF,744853,Midfield,1000000,MID,0.0024
+Sweden,Lucas Bergvall,MF,866246,Midfield,38000000,MID,0.0898
+Sweden,Daniel Svensson,DF,579287,Defender,12000000,DEF,0.0284
+Sweden,Alexander Isak,FW,349066,Attack,120000000,ATT,0.2837
+Sweden,Benjamin Nygren,MF,475949,Attack,6000000,ATT,0.0142
+Sweden,Anthony Elanga,FW,583189,Attack,42000000,ATT,0.0993
+Sweden,Viktor Johansson,GK,273742,Goalkeeper,8000000,GK,0.0189
+Sweden,Ken Sema,MF,252345,Attack,1300000,ATT,0.0031
+Sweden,Hjalmar Ekdal,DF,392179,Defender,4500000,DEF,0.0106
+Sweden,Carl Starfelt,DF,258987,Defender,6000000,DEF,0.0142
+Sweden,Jesper Karlstrom,MF,222855,Midfield,4000000,MID,0.0095
+Sweden,Viktor Gyokeres,FW,325443,Attack,75000000,ATT,0.1773
+Sweden,Yasin Ayari,MF,667287,Midfield,22000000,MID,0.052
+Sweden,Mattias Svanberg,MF,342405,Midfield,12000000,MID,0.0284
+Sweden,Eric Smith,DF,292534,Defender,5000000,DEF,0.0118
+Sweden,Alexander Bernhardsson,DF,633454,Attack,3000000,ATT,0.0071
+Sweden,Besfort Zeneli,MF,715653,Midfield,4000000,MID,0.0095
+Sweden,Kristoffer Nordfeldt,GK,75890,Goalkeeper,200000,GK,0.0005
+Sweden,Elliot Stroud,DF,687622,Midfield,2500000,MID,0.0059
+Sweden,Gustaf Nilsson,FW,320440,Attack,5000000,ATT,0.0118
+Sweden,Taha Ali,FW,731771,Attack,1000000,ATT,0.0024
+Tunisia,Mouhib Chamakh,GK,,,,,
+Tunisia,Ali Abdi,DF,211474,Defender,3000000,DEF,0.0542
+Tunisia,Montassar Talbi,DF,496706,Defender,6000000,DEF,0.1083
+Tunisia,Omar Rekik,DF,578292,Defender,500000,DEF,0.009
+Tunisia,Adem Arous,DF,,,,,
+Tunisia,Dylan Bronn,DF,450417,Defender,1000000,DEF,0.0181
+Tunisia,Elias Achouri,FW,645589,Attack,3500000,ATT,0.0632
+Tunisia,Elias Saad,FW,526466,Attack,4000000,ATT,0.0722
+Tunisia,Hazem Mastouri,FW,,,,,
+Tunisia,Hannibal Mejbri,MF,607224,Midfield,12000000,MID,0.2166
+Tunisia,Ismael Gharbi,MF,810096,Attack,7500000,ATT,0.1354
+Tunisia,Mortadha Ben Ouanes,DF,230921,Attack,1500000,ATT,0.0271
+Tunisia,Rani Khedira,MF,124410,Midfield,2500000,MID,0.0451
+Tunisia,Khalil Ayari,MF,,,,,
+Tunisia,Hadj Mahmoud,MF,,,,,
+Tunisia,Aymen Dahmen,GK,,,,,
+Tunisia,Ellyes Skhiri,MF,290587,Midfield,7500000,MID,0.1354
+Tunisia,Rayan Elloumi,FW,,,,,
+Tunisia,Firas Chaouat,FW,,,,,
+Tunisia,Yan Valery,DF,406008,Defender,1400000,DEF,0.0253
+Tunisia,Mohamed Amine Ben Hamida,DF,,,,,
+Tunisia,Sabri Ben Hessen,GK,,,,,
+Tunisia,Moutaz Neffati,DF,1034598,Defender,800000,DEF,0.0144
+Tunisia,Raed Chikhaoui,DF,,,,,
+Tunisia,Anis Ben Slimane,MF,546712,Midfield,3000000,MID,0.0542
+Tunisia,Sebastian Tounekti,MF,539677,Attack,1200000,ATT,0.0217
+Belgium,Thibaut Courtois,GK,108390,Goalkeeper,20000000,GK,0.0436
+Belgium,Zeno Debast,DF,,,,,
+Belgium,Arthur Theate,DF,368891,Defender,24000000,DEF,0.0523
+Belgium,Brandon Mechele,DF,236168,Defender,3500000,DEF,0.0076
+Belgium,Maxim De Cuyper,DF,429915,Defender,16000000,DEF,0.0349
+Belgium,Axel Witsel,MF,35047,Defender,2000000,DEF,0.0044
+Belgium,Kevin De Bruyne,MF,88755,Midfield,20000000,MID,0.0436
+Belgium,Youri Tielemans,MF,249565,Midfield,38000000,MID,0.0828
+Belgium,Romelu Lukaku,FW,96341,Attack,22000000,ATT,0.0479
+Belgium,Leandro Trossard,FW,144028,Attack,22000000,ATT,0.0479
+Belgium,Jeremy Doku,FW,486049,Attack,50000000,ATT,0.1089
+Belgium,Senne Lammens,GK,503883,Goalkeeper,9000000,GK,0.0196
+Belgium,Mike Penders,GK,834397,Goalkeeper,12000000,GK,0.0261
+Belgium,Dodi Lukebakio,FW,303259,Attack,20000000,ATT,0.0436
+Belgium,Thomas Meunier,DF,100986,Defender,2000000,DEF,0.0044
+Belgium,Koni De Winter,DF,490384,Defender,22000000,DEF,0.0479
+Belgium,Charles De Ketelaere,FW,435772,Midfield,35000000,MID,0.0763
+Belgium,Joaquin Seys,DF,981196,Defender,8000000,DEF,0.0174
+Belgium,Diego Moreira,MF,655006,Midfield,18000000,MID,0.0392
+Belgium,Hans Vanaken,MF,137576,Midfield,7000000,MID,0.0153
+Belgium,Timothy Castagne,DF,262226,Defender,13000000,DEF,0.0283
+Belgium,Alexis Saelemaekers,MF,381950,Attack,17000000,ATT,0.037
+Belgium,Nicolas Raskin,MF,422763,Midfield,10000000,MID,0.0218
+Belgium,Amadou Onana,MF,485706,Midfield,50000000,MID,0.1089
+Belgium,Nathan Ngoy,DF,548254,Defender,3500000,DEF,0.0076
+Belgium,Matias Fernandez-Pardo,FW,724129,Attack,15000000,ATT,0.0327
+Egypt,Mohamed Shenawy,GK,,,,,
+Egypt,Yasser Ibrahim,DF,,,,,
+Egypt,Mohamed Hany,DF,,,,,
+Egypt,Hossam Abdelmaguid,DF,,,,,
+Egypt,Ramy Rabia,DF,,,,,
+Egypt,Mohamed Abdelmonem,DF,566025,Defender,4000000,DEF,0.0295
+Egypt,Trezeguet,FW,,,,,
+Egypt,Emam Ashour,MF,604008,Midfield,4000000,MID,0.0295
+Egypt,Hamza Abdelkarim,FW,,,,,
+Egypt,Mohamed Salah,FW,148455,Attack,50000000,ATT,0.3682
+Egypt,Mostafa Ziko,MF,,,,,
+Egypt,Haissem Hassan,FW,620164,Attack,2500000,ATT,0.0184
+Egypt,Ahmed Fatouh,DF,,,,,
+Egypt,Hamdy Fathy,MF,,,,,
+Egypt,Karim Hafez,DF,333004,Defender,300000,DEF,0.0022
+Egypt,El Mahdy Soliman,GK,,,,,
+Egypt,Mohanad Lasheen,MF,,,,,
+Egypt,Nabil Emad,MF,,,,,
+Egypt,Marwan Attia,MF,,,,,
+Egypt,Ibrahim Adel,FW,,,,,
+Egypt,Mahmoud Saber,MF,,,,,
+Egypt,Omar Marmoush,FW,445939,Attack,75000000,ATT,0.5523
+Egypt,Mostafa Shobeir,GK,,,,,
+Egypt,Tarek Alaa,DF,,,,,
+Egypt,Zizo,FW,,,,,
+Egypt,Mohamed Alaa,GK,,,,,
+Iran,Alireza Beiranvand,GK,229081,Goalkeeper,800000,GK,0.048
+Iran,Saleh Hardani,DF,,,,,
+Iran,Ehsan Hajsafi,DF,77547,Defender,300000,DEF,0.018
+Iran,Shojae Khalilzadeh,DF,,,,,
+Iran,Milad Mohammadi,DF,333355,Defender,1200000,DEF,0.0721
+Iran,Saeid Ezatolahi,MF,,,,,
+Iran,Alireza Jahanbakhsh,MF,213268,Attack,1500000,ATT,0.0901
+Iran,Mohammad Mohebi,MF,603149,Attack,3000000,ATT,0.1802
+Iran,Mehdi Taremi,FW,307058,Attack,3500000,ATT,0.2102
+Iran,Mehdi Ghayedi,FW,,,,,
+Iran,Ali Alipour,FW,249360,Attack,1200000,ATT,0.0721
+Iran,Payam Niazmand,GK,343044,Goalkeeper,650000,GK,0.039
+Iran,Hossein Kanaanizadegan,DF,,,,,
+Iran,Saman Ghoddos,MF,204294,Midfield,1500000,MID,0.0901
+Iran,Rouzbeh Cheshmi,MF,,,,,
+Iran,Mehdi Torabi,MF,283833,Attack,1500000,ATT,0.0901
+Iran,Aria Yousefi,DF,,,,,
+Iran,Amirhossein Hosseinzadeh,FW,542380,Attack,1500000,ATT,0.0901
+Iran,Ali Nemati,DF,,,,,
+Iran,Shahriyar Moghanlou,FW,,,,,
+Iran,Mohammad Ghorbani,MF,,,,,
+Iran,Hossein Hosseini,GK,,,,,
+Iran,Ramin Rezaeian,DF,,,,,
+Iran,Dennis Eckert,FW,,,,,
+Iran,Danial Eiri,DF,,,,,
+Iran,Amirmohammad Razzaghinia,MF,,,,,
+New Zealand,Max Crocombe,GK,207843,Goalkeeper,225000,GK,0.0085
+New Zealand,Tim Payne,DF,149901,Defender,450000,DEF,0.0171
+New Zealand,Francis de Vries,DF,207061,Defender,600000,DEF,0.0228
+New Zealand,Tyler Bindon,DF,1007720,Defender,1200000,DEF,0.0456
+New Zealand,Michael Boxall,DF,81723,Defender,150000,DEF,0.0057
+New Zealand,Joe Bell,MF,345700,Midfield,2000000,MID,0.076
+New Zealand,Matthew Garbett,MF,617019,Midfield,400000,MID,0.0152
+New Zealand,Marko Stamenic,MF,617018,Midfield,3000000,MID,0.114
+New Zealand,Chris Wood,FW,108725,Attack,10000000,ATT,0.3799
+New Zealand,Sarpreet Singh,MF,350357,Midfield,300000,MID,0.0114
+New Zealand,Elijah Just,MF,,,,,
+New Zealand,Alex Paulsen,GK,,,,,
+New Zealand,Liberato Cacace,DF,469211,Defender,3000000,DEF,0.114
+New Zealand,Alex Rufer,MF,256019,Midfield,600000,MID,0.0228
+New Zealand,Nando Pijnaker,DF,,,,,
+New Zealand,Finn Surman,DF,724809,Defender,800000,DEF,0.0304
+New Zealand,Kosta Barbarouses,FW,50200,Attack,350000,ATT,0.0133
+New Zealand,Ben Waine,FW,539502,Attack,550000,ATT,0.0209
+New Zealand,Ben Old,MF,617021,Attack,700000,ATT,0.0266
+New Zealand,Callum Mccowatt,MF,,,,,
+New Zealand,Jesse Randall,FW,677509,Attack,350000,ATT,0.0133
+New Zealand,Michael Woud,GK,350347,Goalkeeper,200000,GK,0.0076
+New Zealand,Ryan Thomas,MF,203357,Midfield,700000,MID,0.0266
+New Zealand,Callan Elliot,DF,482204,Defender,300000,DEF,0.0114
+New Zealand,Lachlan Bayliss,MF,1109358,Midfield,350000,MID,0.0133
+New Zealand,Tommy Smith,DF,54381,Defender,100000,DEF,0.0038
+Cape Verde,Vozinha,GK,,,,,
+Cape Verde,Stopira,DF,80486,Defender,50000,DEF,0.0014
+Cape Verde,Diney,DF,,,,,
+Cape Verde,Roberto Lopes,DF,,,,,
+Cape Verde,Logan Costa,DF,484988,Defender,18000000,DEF,0.5007
+Cape Verde,Kevin Pina,MF,,,,,
+Cape Verde,Jovane Cabral,MF,448466,Attack,1000000,ATT,0.0278
+Cape Verde,Joao Paulo,MF,1113448,Attack,,ATT,
+Cape Verde,Gilson Benchimol,FW,,,,,
+Cape Verde,Jamiro Monteiro,MF,272930,Midfield,1000000,MID,0.0278
+Cape Verde,Garry Rodrigues,MF,170895,Attack,500000,ATT,0.0139
+Cape Verde,Marcio Rosa,GK,,,,,
+Cape Verde,Sidny Lopes Cabral,DF,611855,Defender,350000,DEF,0.0097
+Cape Verde,Deroy Duarte,MF,,,,,
+Cape Verde,Laros Duarte,MF,,,,,
+Cape Verde,Yannick Semedo,MF,620307,Midfield,400000,MID,0.0111
+Cape Verde,Willy Semedo,MF,531450,Attack,1000000,ATT,0.0278
+Cape Verde,Telmo Arcanjo,MF,791528,Attack,3000000,ATT,0.0834
+Cape Verde,Dailon Livramento,FW,676411,Attack,800000,ATT,0.0223
+Cape Verde,Ryan Mendes,FW,111627,Attack,450000,ATT,0.0125
+Cape Verde,Nuno Da Costa,MF,306166,Attack,600000,ATT,0.0167
+Cape Verde,Steven Moreira,DF,203517,Defender,1800000,DEF,0.0501
+Cape Verde,Cj Dos Santos,GK,532096,Goalkeeper,800000,GK,0.0223
+Cape Verde,Wagner Pina,DF,1072017,Defender,5000000,DEF,0.1391
+Cape Verde,Kelvin Pires,DF,,,,,
+Cape Verde,Helio Varela,MF,840836,Attack,1200000,ATT,0.0334
+Saudi Arabia,Nawaf Aqidi,GK,,,,,
+Saudi Arabia,Ali Majrashi,DF,,,,,
+Saudi Arabia,Ali Lajami,DF,,,,,
+Saudi Arabia,Abdulelah Amri,DF,,,,,
+Saudi Arabia,Hassan Tambakti,DF,,,,,
+Saudi Arabia,Nasser Dawsari,MF,,,,,
+Saudi Arabia,Musab Juwayr,MF,,,,,
+Saudi Arabia,Ayman Yahya,FW,,,,,
+Saudi Arabia,Firas Buraikan,FW,,,,,
+Saudi Arabia,Salem Dawsari,FW,,,,,
+Saudi Arabia,Saleh Shehri,FW,,,,,
+Saudi Arabia,Saud Abdulhamid,DF,631927,Defender,3000000,DEF,1.0
+Saudi Arabia,Nawaf Boushal,DF,,,,,
+Saudi Arabia,Hassan Kadesh,DF,,,,,
+Saudi Arabia,Abdullah Khaibari,MF,,,,,
+Saudi Arabia,Ziyad Johani,MF,,,,,
+Saudi Arabia,Khalid Ghannam,FW,,,,,
+Saudi Arabia,Alaa Hejji,MF,,,,,
+Saudi Arabia,Abdullah Hamdan,FW,,,,,
+Saudi Arabia,Sultan Mandash,FW,,,,,
+Saudi Arabia,Mohammed Owais,GK,,,,,
+Saudi Arabia,Ahmed Kassar,GK,,,,,
+Saudi Arabia,Mohamed Kanno,MF,,,,,
+Saudi Arabia,Moteb Harbi,DF,,,,,
+Saudi Arabia,Jehad Thakri,DF,,,,,
+Saudi Arabia,Mohammed Abu Shamat,DF,,,,,
+Spain,David Raya,GK,262749,Goalkeeper,40000000,GK,0.034
+Spain,Marc Pubill,DF,,,,,
+Spain,Alex Grimaldo,DF,,,,,
+Spain,Eric Garcia,DF,466794,Defender,18000000,DEF,0.0153
+Spain,Marcos Llorente,DF,282411,Defender,25000000,DEF,0.0212
+Spain,Mikel Merino,MF,338424,Midfield,35000000,MID,0.0297
+Spain,Ferran Torres,FW,398184,Attack,40000000,ATT,0.034
+Spain,Fabian Ruiz,MF,350219,Midfield,40000000,MID,0.034
+Spain,Gavi,MF,646740,Midfield,60000000,MID,0.0509
+Spain,Dani Olmo,FW,293385,Midfield,60000000,MID,0.0509
+Spain,Yeremy Pino,FW,568157,Attack,30000000,ATT,0.0255
+Spain,Pedro Porro,DF,553875,Defender,38000000,DEF,0.0323
+Spain,Joan Garcia,GK,561613,Goalkeeper,25000000,GK,0.0212
+Spain,Aymeric Laporte,DF,176553,Defender,15000000,DEF,0.0127
+Spain,Alex Baena,MF,,,,,
+Spain,Rodri,MF,357565,Midfield,110000000,MID,0.0934
+Spain,Nico Williams,FW,709187,Attack,70000000,ATT,0.0594
+Spain,Martin Zubimendi,MF,423440,Midfield,60000000,MID,0.0509
+Spain,Lamine Yamal,FW,937958,Attack,200000000,ATT,0.1698
+Spain,Pedri,MF,683840,Midfield,140000000,MID,0.1188
+Spain,Mikel Oyarzabal,FW,351478,Attack,25000000,ATT,0.0212
+Spain,Pau Cubarsi,DF,962110,Defender,80000000,DEF,0.0679
+Spain,Unai Simon,GK,262396,Goalkeeper,28000000,GK,0.0238
+Spain,Marc Cucurella,DF,284857,Defender,35000000,DEF,0.0297
+Spain,Victor Munoz,FW,935231,Attack,1000000,ATT,0.0008
+Spain,Borja Iglesias,FW,278359,Attack,3000000,ATT,0.0025
+Uruguay,Sergio Rochet,GK,264014,Goalkeeper,3000000,GK,0.0069
+Uruguay,Jose Maria Gimenez,DF,250845,Defender,20000000,DEF,0.046
+Uruguay,Sebastian Caceres,DF,532389,Defender,5000000,DEF,0.0115
+Uruguay,Ronald Araujo,DF,480267,Defender,35000000,DEF,0.0806
+Uruguay,Manuel Ugarte,MF,476701,Midfield,45000000,MID,0.1036
+Uruguay,Rodrigo Bentancur,MF,354362,Midfield,30000000,MID,0.069
+Uruguay,Nicolas de la Cruz,MF,,,,,
+Uruguay,Federico Valverde,MF,369081,Midfield,130000000,MID,0.2992
+Uruguay,Darwin Nunez,FW,546543,Attack,45000000,ATT,0.1036
+Uruguay,Giorgian de Arrascaeta,MF,248410,Midfield,15000000,MID,0.0345
+Uruguay,Facundo Pellistri,FW,676318,Attack,8000000,ATT,0.0184
+Uruguay,Santiago Mele,GK,,,,,
+Uruguay,Guillermo Varela,DF,188862,Defender,1200000,DEF,0.0028
+Uruguay,Agustin Canobbio,MF,457533,Attack,5000000,ATT,0.0115
+Uruguay,Emiliano Martinez,MF,707447,Midfield,9000000,MID,0.0207
+Uruguay,Mathias Olivera,DF,376514,Defender,20000000,DEF,0.046
+Uruguay,Matias Vina,DF,439072,Defender,5000000,DEF,0.0115
+Uruguay,Brian Rodriguez,FW,465818,Attack,6000000,ATT,0.0138
+Uruguay,Rodrigo Aguirre,FW,,,,,
+Uruguay,Maximiliano Araujo,MF,,,,,
+Uruguay,Federico Vinas,FW,578419,Attack,2000000,ATT,0.0046
+Uruguay,Joaquin Piquerez,MF,496268,Defender,15000000,DEF,0.0345
+Uruguay,Fernando Muslera,GK,58088,Goalkeeper,800000,GK,0.0018
+Uruguay,Santiago Bueno,DF,438001,Defender,10000000,DEF,0.023
+Uruguay,Juan Manuel Sanabria,MF,446106,Defender,6500000,DEF,0.015
+Uruguay,Rodrigo Zalazar,MF,606752,Midfield,18000000,MID,0.0414
+France,Brice Samba,GK,191056,Goalkeeper,12000000,GK,0.0092
+France,Malo Gusto,DF,620322,Defender,35000000,DEF,0.0267
+France,Lucas Digne,DF,126664,Defender,10000000,DEF,0.0076
+France,Dayot Upamecano,DF,344695,Defender,50000000,DEF,0.0382
+France,Jules Kounde,DF,411975,Defender,65000000,DEF,0.0497
+France,Manu Kone,MF,624690,Midfield,40000000,MID,0.0306
+France,Ousmane Dembele,FW,288230,Attack,90000000,ATT,0.0688
+France,Aurelien Tchouameni,MF,413112,Midfield,75000000,MID,0.0573
+France,Marcus Thuram,FW,318528,Attack,75000000,ATT,0.0573
+France,Kylian Mbappe,FW,342229,Attack,180000000,ATT,0.1376
+France,Michael Olise,FW,566723,Attack,100000000,ATT,0.0764
+France,Bradley Barcola,FW,708265,Attack,70000000,ATT,0.0535
+France,Ngolo Kante,MF,,,,,
+France,Adrien Rabiot,MF,182913,Midfield,25000000,MID,0.0191
+France,Ibrahima Konate,DF,357119,Defender,60000000,DEF,0.0459
+France,Mike Maignan,GK,182906,Goalkeeper,25000000,GK,0.0191
+France,William Saliba,DF,495666,Defender,80000000,DEF,0.0611
+France,Warren Zaire-Emery,MF,810092,Midfield,55000000,MID,0.042
+France,Theo Hernandez,DF,,,,,
+France,Desire Doue,FW,914562,Attack,90000000,ATT,0.0688
+France,Lucas Hernandez,DF,281963,Defender,25000000,DEF,0.0191
+France,Jean-Philippe Mateta,FW,420002,Attack,30000000,ATT,0.0229
+France,Robin Risser,GK,743515,Goalkeeper,1500000,GK,0.0011
+France,Rayan Cherki,MF,607223,Attack,45000000,ATT,0.0344
+France,Maghnes Akliouche,MF,745200,Attack,45000000,ATT,0.0344
+France,Maxence Lacroix,DF,434224,Defender,25000000,DEF,0.0191
+Iraq,Fahad Talib,GK,,,,,
+Iraq,Rebin Sulaka,DF,217073,Defender,100000,DEF,0.0071
+Iraq,Hussein Ali,DF,585325,Defender,300000,DEF,0.0213
+Iraq,Zaid Tahseen,DF,,,,,
+Iraq,Akam Hashim,DF,,,,,
+Iraq,Manaf Younis,DF,,,,,
+Iraq,Youssef Amyn,MF,684307,Attack,600000,ATT,0.0426
+Iraq,Ibrahim Bayesh,MF,,,,,
+Iraq,Ali Hamadi,FW,,,,,
+Iraq,Mohanad Ali,FW,589646,Attack,1200000,ATT,0.0851
+Iraq,Ahmed Qasem,FW,833817,Attack,3500000,ATT,0.2482
+Iraq,Jalal Hassan,GK,,,,,
+Iraq,Ali Yousif,FW,,,,,
+Iraq,Zidane Iqbal,MF,686845,Midfield,4000000,MID,0.2837
+Iraq,Ahmed Maknzi,DF,,,,,
+Iraq,Amir Ammari,MF,,,,,
+Iraq,Ali Jasim,FW,877672,Attack,550000,ATT,0.039
+Iraq,Aymen Hussein,FW,,,,,
+Iraq,Kevin Yakob,MF,,,,,
+Iraq,Aimar Sher,MF,579294,Midfield,1300000,MID,0.0922
+Iraq,Marko Farji,FW,663153,Attack,2200000,ATT,0.156
+Iraq,Ahmed Basil,GK,,,,,
+Iraq,Merchas Doski,DF,,,,,
+Iraq,Zaid Ismail,MF,,,,,
+Iraq,Mustafa Saadoon,DF,,,,,
+Iraq,Frans Putros,DF,166460,Defender,350000,DEF,0.0248
+Norway,Orjan Nyland,GK,,,,,
+Norway,Morten Thorsby,MF,226524,Midfield,3000000,MID,0.0081
+Norway,Kristoffer Ajer,DF,328658,Defender,18000000,DEF,0.0488
+Norway,Leo Ostigard,DF,,,,,
+Norway,David Moller Wolfe,DF,,,,,
+Norway,Patrick Berg,MF,308439,Midfield,6000000,MID,0.0163
+Norway,Alexander Sorloth,FW,,,,,
+Norway,Sander Berge,MF,333014,Midfield,25000000,MID,0.0678
+Norway,Erling Haaland,FW,418560,Attack,180000000,ATT,0.4878
+Norway,Martin Odegaard,MF,,,,,
+Norway,Jorgen Strand Larsen,FW,,,,,
+Norway,Sander Tangvik,GK,549378,Goalkeeper,3500000,GK,0.0095
+Norway,Egil Selvik,GK,380744,Goalkeeper,1500000,GK,0.0041
+Norway,Fredrik Aursnes,MF,223367,Midfield,20000000,MID,0.0542
+Norway,Fredrik Andre Bjorkan,DF,,,,,
+Norway,Marcus Holmgren Pedersen,DF,583404,Defender,3000000,DEF,0.0081
+Norway,Torbjorn Heggem,DF,,,,,
+Norway,Kristian Thorstvedt,MF,564785,Midfield,9000000,MID,0.0244
+Norway,Thelo Aasgaard,MF,647384,Midfield,2000000,MID,0.0054
+Norway,Antonio Nusa,MF,894914,Attack,28000000,ATT,0.0759
+Norway,Andreas Schjelderup,MF,670103,Attack,15000000,ATT,0.0407
+Norway,Oscar Bobb,MF,661207,Attack,25000000,ATT,0.0678
+Norway,Jens Petter Hauge,MF,422355,Attack,4000000,ATT,0.0108
+Norway,Sondre Langas,DF,737837,Defender,3500000,DEF,0.0095
+Norway,Henrik Falchener,DF,743088,Defender,2500000,DEF,0.0068
+Norway,Julian Ryerson,DF,370789,Defender,20000000,DEF,0.0542
+Senegal,Yehvann Diouf,GK,448632,Goalkeeper,12000000,GK,0.0361
+Senegal,Mamadou Sarr,DF,910905,Defender,20000000,DEF,0.0602
+Senegal,Kalidou Koulibaly,DF,93128,Defender,6000000,DEF,0.0181
+Senegal,Abdoulaye Seck,DF,265383,Defender,500000,DEF,0.0015
+Senegal,Idrissa Gueye,MF,126665,Midfield,1500000,MID,0.0045
+Senegal,Pathe Ciss,MF,525578,Midfield,2000000,MID,0.006
+Senegal,Assane Diao,FW,1061282,Attack,30000000,ATT,0.0903
+Senegal,Lamine Camara,MF,918969,Midfield,22000000,MID,0.0662
+Senegal,Bamba Dieng,FW,822458,Attack,3000000,ATT,0.009
+Senegal,Sadio Mane,FW,200512,Attack,8000000,ATT,0.0241
+Senegal,Nicolas Jackson,FW,776890,Attack,50000000,ATT,0.1505
+Senegal,Cherif Ndiaye,FW,480705,Attack,5000000,ATT,0.015
+Senegal,Iliman Ndiaye,FW,623570,Attack,22000000,ATT,0.0662
+Senegal,Ismail Jakobs,DF,375137,Defender,7000000,DEF,0.0211
+Senegal,Krepin Diatta,DF,490426,Attack,7000000,ATT,0.0211
+Senegal,Edouard Mendy,GK,442531,Goalkeeper,5000000,GK,0.015
+Senegal,Pape Matar Sarr,MF,568693,Midfield,32000000,MID,0.0963
+Senegal,Ismaila Sarr,FW,410225,Attack,25000000,ATT,0.0752
+Senegal,Moussa Niakhate,DF,291200,Defender,15000000,DEF,0.0451
+Senegal,Ibrahim Mbaye,FW,1185888,Attack,3000000,ATT,0.009
+Senegal,Habib Diarra,MF,876631,Midfield,20000000,MID,0.0602
+Senegal,Bara Sapoko Ndiaye,MF,,,,,
+Senegal,Mory Diaw,GK,164904,Goalkeeper,800000,GK,0.0024
+Senegal,Antoine Mendy,DF,891998,Defender,2500000,DEF,0.0075
+Senegal,El Hadji Malick Diouf,DF,1111589,Defender,18000000,DEF,0.0542
+Senegal,Pape Gueye,MF,485963,Midfield,15000000,MID,0.0451
+Algeria,Melvin Mastil,GK,534398,Goalkeeper,200000,GK,0.0011
+Algeria,Aissa Mandi,DF,80293,Defender,1200000,DEF,0.0063
+Algeria,Achref Abada,DF,,,,,
+Algeria,Mohamed Amine Tougai,DF,,,,,
+Algeria,Zineddine Belaid,DF,,,,,
+Algeria,Ramiz Zerrouki,MF,,,,,
+Algeria,Riyad Mahrez,FW,171424,Attack,8000000,ATT,0.0422
+Algeria,Houssem Aouar,MF,395693,Midfield,8500000,MID,0.0448
+Algeria,Amine Gouiri,FW,418659,Attack,30000000,ATT,0.1583
+Algeria,Fares Chaibi,MF,855015,Midfield,9000000,MID,0.0475
+Algeria,Anis Hadj Moussa,FW,917911,Attack,14000000,ATT,0.0739
+Algeria,Nadhir Benbouali,FW,,,,,
+Algeria,Jaouen Hadjam,DF,750903,Defender,9000000,DEF,0.0475
+Algeria,Hicham Boudaoui,MF,560593,Midfield,15000000,MID,0.0791
+Algeria,Rayan Ait-Nouri,DF,578391,Defender,35000000,DEF,0.1846
+Algeria,Oussama Benbot,GK,,,,,
+Algeria,Rafik Belghali,DF,,,,,
+Algeria,Mohamed Amoura,FW,746910,Attack,32000000,ATT,0.1688
+Algeria,Nabil Bentaleb,MF,245537,Midfield,6000000,MID,0.0317
+Algeria,Adil Boulbina,FW,,,,,
+Algeria,Ramy Bensebaini,DF,284732,Defender,7000000,DEF,0.0369
+Algeria,Ibrahim Maza,MF,905011,Midfield,12000000,MID,0.0633
+Algeria,Luca Zidane,GK,283489,Goalkeeper,1500000,GK,0.0079
+Algeria,Yacine Titraoui,MF,,,,,
+Algeria,Fares Ghedjemis,FW,888738,Attack,450000,ATT,0.0024
+Algeria,Samir Chergui,DF,668167,Defender,700000,DEF,0.0037
+Argentina,Juan Musso,GK,242359,Goalkeeper,3500000,GK,0.0044
+Argentina,Marcos Senesi,DF,469781,Defender,22000000,DEF,0.0279
+Argentina,Nicolas Tagliafico,DF,131225,Defender,6000000,DEF,0.0076
+Argentina,Gonzalo Montiel,DF,402733,Defender,5000000,DEF,0.0063
+Argentina,Leandro Paredes,MF,166237,Midfield,5000000,MID,0.0063
+Argentina,Lisandro Martinez,DF,480762,Defender,40000000,DEF,0.0508
+Argentina,Rodrigo De Paul,MF,255901,Midfield,20000000,MID,0.0254
+Argentina,Valentin Barco,MF,849410,Midfield,12000000,MID,0.0152
+Argentina,Julian Alvarez,FW,576024,Attack,100000000,ATT,0.127
+Argentina,Lionel Messi,FW,28003,Attack,18000000,ATT,0.0229
+Argentina,Giovani Lo Celso,MF,348795,Midfield,15000000,MID,0.019
+Argentina,Geronimo Rulli,GK,229604,Goalkeeper,8000000,GK,0.0102
+Argentina,Cristian Romero,DF,355915,Defender,50000000,DEF,0.0635
+Argentina,Exequiel Palacios,MF,401578,Midfield,40000000,MID,0.0508
+Argentina,Nicolas Gonzalez,MF,,,,,
+Argentina,Thiago Almada,FW,576028,Attack,25000000,ATT,0.0317
+Argentina,Giuliano Simeone,FW,742201,Attack,35000000,ATT,0.0444
+Argentina,Nico Paz,FW,948294,Midfield,35000000,MID,0.0444
+Argentina,Nicolas Otamendi,DF,54781,Defender,1000000,DEF,0.0013
+Argentina,Alexis Mac Allister,MF,534033,Midfield,100000000,MID,0.127
+Argentina,Jose Manuel Lopez,FW,844797,Attack,12000000,ATT,0.0152
+Argentina,Lautaro Martinez,FW,406625,Attack,95000000,ATT,0.1206
+Argentina,Emiliano Martinez,GK,111873,Goalkeeper,20000000,GK,0.0254
+Argentina,Enzo Fernandez,MF,648195,Midfield,75000000,MID,0.0952
+Argentina,Facundo Medina,DF,474800,Defender,25000000,DEF,0.0317
+Argentina,Nahuel Molina,DF,424042,Defender,20000000,DEF,0.0254
+Austria,Alexander Schlager,GK,186374,Goalkeeper,2500000,GK,0.011
+Austria,David Affengruber,DF,452483,Defender,5000000,DEF,0.0219
+Austria,Kevin Danso,DF,263236,Defender,25000000,DEF,0.1096
+Austria,Xaver Schlager,MF,223979,Midfield,10000000,MID,0.0439
+Austria,Stefan Posch,DF,223974,Defender,8000000,DEF,0.0351
+Austria,Nicolas Seiwald,MF,404950,Midfield,18000000,MID,0.0789
+Austria,Marko Arnautovic,FW,41384,Attack,3000000,ATT,0.0132
+Austria,David Alaba,DF,59016,Defender,6000000,DEF,0.0263
+Austria,Marcel Sabitzer,MF,106987,Midfield,8000000,MID,0.0351
+Austria,Florian Grillitsch,MF,195736,Midfield,2000000,MID,0.0088
+Austria,Michael Gregoritsch,FW,120205,Attack,3000000,ATT,0.0132
+Austria,Florian Wiegele,GK,,,,,
+Austria,Patrick Pentz,GK,223972,Goalkeeper,2500000,GK,0.011
+Austria,Sasa Kalajdzic,FW,369567,Attack,4000000,ATT,0.0175
+Austria,Philipp Lienhart,DF,225657,Defender,12000000,DEF,0.0526
+Austria,Phillipp Mwene,DF,127573,Defender,1800000,DEF,0.0079
+Austria,Carney Chukwuemeka,MF,659459,Midfield,18000000,MID,0.0789
+Austria,Romano Schmid,MF,346853,Midfield,17000000,MID,0.0746
+Austria,Dejan Ljubicic,MF,287188,Midfield,4000000,MID,0.0175
+Austria,Konrad Laimer,MF,223967,Defender,25000000,DEF,0.1096
+Austria,Patrick Wimmer,FW,533295,Attack,15000000,ATT,0.0658
+Austria,Alexander Prass,MF,434116,Defender,5000000,DEF,0.0219
+Austria,Marco Friedl,DF,156990,Defender,12000000,DEF,0.0526
+Austria,Paul Wanner,MF,900909,Midfield,18000000,MID,0.0789
+Austria,Michael Svoboda,DF,438961,Defender,2500000,DEF,0.011
+Austria,Alessandro Schopf,MF,118397,Midfield,700000,MID,0.0031
+Jordan,Yazeed Abulaila,GK,,,,,
+Jordan,Mohammad Abu Hashish,DF,,,,,
+Jordan,Abdallah Nasib,DF,,,,,
+Jordan,Husam Abu Dahab,DF,,,,,
+Jordan,Yazan Arab,DF,,,,,
+Jordan,Amer Jamous,MF,,,,,
+Jordan,Mohammad Abu Zrayq,FW,,,,,
+Jordan,Noor Rawabdeh,MF,,,,,
+Jordan,Ali Olwan,FW,,,,,
+Jordan,Musa Taamari,FW,,,,,
+Jordan,Odeh Fakhouri,FW,,,,,
+Jordan,Nour Bani Attiah,GK,,,,,
+Jordan,Mahmoud Mardi,FW,,,,,
+Jordan,Rajaei Ayed,MF,261842,Midfield,350000,MID,1.0
+Jordan,Ibrahim Sadeh,MF,,,,,
+Jordan,Mo Abualnadi,DF,,,,,
+Jordan,Salim Obaid,DF,,,,,
+Jordan,Mohammad Taha,MF,,,,,
+Jordan,Saed Rosan,DF,,,,,
+Jordan,Mohannad Abu Taha,MF,,,,,
+Jordan,Nizar Rashdan,MF,,,,,
+Jordan,Abdallah Fakhouri,GK,,,,,
+Jordan,Ihsan Haddad,DF,,,,,
+Jordan,Ali Azaizeh,FW,,,,,
+Jordan,Mohammad Dawoud,MF,,,,,
+Jordan,Anas Badawi,DF,,,,,
+Colombia,David Ospina,GK,73396,Goalkeeper,400000,GK,0.0015
+Colombia,Daniel Munoz,DF,493003,Defender,25000000,DEF,0.0958
+Colombia,Jhon Lucumi,DF,413565,Defender,22000000,DEF,0.0843
+Colombia,Santiago Arias,DF,120443,Defender,2000000,DEF,0.0077
+Colombia,Kevin Castano,MF,857948,Midfield,8000000,MID,0.0307
+Colombia,Richard Rios,MF,735573,Midfield,16000000,MID,0.0613
+Colombia,Luis Diaz,FW,480692,Attack,70000000,ATT,0.2682
+Colombia,Jorge Carrascal,MF,354145,Midfield,7000000,MID,0.0268
+Colombia,Jhon Cordoba,FW,185245,Attack,12000000,ATT,0.046
+Colombia,James Rodriguez,MF,88103,Midfield,2500000,MID,0.0096
+Colombia,Jhon Arias,MF,588989,Attack,17000000,ATT,0.0651
+Colombia,Camilo Vargas,GK,74113,Goalkeeper,600000,GK,0.0023
+Colombia,Yerry Mina,DF,289446,Defender,3000000,DEF,0.0115
+Colombia,Gustavo Puerta,DF,,,,,
+Colombia,Juan Portilla,MF,585747,Midfield,3500000,MID,0.0134
+Colombia,Jefferson Lerma,MF,262980,Midfield,10000000,MID,0.0383
+Colombia,Johan Mojica,DF,262939,Defender,2000000,DEF,0.0077
+Colombia,Willer Ditta,DF,609255,Defender,5000000,DEF,0.0192
+Colombia,Cucho Hernandez,FW,459463,Attack,18000000,ATT,0.069
+Colombia,Juan Fernando Quintero,MF,,,,,
+Colombia,Jaminton Campaz,FW,491553,Attack,6000000,ATT,0.023
+Colombia,Deiver Machado,DF,332560,Defender,3000000,DEF,0.0115
+Colombia,Davinson Sanchez,DF,341429,Defender,20000000,DEF,0.0766
+Colombia,Alvaro Montero,GK,221990,Attack,,ATT,
+Colombia,Luis Suarez,FW,424784,Attack,8000000,ATT,0.0307
+Colombia,Andres Gomez,FW,,,,,
+DR Congo,Lionel Mpasi,GK,,,,,
+DR Congo,Aaron Wan-Bissaka,DF,477758,Defender,24000000,DEF,0.1927
+DR Congo,Steve Kapuadi,DF,679709,Defender,3000000,DEF,0.0241
+DR Congo,Axel Tuanzebe,DF,342046,Defender,5000000,DEF,0.0401
+DR Congo,Dylan Batubinsika,DF,289432,Defender,1200000,DEF,0.0096
+DR Congo,Ngalayel Mukau,MF,,,,,
+DR Congo,Nathanael Mbuku,MF,557614,Attack,1000000,ATT,0.008
+DR Congo,Samuel Moutoussamy,MF,353403,Midfield,1600000,MID,0.0128
+DR Congo,Brian Cipenga,FW,700565,Attack,500000,ATT,0.004
+DR Congo,Theo Bongonda,MF,280701,Attack,6000000,ATT,0.0482
+DR Congo,Gael Kakuta,FW,74297,Midfield,600000,MID,0.0048
+DR Congo,Joris Kayembe,DF,129586,Defender,3000000,DEF,0.0241
+DR Congo,Meschak Elia,FW,,,,,
+DR Congo,Noah Sadiki,MF,727089,Midfield,12000000,MID,0.0963
+DR Congo,Aaron Tshibola,MF,243633,Midfield,350000,MID,0.0028
+DR Congo,Timothy Fayulu,GK,541420,Goalkeeper,1400000,GK,0.0112
+DR Congo,Cedric Bakambu,FW,127048,Attack,1500000,ATT,0.012
+DR Congo,Charles Pickel,MF,243879,Midfield,2400000,MID,0.0193
+DR Congo,Fiston Mayele,FW,,,,,
+DR Congo,Yoane Wissa,FW,388165,Attack,32000000,ATT,0.2569
+DR Congo,Matthieu Epolo,GK,680218,Goalkeeper,4000000,GK,0.0321
+DR Congo,Chancel Mbemba,DF,203348,Defender,2000000,DEF,0.0161
+DR Congo,Simon Banza,FW,344869,Attack,14000000,ATT,0.1124
+DR Congo,Gedeon Kalulu,DF,395685,Defender,2000000,DEF,0.0161
+DR Congo,Edo Kayembe,MF,486477,Midfield,4000000,MID,0.0321
+DR Congo,Arthur Masuaku,DF,181380,Defender,3000000,DEF,0.0241
+Portugal,Diogo Costa,GK,357153,Goalkeeper,40000000,GK,0.0428
+Portugal,Nelson Semedo,DF,231572,Defender,9000000,DEF,0.0096
+Portugal,Ruben Dias,DF,258004,Defender,65000000,DEF,0.0696
+Portugal,Tomas Araujo,DF,504087,Defender,32000000,DEF,0.0343
+Portugal,Diogo Dalot,DF,357147,Defender,30000000,DEF,0.0321
+Portugal,Matheus Nunes,MF,601883,Midfield,35000000,MID,0.0375
+Portugal,Cristiano Ronaldo,FW,8198,Attack,12000000,ATT,0.0128
+Portugal,Bruno Fernandes,MF,240306,Midfield,50000000,MID,0.0535
+Portugal,Goncalo Ramos,FW,550550,Attack,40000000,ATT,0.0428
+Portugal,Bernardo Silva,MF,241641,Midfield,38000000,MID,0.0407
+Portugal,Joao Felix,FW,462250,Attack,20000000,ATT,0.0214
+Portugal,Jose Sa,GK,249994,Goalkeeper,7000000,GK,0.0075
+Portugal,Renato Veiga,DF,805714,Defender,25000000,DEF,0.0268
+Portugal,Goncalo Inacio,DF,549006,Defender,45000000,DEF,0.0482
+Portugal,Joao Neves,MF,670681,Midfield,80000000,MID,0.0857
+Portugal,Francisco Trincao,FW,412669,Attack,35000000,ATT,0.0375
+Portugal,Rafael Leao,FW,357164,Attack,70000000,ATT,0.0749
+Portugal,Pedro Neto,FW,487465,Attack,50000000,ATT,0.0535
+Portugal,Goncalo Guedes,FW,225122,Attack,11000000,ATT,0.0118
+Portugal,Joao Cancelo,DF,182712,Defender,15000000,DEF,0.0161
+Portugal,Ruben Neves,MF,225161,Midfield,25000000,MID,0.0268
+Portugal,Rui Silva,GK,234811,Goalkeeper,7000000,GK,0.0075
+Portugal,Vitinha,MF,487469,Midfield,80000000,MID,0.0857
+Portugal,Samu Costa,DF,657430,Midfield,15000000,MID,0.0161
+Portugal,Nuno Mendes,DF,616341,Defender,70000000,DEF,0.0749
+Portugal,Francisco Conceicao,FW,487474,Attack,28000000,ATT,0.03
+Uzbekistan,Utkir Yusupov,GK,,,,,
+Uzbekistan,Abdukodir Khusanov,DF,763079,Defender,35000000,DEF,0.8083
+Uzbekistan,Khojiakbar Alijonov,DF,,,,,
+Uzbekistan,Farrukh Sayfiev,DF,,,,,
+Uzbekistan,Rustam Ashurmatov,DF,,,,,
+Uzbekistan,Akmal Mozgovoy,MF,,,,,
+Uzbekistan,Otabek Shukurov,MF,294525,Midfield,1800000,MID,0.0416
+Uzbekistan,Jamshid Iskanderov,MF,,,,,
+Uzbekistan,Odiljon Hamrobekov,MF,,,,,
+Uzbekistan,Jaloliddin Masharipov,MF,274536,Attack,1500000,ATT,0.0346
+Uzbekistan,Oston Urunov,MF,,,,,
+Uzbekistan,Abduvohid Nematov,GK,,,,,
+Uzbekistan,Sherzod Nasrullaev,DF,,,,,
+Uzbekistan,Eldor Shomurodov,FW,358166,Attack,5000000,ATT,0.1155
+Uzbekistan,Umar Eshmurodov,DF,,,,,
+Uzbekistan,Botirali Ergashev,GK,,,,,
+Uzbekistan,Dostonbek Khamdamov,MF,,,,,
+Uzbekistan,Abdulla Abdullaev,DF,709479,Attack,,ATT,
+Uzbekistan,Azizjon Ganiev,MF,,,,,
+Uzbekistan,Azizbek Amonov,FW,,,,,
+Uzbekistan,Igor Sergeev,FW,,,,,
+Uzbekistan,Abbosbek Fayzullaev,MF,,,,,
+Uzbekistan,Sherzod Esanov,MF,,,,,
+Uzbekistan,Bekhruz Karimov,DF,,,,,
+Uzbekistan,Avazbek Ulmasaliev,DF,,,,,
+Uzbekistan,Jakhongir Urozov,DF,,,,,
+Croatia,Dominik Livakovic,GK,205927,Goalkeeper,9000000,GK,0.0276
+Croatia,Josip Stanisic,DF,483046,Defender,32000000,DEF,0.0983
+Croatia,Marin Pongracic,DF,282144,Defender,10000000,DEF,0.0307
+Croatia,Josko Gvardiol,DF,475959,Defender,75000000,DEF,0.2304
+Croatia,Duje Caleta-Car,DF,238266,Defender,7000000,DEF,0.0215
+Croatia,Josip Sutalo,DF,371001,Defender,24000000,DEF,0.0737
+Croatia,Nikola Moro,MF,316934,Midfield,4500000,MID,0.0138
+Croatia,Mateo Kovacic,MF,51471,Midfield,20000000,MID,0.0614
+Croatia,Andrej Kramaric,FW,46580,Midfield,4000000,MID,0.0123
+Croatia,Luka Modric,MF,27992,Midfield,4000000,MID,0.0123
+Croatia,Ante Budimir,FW,46413,Attack,5000000,ATT,0.0154
+Croatia,Ivor Pandur,GK,371013,Goalkeeper,2000000,GK,0.0061
+Croatia,Nikola Vlasic,MF,293200,Midfield,8000000,MID,0.0246
+Croatia,Ivan Perisic,FW,42460,Attack,1500000,ATT,0.0046
+Croatia,Mario Pasalic,MF,205938,Midfield,10000000,MID,0.0307
+Croatia,Martin Baturina,MF,580451,Midfield,22000000,MID,0.0676
+Croatia,Petar Sucic,MF,668207,Midfield,14000000,MID,0.043
+Croatia,Kristijan Jakic,DF,374954,Midfield,6500000,MID,0.02
+Croatia,Toni Fruk,MF,432758,Midfield,10000000,MID,0.0307
+Croatia,Igor Matanovic,FW,605268,Attack,5000000,ATT,0.0154
+Croatia,Luka Sucic,MF,502722,Midfield,15000000,MID,0.0461
+Croatia,Luka Vuskovic,DF,892160,Defender,12000000,DEF,0.0369
+Croatia,Dominik Kotarski,GK,370997,Goalkeeper,9000000,GK,0.0276
+Croatia,Marco Pasalic,FW,395928,Attack,6000000,ATT,0.0184
+Croatia,Martin Erlic,DF,357003,Defender,4000000,DEF,0.0123
+Croatia,Petar Musa,FW,387110,Attack,6000000,ATT,0.0184
+England,Jordan Pickford,GK,130164,Goalkeeper,18000000,GK,0.0147
+England,Ezri Konsa,DF,413403,Defender,35000000,DEF,0.0287
+England,Nico OReilly,DF,,,,,
+England,Declan Rice,MF,357662,Midfield,120000000,MID,0.0983
+England,John Stones,DF,186590,Defender,25000000,DEF,0.0205
+England,Marc Guehi,DF,392757,Defender,45000000,DEF,0.0369
+England,Bukayo Saka,FW,433177,Attack,150000000,ATT,0.1229
+England,Elliot Anderson,MF,567576,Midfield,32000000,MID,0.0262
+England,Harry Kane,FW,132098,Attack,75000000,ATT,0.0615
+England,Jude Bellingham,MF,581678,Midfield,180000000,MID,0.1475
+England,Marcus Rashford,FW,258923,Attack,50000000,ATT,0.041
+England,Tino Livramento,DF,503981,Defender,40000000,DEF,0.0328
+England,Dean Henderson,GK,258919,Goalkeeper,20000000,GK,0.0164
+England,Jordan Henderson,MF,61651,Midfield,2500000,MID,0.002
+England,Dan Burn,DF,134270,Defender,6000000,DEF,0.0049
+England,Kobbie Mainoo,MF,820374,Midfield,50000000,MID,0.041
+England,Morgan Rogers,MF,503743,Midfield,55000000,MID,0.0451
+England,Anthony Gordon,FW,503733,Attack,65000000,ATT,0.0533
+England,Ollie Watkins,FW,324358,Attack,40000000,ATT,0.0328
+England,Noni Madueke,FW,503987,Attack,40000000,ATT,0.0328
+England,Eberechi Eze,MF,479999,Midfield,55000000,MID,0.0451
+England,Ivan Toney,FW,251664,Attack,25000000,ATT,0.0205
+England,James Trafford,GK,566799,Goalkeeper,22000000,GK,0.018
+England,Reece James,DF,472423,Defender,30000000,DEF,0.0246
+England,Djed Spence,DF,483348,Defender,20000000,DEF,0.0164
+England,Jarell Quansah,DF,632349,Defender,20000000,DEF,0.0164
+Ghana,Lawrence Ati-Zigi,GK,,,,,
+Ghana,Alidu Seidu,DF,798404,Defender,9000000,DEF,0.0569
+Ghana,Caleb Yirenkyi,MF,1240763,Midfield,1000000,MID,0.0063
+Ghana,Jonas Adjetey,DF,734676,Defender,8000000,DEF,0.0506
+Ghana,Thomas Partey,MF,230784,Midfield,14000000,MID,0.0886
+Ghana,Abdul Mumin,DF,451801,Defender,5000000,DEF,0.0316
+Ghana,Abdul Fatawu,FW,,,,,
+Ghana,Kwasi Sibo,MF,538006,Midfield,1000000,MID,0.0063
+Ghana,Jordan Ayew,FW,108354,Attack,2500000,ATT,0.0158
+Ghana,Brandon Thomas-Asante,FW,451747,Attack,3500000,ATT,0.0221
+Ghana,Antoine Semenyo,MF,583255,Attack,40000000,ATT,0.253
+Ghana,Joseph Anang,GK,576099,Goalkeeper,300000,GK,0.0019
+Ghana,Christopher Bonsu Baah,FW,1119447,Attack,7500000,ATT,0.0474
+Ghana,Gideon Mensah,DF,397171,Defender,4000000,DEF,0.0253
+Ghana,Elisha Owusu,MF,395695,Midfield,3000000,MID,0.019
+Ghana,Benjamin Asare,GK,,,,,
+Ghana,Abdul Rahman Baba,DF,224884,Defender,2000000,DEF,0.0127
+Ghana,Jerome Opoku,DF,408563,Defender,5000000,DEF,0.0316
+Ghana,Inaki Williams,FW,255508,Attack,15000000,ATT,0.0949
+Ghana,Augustine Boakye,MF,579263,Attack,2500000,ATT,0.0158
+Ghana,Kojo Peprah Oppong,DF,1113451,Defender,1000000,DEF,0.0063
+Ghana,Kamaldeen Sulemana,FW,746695,Attack,13000000,ATT,0.0822
+Ghana,Derrick Luckassen,DF,241457,Defender,1000000,DEF,0.0063
+Ghana,Ernest Nuamah,FW,955070,Attack,15000000,ATT,0.0949
+Ghana,Prince Kwabena Adu,FW,734799,Attack,3000000,ATT,0.019
+Ghana,Marvin Senaya,DF,830890,Defender,1800000,DEF,0.0114
+Panama,Luis Mejia,GK,,,,,
+Panama,Cesar Blackman,DF,440383,Defender,2500000,DEF,0.1366
+Panama,Jose Cordoba,DF,698415,Defender,4800000,DEF,0.2623
+Panama,Fidel Escobar,DF,345716,Defender,350000,DEF,0.0191
+Panama,Edgardo Farina,DF,,,,,
+Panama,Cristian Martinez,MF,154698,Attack,100000,ATT,0.0055
+Panama,Jose Luis Rodriguez,MF,425028,Attack,2000000,ATT,0.1093
+Panama,Adalberto Carrasquilla,MF,375300,Midfield,3800000,MID,0.2077
+Panama,Tomas Rodriguez,FW,,,,,
+Panama,Ismael Diaz,MF,,,,,
+Panama,Yoel Barcenas,MF,283473,Attack,800000,ATT,0.0437
+Panama,Cesar Samudio,GK,,,,,
+Panama,Jiovany Ramos,DF,,,,,
+Panama,Carlos Harvey,DF,628806,Midfield,600000,MID,0.0328
+Panama,Eric Davis,DF,121791,Defender,50000,DEF,0.0027
+Panama,Andres Andrade,DF,403808,Defender,2000000,DEF,0.1093
+Panama,Jose Fajardo,FW,546803,Attack,800000,ATT,0.0437
+Panama,Cecilio Waterman,FW,,,,,
+Panama,Alberto Quintero,MF,126019,Attack,100000,ATT,0.0055
+Panama,Anibal Godoy,MF,161671,Midfield,150000,MID,0.0082
+Panama,Cesar Yanis,MF,741098,Attack,250000,ATT,0.0137
+Panama,Orlando Mosquera,GK,,,,,
+Panama,Michael Amir Murillo,DF,,,,,
+Panama,Azarias Londono,FW,,,,,
+Panama,Roderick Miller,DF,,,,,
+Panama,Jorge Gutierrez,DF,,,,,

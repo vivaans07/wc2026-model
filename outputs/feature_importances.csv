@@ -1,0 +1,10 @@
+feature,acc_drop
+dc_xg_diff,0.0928
+dc_xg_home,0.0068
+dc_xg_away,0.0046
+elo_diff/100,0.003
+home_adv,0.003
+atk_home,0.0
+dfn_home,0.0
+atk_away,-0.0008
+dfn_away,-0.0015

@@ -1,0 +1,5 @@
+date,match,venue,prediction,pred_prob,P_home,P_draw,P_away,exp_goals,most_likely_score,mc_P_home,mc_P_draw,mc_P_away,mc_max_error_pp,accuracy_rating,calibrated_hit_rate
+2026-06-17,Portugal vs DR Congo,"Houston, United States",WIN Portugal,0.6635,0.6635,0.2246,0.1118,1.81-0.59,1-0,0.6632,0.2256,0.1112,0.095,Moderate,0.67
+2026-06-17,Uzbekistan vs Colombia,"Mexico City, Mexico",WIN Colombia,0.5631,0.1578,0.2791,0.5631,0.63-1.43,0-1,0.1571,0.2783,0.5645,0.14,Low-moderate,0.54
+2026-06-17,England vs Croatia,"Arlington, United States",WIN England,0.4859,0.4859,0.291,0.2231,1.34-0.82,1-0,0.4853,0.2908,0.2238,0.079,Low (toss-up),0.474
+2026-06-17,Ghana vs Panama,"Toronto, Canada",WIN Ghana,0.3502,0.3502,0.2999,0.3499,1.11-1.11,1-1,0.3502,0.3008,0.3489,0.099,Low (toss-up),0.402

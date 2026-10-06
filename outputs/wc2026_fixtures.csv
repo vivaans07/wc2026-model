@@ -1,0 +1,105 @@
+match_id,date,stage,group,home_country,away_country,venue,actual_home_goals,actual_away_goals,status,source
+M001,2026-06-11,Group A,A,Mexico,South Africa,"Mexico City, Mexico",2,0,played,"https://github.com/martj42/international_results (results.csv, 1872–2026)"
+M002,2026-06-11,Group A,A,South Korea,Czech Republic,"Zapopan, Mexico",2,1,played,"https://github.com/martj42/international_results (results.csv, 1872–2026)"
+M003,2026-06-12,Group B,B,Canada,Bosnia and Herzegovina,"Toronto, Canada",1,1,played,"https://github.com/martj42/international_results (results.csv, 1872–2026)"
+M004,2026-06-12,Group D,D,United States,Paraguay,"Inglewood, United States",4,1,played,"https://github.com/martj42/international_results (results.csv, 1872–2026)"
+M005,2026-06-13,Group B,B,Qatar,Switzerland,"Santa Clara, United States",1,1,played,"https://github.com/martj42/international_results (results.csv, 1872–2026)"
+M006,2026-06-13,Group C,C,Brazil,Morocco,"East Rutherford, United States",1,1,played,"https://github.com/martj42/international_results (results.csv, 1872–2026)"
+M007,2026-06-13,Group C,C,Haiti,Scotland,"Foxborough, United States",0,1,played,"https://github.com/martj42/international_results (results.csv, 1872–2026)"
+M008,2026-06-13,Group D,D,Australia,Turkey,"Vancouver, Canada",2,0,played,"https://github.com/martj42/international_results (results.csv, 1872–2026)"
+M009,2026-06-14,Group E,E,Germany,Curaçao,"Houston, United States",7,1,played,"https://github.com/martj42/international_results (results.csv, 1872–2026)"
+M010,2026-06-14,Group E,E,Ivory Coast,Ecuador,"Philadelphia, United States",1,0,played,"https://github.com/martj42/international_results (results.csv, 1872–2026)"
+M011,2026-06-14,Group F,F,Netherlands,Japan,"Arlington, United States",2,2,played,"https://github.com/martj42/international_results (results.csv, 1872–2026)"
+M012,2026-06-14,Group F,F,Sweden,Tunisia,"Guadalupe, Mexico",5,1,played,"https://github.com/martj42/international_results (results.csv, 1872–2026)"
+M013,2026-06-15,Group G,G,Belgium,Egypt,"Seattle, United States",1,1,played,"https://github.com/martj42/international_results (results.csv, 1872–2026)"
+M014,2026-06-15,Group G,G,Iran,New Zealand,"Inglewood, United States",2,2,played,"https://github.com/martj42/international_results (results.csv, 1872–2026)"
+M015,2026-06-15,Group H,H,Spain,Cape Verde,"Atlanta, United States",0,0,played,"https://github.com/martj42/international_results (results.csv, 1872–2026)"
+M016,2026-06-15,Group H,H,Saudi Arabia,Uruguay,"Miami Gardens, United States",1,1,played,"https://github.com/martj42/international_results (results.csv, 1872–2026)"
+M017,2026-06-16,Group I,I,France,Senegal,"East Rutherford, United States",3,1,played,"https://github.com/martj42/international_results (results.csv, 1872–2026)"
+M018,2026-06-16,Group I,I,Iraq,Norway,"Foxborough, United States",1,4,played,"https://github.com/martj42/international_results (results.csv, 1872–2026)"
+M019,2026-06-16,Group J,J,Argentina,Algeria,"Kansas City, United States",3,0,played,"https://github.com/martj42/international_results (results.csv, 1872–2026)"
+M020,2026-06-16,Group J,J,Austria,Jordan,"Santa Clara, United States",3,1,played,"https://github.com/martj42/international_results (results.csv, 1872–2026)"
+M021,2026-06-17,Group K,K,Portugal,DR Congo,"Houston, United States",1,1,played,"https://github.com/martj42/international_results (results.csv, 1872–2026)"
+M022,2026-06-17,Group K,K,Uzbekistan,Colombia,"Mexico City, Mexico",1,3,played,"https://github.com/martj42/international_results (results.csv, 1872–2026)"
+M023,2026-06-17,Group L,L,England,Croatia,"Arlington, United States",4,2,played,"https://github.com/martj42/international_results (results.csv, 1872–2026)"
+M024,2026-06-17,Group L,L,Ghana,Panama,"Toronto, Canada",1,0,played,"https://github.com/martj42/international_results (results.csv, 1872–2026)"
+M025,2026-06-18,Group A,A,Czech Republic,South Africa,"Atlanta, United States",1,1,played,"https://github.com/martj42/international_results (results.csv, 1872–2026)"
+M026,2026-06-18,Group A,A,Mexico,South Korea,"Zapopan, Mexico",1,0,played,"https://github.com/martj42/international_results (results.csv, 1872–2026)"
+M027,2026-06-18,Group B,B,Switzerland,Bosnia and Herzegovina,"Inglewood, United States",4,1,played,"https://github.com/martj42/international_results (results.csv, 1872–2026)"
+M028,2026-06-18,Group B,B,Canada,Qatar,"Vancouver, Canada",6,0,played,"https://github.com/martj42/international_results (results.csv, 1872–2026)"
+M029,2026-06-19,Group C,C,Scotland,Morocco,"Foxborough, United States",0,1,played,"https://github.com/martj42/international_results (results.csv, 1872–2026)"
+M030,2026-06-19,Group C,C,Brazil,Haiti,"Philadelphia, United States",3,0,played,"https://github.com/martj42/international_results (results.csv, 1872–2026)"
+M031,2026-06-19,Group D,D,United States,Australia,"Seattle, United States",2,0,played,"https://github.com/martj42/international_results (results.csv, 1872–2026)"
+M032,2026-06-19,Group D,D,Turkey,Paraguay,"Santa Clara, United States",0,1,played,"https://github.com/martj42/international_results (results.csv, 1872–2026)"
+M033,2026-06-20,Group E,E,Germany,Ivory Coast,"Toronto, Canada",2,1,played,"https://github.com/martj42/international_results (results.csv, 1872–2026)"
+M034,2026-06-20,Group E,E,Ecuador,Curaçao,"Kansas City, United States",0,0,played,"https://github.com/martj42/international_results (results.csv, 1872–2026)"
+M035,2026-06-20,Group F,F,Netherlands,Sweden,"Houston, United States",5,1,played,"https://github.com/martj42/international_results (results.csv, 1872–2026)"
+M036,2026-06-20,Group F,F,Tunisia,Japan,"Guadalupe, Mexico",0,4,played,"https://github.com/martj42/international_results (results.csv, 1872–2026)"
+M037,2026-06-21,Group G,G,Belgium,Iran,"Inglewood, United States",0,0,played,"https://github.com/martj42/international_results (results.csv, 1872–2026)"
+M038,2026-06-21,Group G,G,New Zealand,Egypt,"Vancouver, Canada",1,3,played,"https://github.com/martj42/international_results (results.csv, 1872–2026)"
+M039,2026-06-21,Group H,H,Spain,Saudi Arabia,"Atlanta, United States",4,0,played,"https://github.com/martj42/international_results (results.csv, 1872–2026)"
+M040,2026-06-21,Group H,H,Uruguay,Cape Verde,"Miami Gardens, United States",2,2,played,"https://github.com/martj42/international_results (results.csv, 1872–2026)"
+M041,2026-06-22,Group I,I,France,Iraq,"Philadelphia, United States",,,upcoming,"https://github.com/martj42/international_results (results.csv, 1872–2026)"
+M042,2026-06-22,Group I,I,Norway,Senegal,"East Rutherford, United States",,,upcoming,"https://github.com/martj42/international_results (results.csv, 1872–2026)"
+M043,2026-06-22,Group J,J,Argentina,Austria,"Arlington, United States",,,upcoming,"https://github.com/martj42/international_results (results.csv, 1872–2026)"
+M044,2026-06-22,Group J,J,Jordan,Algeria,"Santa Clara, United States",,,upcoming,"https://github.com/martj42/international_results (results.csv, 1872–2026)"
+M045,2026-06-23,Group K,K,Portugal,Uzbekistan,"Houston, United States",,,upcoming,"https://github.com/martj42/international_results (results.csv, 1872–2026)"
+M046,2026-06-23,Group K,K,Colombia,DR Congo,"Zapopan, Mexico",,,upcoming,"https://github.com/martj42/international_results (results.csv, 1872–2026)"
+M047,2026-06-23,Group L,L,England,Ghana,"Foxborough, United States",,,upcoming,"https://github.com/martj42/international_results (results.csv, 1872–2026)"
+M048,2026-06-23,Group L,L,Panama,Croatia,"Toronto, Canada",,,upcoming,"https://github.com/martj42/international_results (results.csv, 1872–2026)"
+M049,2026-06-24,Group A,A,Mexico,Czech Republic,"Mexico City, Mexico",,,upcoming,"https://github.com/martj42/international_results (results.csv, 1872–2026)"
+M050,2026-06-24,Group A,A,South Africa,South Korea,"Guadalupe, Mexico",,,upcoming,"https://github.com/martj42/international_results (results.csv, 1872–2026)"
+M051,2026-06-24,Group B,B,Canada,Switzerland,"Vancouver, Canada",,,upcoming,"https://github.com/martj42/international_results (results.csv, 1872–2026)"
+M052,2026-06-24,Group B,B,Bosnia and Herzegovina,Qatar,"Seattle, United States",,,upcoming,"https://github.com/martj42/international_results (results.csv, 1872–2026)"
+M053,2026-06-24,Group C,C,Scotland,Brazil,"Miami Gardens, United States",,,upcoming,"https://github.com/martj42/international_results (results.csv, 1872–2026)"
+M054,2026-06-24,Group C,C,Morocco,Haiti,"Atlanta, United States",,,upcoming,"https://github.com/martj42/international_results (results.csv, 1872–2026)"
+M055,2026-06-25,Group D,D,United States,Turkey,"Inglewood, United States",,,upcoming,"https://github.com/martj42/international_results (results.csv, 1872–2026)"
+M056,2026-06-25,Group D,D,Paraguay,Australia,"Santa Clara, United States",,,upcoming,"https://github.com/martj42/international_results (results.csv, 1872–2026)"
+M057,2026-06-25,Group E,E,Curaçao,Ivory Coast,"Philadelphia, United States",,,upcoming,"https://github.com/martj42/international_results (results.csv, 1872–2026)"
+M058,2026-06-25,Group E,E,Ecuador,Germany,"East Rutherford, United States",,,upcoming,"https://github.com/martj42/international_results (results.csv, 1872–2026)"
+M059,2026-06-25,Group F,F,Japan,Sweden,"Arlington, United States",,,upcoming,"https://github.com/martj42/international_results (results.csv, 1872–2026)"
+M060,2026-06-25,Group F,F,Tunisia,Netherlands,"Kansas City, United States",,,upcoming,"https://github.com/martj42/international_results (results.csv, 1872–2026)"
+M061,2026-06-26,Group G,G,Egypt,Iran,"Seattle, United States",,,upcoming,"https://github.com/martj42/international_results (results.csv, 1872–2026)"
+M062,2026-06-26,Group G,G,New Zealand,Belgium,"Vancouver, Canada",,,upcoming,"https://github.com/martj42/international_results (results.csv, 1872–2026)"
+M063,2026-06-26,Group H,H,Cape Verde,Saudi Arabia,"Houston, United States",,,upcoming,"https://github.com/martj42/international_results (results.csv, 1872–2026)"
+M064,2026-06-26,Group H,H,Uruguay,Spain,"Zapopan, Mexico",,,upcoming,"https://github.com/martj42/international_results (results.csv, 1872–2026)"
+M065,2026-06-26,Group I,I,Norway,France,"Foxborough, United States",,,upcoming,"https://github.com/martj42/international_results (results.csv, 1872–2026)"
+M066,2026-06-26,Group I,I,Senegal,Iraq,"Toronto, Canada",,,upcoming,"https://github.com/martj42/international_results (results.csv, 1872–2026)"
+M067,2026-06-27,Group J,J,Algeria,Austria,"Kansas City, United States",,,upcoming,"https://github.com/martj42/international_results (results.csv, 1872–2026)"
+M068,2026-06-27,Group J,J,Jordan,Argentina,"Arlington, United States",,,upcoming,"https://github.com/martj42/international_results (results.csv, 1872–2026)"
+M069,2026-06-27,Group K,K,Colombia,Portugal,"Miami Gardens, United States",,,upcoming,"https://github.com/martj42/international_results (results.csv, 1872–2026)"
+M070,2026-06-27,Group K,K,DR Congo,Uzbekistan,"Atlanta, United States",,,upcoming,"https://github.com/martj42/international_results (results.csv, 1872–2026)"
+M071,2026-06-27,Group L,L,Panama,England,"East Rutherford, United States",,,upcoming,"https://github.com/martj42/international_results (results.csv, 1872–2026)"
+M072,2026-06-27,Group L,L,Croatia,Ghana,"Philadelphia, United States",,,upcoming,"https://github.com/martj42/international_results (results.csv, 1872–2026)"
+M073,,Round of 32,,2A,2B,,,,upcoming,https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_knockout_stage
+M074,,Round of 32,,1E,3:ABCDF,,,,upcoming,https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_knockout_stage
+M075,,Round of 32,,1F,2C,,,,upcoming,https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_knockout_stage
+M076,,Round of 32,,1C,2F,,,,upcoming,https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_knockout_stage
+M077,,Round of 32,,1I,3:CDFGH,,,,upcoming,https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_knockout_stage
+M078,,Round of 32,,2E,2I,,,,upcoming,https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_knockout_stage
+M079,,Round of 32,,1A,3:CEFHI,,,,upcoming,https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_knockout_stage
+M080,,Round of 32,,1L,3:EHIJK,,,,upcoming,https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_knockout_stage
+M081,,Round of 32,,1D,3:BEFIJ,,,,upcoming,https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_knockout_stage
+M082,,Round of 32,,1G,3:AEHIJ,,,,upcoming,https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_knockout_stage
+M083,,Round of 32,,2K,2L,,,,upcoming,https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_knockout_stage
+M084,,Round of 32,,1H,2J,,,,upcoming,https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_knockout_stage
+M085,,Round of 32,,1B,3:EFGIJ,,,,upcoming,https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_knockout_stage
+M086,,Round of 32,,1J,2H,,,,upcoming,https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_knockout_stage
+M087,,Round of 32,,1K,3:DEIJL,,,,upcoming,https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_knockout_stage
+M088,,Round of 32,,2D,2G,,,,upcoming,https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_knockout_stage
+M089,,Round of 16,,W74,W77,,,,upcoming,https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_knockout_stage
+M090,,Round of 16,,W73,W75,,,,upcoming,https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_knockout_stage
+M091,,Round of 16,,W76,W78,,,,upcoming,https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_knockout_stage
+M092,,Round of 16,,W79,W80,,,,upcoming,https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_knockout_stage
+M093,,Round of 16,,W83,W84,,,,upcoming,https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_knockout_stage
+M094,,Round of 16,,W81,W82,,,,upcoming,https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_knockout_stage
+M095,,Round of 16,,W86,W88,,,,upcoming,https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_knockout_stage
+M096,,Round of 16,,W85,W87,,,,upcoming,https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_knockout_stage
+M097,,Quarter-final,,W89,W90,,,,upcoming,https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_knockout_stage
+M098,,Quarter-final,,W93,W94,,,,upcoming,https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_knockout_stage
+M099,,Quarter-final,,W91,W92,,,,upcoming,https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_knockout_stage
+M100,,Quarter-final,,W95,W96,,,,upcoming,https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_knockout_stage
+M101,,Semi-final,,W97,W98,,,,upcoming,https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_knockout_stage
+M102,,Semi-final,,W99,W100,,,,upcoming,https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_knockout_stage
+M103,,Third place play-off,,L101,L102,,,,upcoming,https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_knockout_stage
+M104,,Final,,W101,W102,,,,upcoming,https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_knockout_stage

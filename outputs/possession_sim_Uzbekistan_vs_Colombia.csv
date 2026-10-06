@@ -1,0 +1,14 @@
+stat,Uzbekistan,Colombia,source
+goals,0.73,1.543,DATA-DRIVEN
+passes,328.702,471.687,assumed
+shots,9.673,15.95,calibrated
+shots_on_target,3.329,5.782,assumed
+corners,4.782,5.896,assumed
+free_kicks_won,11.647,12.17,assumed
+fouls_conceded,12.318,11.784,assumed
+penalties_won,0.138,0.148,assumed
+penalties_scored,0.107,0.116,assumed
+throwins_for_opp,15.384,16.013,assumed
+offside,1.897,1.969,assumed
+turnovers,76.52,73.358,assumed
+possessions,118.314,122.785,derived

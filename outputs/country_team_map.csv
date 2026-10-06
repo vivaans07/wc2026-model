@@ -1,0 +1,49 @@
+team_id,country_name,official_name,fifa_confederation,source,confidence,confed_crossvalidation
+T-01,Algeria,Algeria,CAF,Fjelstul exact name match | https://en.wikipedia.org/wiki/2026_FIFA_World_Cup + MLSSoccer draw recap (Dec 5 2025 draw),high,confed-match
+T-03,Argentina,Argentina,CONMEBOL,Fjelstul exact name match | https://en.wikipedia.org/wiki/2026_FIFA_World_Cup + MLSSoccer draw recap (Dec 5 2025 draw),high,confed-match
+T-04,Australia,Australia,AFC,Fjelstul exact name match | https://en.wikipedia.org/wiki/2026_FIFA_World_Cup + MLSSoccer draw recap (Dec 5 2025 draw),high,confed-match
+T-05,Austria,Austria,UEFA,Fjelstul exact name match | https://en.wikipedia.org/wiki/2026_FIFA_World_Cup + MLSSoccer draw recap (Dec 5 2025 draw),high,confed-match
+T-06,Belgium,Belgium,UEFA,Fjelstul exact name match | https://en.wikipedia.org/wiki/2026_FIFA_World_Cup + MLSSoccer draw recap (Dec 5 2025 draw),high,confed-match
+T-08,Bosnia and Herzegovina,Bosnia and Herzegovina,UEFA,Fjelstul exact name match | https://en.wikipedia.org/wiki/2026_FIFA_World_Cup + MLSSoccer draw recap (Dec 5 2025 draw),high,confed-match
+T-09,Brazil,Brazil,CONMEBOL,Fjelstul exact name match | https://en.wikipedia.org/wiki/2026_FIFA_World_Cup + MLSSoccer draw recap (Dec 5 2025 draw),high,confed-match
+T-12,Canada,Canada,CONCACAF,Fjelstul exact name match | https://en.wikipedia.org/wiki/2026_FIFA_World_Cup + MLSSoccer draw recap (Dec 5 2025 draw),high,confed-match
+,Cape Verde,Cape Verde,CAF,no Fjelstul WC history (debutant); confed hand-coded | https://en.wikipedia.org/wiki/2026_FIFA_World_Cup + MLSSoccer draw recap (Dec 5 2025 draw),n/a-debutant,—
+T-15,Colombia,Colombia,CONMEBOL,Fjelstul exact name match | https://en.wikipedia.org/wiki/2026_FIFA_World_Cup + MLSSoccer draw recap (Dec 5 2025 draw),high,confed-match
+T-17,Croatia,Croatia,UEFA,Fjelstul exact name match | https://en.wikipedia.org/wiki/2026_FIFA_World_Cup + MLSSoccer draw recap (Dec 5 2025 draw),high,confed-match
+,Curaçao,Curaçao,CONCACAF,no Fjelstul WC history (debutant); confed hand-coded | https://en.wikipedia.org/wiki/2026_FIFA_World_Cup + MLSSoccer draw recap (Dec 5 2025 draw),n/a-debutant,—
+T-19,Czech Republic,Czechia,UEFA,Fjelstul exact name match | https://en.wikipedia.org/wiki/2026_FIFA_World_Cup + MLSSoccer draw recap (Dec 5 2025 draw),high,confed-match
+T-85,DR Congo,Congo DR,CAF,Fjelstul team_name='Zaire' (alias of DR Congo) | https://en.wikipedia.org/wiki/2026_FIFA_World_Cup + MLSSoccer draw recap (Dec 5 2025 draw),high-alias,confed-match
+T-24,Ecuador,Ecuador,CONMEBOL,Fjelstul exact name match | https://en.wikipedia.org/wiki/2026_FIFA_World_Cup + MLSSoccer draw recap (Dec 5 2025 draw),high,confed-match
+T-25,Egypt,Egypt,CAF,Fjelstul exact name match | https://en.wikipedia.org/wiki/2026_FIFA_World_Cup + MLSSoccer draw recap (Dec 5 2025 draw),high,confed-match
+T-27,England,England,UEFA,Fjelstul exact name match | https://en.wikipedia.org/wiki/2026_FIFA_World_Cup + MLSSoccer draw recap (Dec 5 2025 draw),high,confed-match
+T-28,France,France,UEFA,Fjelstul exact name match | https://en.wikipedia.org/wiki/2026_FIFA_World_Cup + MLSSoccer draw recap (Dec 5 2025 draw),high,confed-match
+T-29,Germany,Germany,UEFA,Fjelstul exact name match | https://en.wikipedia.org/wiki/2026_FIFA_World_Cup + MLSSoccer draw recap (Dec 5 2025 draw),high,confed-match
+T-30,Ghana,Ghana,CAF,Fjelstul exact name match | https://en.wikipedia.org/wiki/2026_FIFA_World_Cup + MLSSoccer draw recap (Dec 5 2025 draw),high,confed-match
+T-32,Haiti,Haiti,CONCACAF,Fjelstul exact name match | https://en.wikipedia.org/wiki/2026_FIFA_World_Cup + MLSSoccer draw recap (Dec 5 2025 draw),high,confed-match
+T-36,Iran,IR Iran,AFC,Fjelstul exact name match | https://en.wikipedia.org/wiki/2026_FIFA_World_Cup + MLSSoccer draw recap (Dec 5 2025 draw),high,confed-match
+T-37,Iraq,Iraq,AFC,Fjelstul exact name match | https://en.wikipedia.org/wiki/2026_FIFA_World_Cup + MLSSoccer draw recap (Dec 5 2025 draw),high,confed-match
+T-40,Ivory Coast,Côte d'Ivoire,CAF,Fjelstul exact name match | https://en.wikipedia.org/wiki/2026_FIFA_World_Cup + MLSSoccer draw recap (Dec 5 2025 draw),high,confed-match
+T-42,Japan,Japan,AFC,Fjelstul exact name match | https://en.wikipedia.org/wiki/2026_FIFA_World_Cup + MLSSoccer draw recap (Dec 5 2025 draw),high,confed-match
+,Jordan,Jordan,AFC,no Fjelstul WC history (debutant); confed hand-coded | https://en.wikipedia.org/wiki/2026_FIFA_World_Cup + MLSSoccer draw recap (Dec 5 2025 draw),n/a-debutant,—
+T-44,Mexico,Mexico,CONCACAF,Fjelstul exact name match | https://en.wikipedia.org/wiki/2026_FIFA_World_Cup + MLSSoccer draw recap (Dec 5 2025 draw),high,confed-match
+T-45,Morocco,Morocco,CAF,Fjelstul exact name match | https://en.wikipedia.org/wiki/2026_FIFA_World_Cup + MLSSoccer draw recap (Dec 5 2025 draw),high,confed-match
+T-46,Netherlands,Netherlands,UEFA,Fjelstul exact name match | https://en.wikipedia.org/wiki/2026_FIFA_World_Cup + MLSSoccer draw recap (Dec 5 2025 draw),high,confed-match
+T-47,New Zealand,New Zealand,OFC,Fjelstul exact name match | https://en.wikipedia.org/wiki/2026_FIFA_World_Cup + MLSSoccer draw recap (Dec 5 2025 draw),high,confed-match
+T-51,Norway,Norway,UEFA,Fjelstul exact name match | https://en.wikipedia.org/wiki/2026_FIFA_World_Cup + MLSSoccer draw recap (Dec 5 2025 draw),high,confed-match
+T-52,Panama,Panama,CONCACAF,Fjelstul exact name match | https://en.wikipedia.org/wiki/2026_FIFA_World_Cup + MLSSoccer draw recap (Dec 5 2025 draw),high,confed-match
+T-53,Paraguay,Paraguay,CONMEBOL,Fjelstul exact name match | https://en.wikipedia.org/wiki/2026_FIFA_World_Cup + MLSSoccer draw recap (Dec 5 2025 draw),high,confed-match
+T-56,Portugal,Portugal,UEFA,Fjelstul exact name match | https://en.wikipedia.org/wiki/2026_FIFA_World_Cup + MLSSoccer draw recap (Dec 5 2025 draw),high,confed-match
+T-57,Qatar,Qatar,AFC,Fjelstul exact name match | https://en.wikipedia.org/wiki/2026_FIFA_World_Cup + MLSSoccer draw recap (Dec 5 2025 draw),high,confed-match
+T-61,Saudi Arabia,Saudi Arabia,AFC,Fjelstul exact name match | https://en.wikipedia.org/wiki/2026_FIFA_World_Cup + MLSSoccer draw recap (Dec 5 2025 draw),high,confed-match
+T-62,Scotland,Scotland,UEFA,Fjelstul exact name match | https://en.wikipedia.org/wiki/2026_FIFA_World_Cup + MLSSoccer draw recap (Dec 5 2025 draw),high,confed-match
+T-63,Senegal,Senegal,CAF,Fjelstul exact name match | https://en.wikipedia.org/wiki/2026_FIFA_World_Cup + MLSSoccer draw recap (Dec 5 2025 draw),high,confed-match
+T-68,South Africa,South Africa,CAF,Fjelstul exact name match | https://en.wikipedia.org/wiki/2026_FIFA_World_Cup + MLSSoccer draw recap (Dec 5 2025 draw),high,confed-match
+T-69,South Korea,Korea Republic,AFC,Fjelstul exact name match | https://en.wikipedia.org/wiki/2026_FIFA_World_Cup + MLSSoccer draw recap (Dec 5 2025 draw),high,confed-match
+T-71,Spain,Spain,UEFA,Fjelstul exact name match | https://en.wikipedia.org/wiki/2026_FIFA_World_Cup + MLSSoccer draw recap (Dec 5 2025 draw),high,confed-match
+T-72,Sweden,Sweden,UEFA,Fjelstul exact name match | https://en.wikipedia.org/wiki/2026_FIFA_World_Cup + MLSSoccer draw recap (Dec 5 2025 draw),high,confed-match
+T-73,Switzerland,Switzerland,UEFA,Fjelstul exact name match | https://en.wikipedia.org/wiki/2026_FIFA_World_Cup + MLSSoccer draw recap (Dec 5 2025 draw),high,confed-match
+T-76,Tunisia,Tunisia,CAF,Fjelstul exact name match | https://en.wikipedia.org/wiki/2026_FIFA_World_Cup + MLSSoccer draw recap (Dec 5 2025 draw),high,confed-match
+T-77,Turkey,Türkiye,UEFA,Fjelstul exact name match | https://en.wikipedia.org/wiki/2026_FIFA_World_Cup + MLSSoccer draw recap (Dec 5 2025 draw),high,confed-match
+T-80,United States,United States,CONCACAF,Fjelstul exact name match | https://en.wikipedia.org/wiki/2026_FIFA_World_Cup + MLSSoccer draw recap (Dec 5 2025 draw),high,confed-match
+T-81,Uruguay,Uruguay,CONMEBOL,Fjelstul exact name match | https://en.wikipedia.org/wiki/2026_FIFA_World_Cup + MLSSoccer draw recap (Dec 5 2025 draw),high,confed-match
+,Uzbekistan,Uzbekistan,AFC,no Fjelstul WC history (debutant); confed hand-coded | https://en.wikipedia.org/wiki/2026_FIFA_World_Cup + MLSSoccer draw recap (Dec 5 2025 draw),n/a-debutant,—

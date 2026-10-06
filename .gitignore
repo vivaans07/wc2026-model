@@ -1,0 +1,21 @@
+# Virtual environment
+.venv/
+venv/
+
+# Secrets — API keys. NEVER commit.
+config/secrets.env
+*.env
+
+# Cached API responses (Kalshi / Polymarket / ESPN / API-Football)
+config/_*cache/
+config/_*_cache/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/

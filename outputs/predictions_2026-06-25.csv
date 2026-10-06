@@ -1,0 +1,7 @@
+date,match,venue,prediction,pred_prob,P_home,P_draw,P_away,exp_goals,most_likely_score,mc_P_home,mc_P_draw,mc_P_away,mc_max_error_pp,accuracy_rating,calibrated_hit_rate
+2026-06-25,United States vs Turkey,"Inglewood, United States",WIN United States,0.5139,0.5139,0.2261,0.26,1.97-1.35,1-1,0.513,0.226,0.2609,0.094,Low-moderate,0.54
+2026-06-25,Paraguay vs Australia,"Santa Clara, United States",WIN Australia,0.3946,0.2899,0.3155,0.3946,0.90-1.11,0-1,0.2896,0.3154,0.3949,0.036,Low (toss-up),0.402
+2026-06-25,Curaçao vs Ivory Coast,"Philadelphia, United States",WIN Ivory Coast,0.7664,0.0756,0.158,0.7664,0.63-2.42,0-2,0.0747,0.1583,0.767,0.084,High,0.873
+2026-06-25,Ecuador vs Germany,"East Rutherford, United States",WIN Germany,0.479,0.2607,0.2603,0.479,1.10-1.57,1-1,0.2612,0.26,0.4788,0.047,Low (toss-up),0.474
+2026-06-25,Japan vs Sweden,"Arlington, United States",WIN Japan,0.4865,0.4865,0.2515,0.2621,1.66-1.16,1-1,0.4872,0.2514,0.2614,0.07,Low (toss-up),0.474
+2026-06-25,Tunisia vs Netherlands,"Kansas City, United States",WIN Netherlands,0.6659,0.1254,0.2087,0.6659,0.74-2.01,0-2,0.1253,0.2094,0.6653,0.071,Moderate,0.67
