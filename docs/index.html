@@ -1,0 +1,276 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>World Cup 2026 Model</title>
+<meta name="description" content="Dixon–Coles + Monte Carlo forecast of the 2026 FIFA World Cup, graded against live prediction-market closing lines.">
+<style>
+:root {
+  color-scheme: light;
+  --bg: #f6f5f2; --surface: #fcfcfb; --border: #e4e2dc; --grid: #ecebe6;
+  --text: #0b0b0b; --text-2: #52514e; --text-3: #7d7b75;
+  --pos: #2a78d6; --neg: #e34948; --pos-soft: #cde2fb; --ref: #9a988f;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    color-scheme: dark;
+    --bg: #111110; --surface: #1a1a19; --border: #2e2e2b; --grid: #262624;
+    --text: #ffffff; --text-2: #c3c2b7; --text-3: #8f8e86;
+    --pos: #3987e5; --neg: #e66767; --pos-soft: #1c3557; --ref: #6f6e68;
+  }
+}
+:root[data-theme="dark"] {
+  color-scheme: dark;
+  --bg: #111110; --surface: #1a1a19; --border: #2e2e2b; --grid: #262624;
+  --text: #ffffff; --text-2: #c3c2b7; --text-3: #8f8e86;
+  --pos: #3987e5; --neg: #e66767; --pos-soft: #1c3557; --ref: #6f6e68;
+}
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--bg); color: var(--text);
+  font: 15px/1.5 ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+.wrap { max-width: 1080px; margin: 0 auto; padding: 32px 16px 64px; }
+header h1 { font-size: 28px; line-height: 1.2; margin: 0 0 6px; letter-spacing: -0.01em; }
+header p { margin: 0; color: var(--text-2); max-width: 720px; }
+header a, footer a { color: var(--pos); }
+.tiles { display: grid; grid-template-columns: repeat(auto-fit, minmax(190px, 1fr)); gap: 12px; margin: 24px 0; }
+.tile { background: var(--surface); border: 1px solid var(--border); border-radius: 12px; padding: 16px; }
+.tile .k { font-size: 30px; font-weight: 650; letter-spacing: -0.02em; font-variant-numeric: tabular-nums; }
+.tile .l { color: var(--text-2); font-size: 13px; }
+section { background: var(--surface); border: 1px solid var(--border); border-radius: 12px;
+  padding: 20px; margin-top: 16px; }
+section h2 { font-size: 18px; margin: 0 0 4px; }
+section .sub { color: var(--text-2); font-size: 13px; margin: 0 0 14px; }
+.row { display: flex; gap: 8px; flex-wrap: wrap; align-items: center; margin-bottom: 12px; }
+input[type=search], select { font: inherit; font-size: 14px; color: var(--text); background: var(--bg);
+  border: 1px solid var(--border); border-radius: 8px; padding: 6px 10px; }
+button.tog { font: inherit; font-size: 13px; color: var(--text-2); background: none; border: 1px solid var(--border);
+  border-radius: 8px; padding: 5px 10px; cursor: pointer; }
+button.tog[aria-pressed=true] { color: var(--text); border-color: var(--text-3); }
+.chart { position: relative; width: 100%; }
+svg { display: block; width: 100%; height: auto; overflow: visible; }
+svg text { fill: var(--text-2); font-size: 12px; font-family: inherit; font-variant-numeric: tabular-nums; }
+.axis line, .grid line { stroke: var(--grid); }
+.tip { position: absolute; pointer-events: none; background: var(--surface); color: var(--text);
+  border: 1px solid var(--border); border-radius: 8px; padding: 8px 10px; font-size: 13px;
+  box-shadow: 0 4px 16px rgba(0,0,0,.12); opacity: 0; transition: opacity .08s; min-width: 160px; z-index: 5; }
+.tip b { font-weight: 600; } .tip .m { color: var(--text-2); }
+.legend { display: flex; gap: 16px; font-size: 13px; color: var(--text-2); margin: 4px 0 8px; flex-wrap: wrap; }
+.legend i { display: inline-block; width: 10px; height: 10px; border-radius: 2px; margin-right: 6px; vertical-align: -1px; }
+.tablewrap { overflow-x: auto; }
+table { width: 100%; border-collapse: collapse; font-size: 14px; font-variant-numeric: tabular-nums; }
+th, td { text-align: right; padding: 7px 10px; border-bottom: 1px solid var(--grid); white-space: nowrap; }
+th:first-child, td:first-child, th.l, td.l { text-align: left; }
+th { color: var(--text-2); font-weight: 600; cursor: pointer; user-select: none; position: sticky; top: 0; background: var(--surface); }
+th[aria-sort] { color: var(--text); }
+.scroll { max-height: 420px; overflow: auto; }
+.two { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+@media (max-width: 760px) { .two { grid-template-columns: 1fr; } header h1 { font-size: 23px; } }
+footer { color: var(--text-3); font-size: 13px; margin-top: 28px; }
+.hidden { display: none; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1>2026 FIFA World Cup forecast</h1>
+    <p>A time-decayed Dixon–Coles goals model trained on 49,477 international results, simulated 50,000 times through
+      the real 48-team bracket, and graded against live Kalshi closing lines. Source:
+      <a href="https://github.com/vivaans07/wc2026-model">github.com/vivaans07/wc2026-model</a>.</p>
+  </header>
+
+  <div class="tiles" id="tiles"></div>
+
+  <section>
+    <h2>Who wins the cup?</h2>
+    <p class="sub">Probability of lifting the trophy, top 16 teams, from 50,000 simulated tournaments.</p>
+    <div class="chart" id="win"></div>
+  </section>
+
+  <section>
+    <h2>Every team, every round</h2>
+    <p class="sub">Chance of reaching each stage. Click a column to sort.</p>
+    <div class="row">
+      <input type="search" id="q" placeholder="Search team" aria-label="Search team">
+      <select id="conf" aria-label="Confederation"><option value="">All confederations</option></select>
+    </div>
+    <div class="tablewrap scroll"><table id="teams"></table></div>
+  </section>
+
+  <section>
+    <h2>Did the model beat the market?</h2>
+    <p class="sub">Closing line value (CLV) for every pick, in date order. Positive means the market later moved toward the
+      model's price, which measures edge independent of any single result. Bars are capped at ±60%; hover for the exact value.</p>
+    <div class="legend"><span><i style="background:var(--pos)"></i>Beat the close</span>
+      <span><i style="background:var(--neg)"></i>Worse than the close</span></div>
+    <div class="row"><button class="tog" id="clvTableBtn" aria-pressed="false">Show as table</button></div>
+    <div class="chart" id="clvChart"></div>
+    <div class="tablewrap scroll hidden" id="clvTableWrap"><table id="clvTable"></table></div>
+  </section>
+
+  <div class="two">
+    <section>
+      <h2>Is it calibrated?</h2>
+      <p class="sub">When the model says X%, does the favorite win X% of the time? Out-of-sample, 2025–26.</p>
+      <div class="chart" id="calib"></div>
+    </section>
+    <section>
+      <h2>Against benchmarks</h2>
+      <p class="sub">Same out-of-sample matches. Lower Brier and log-loss are better.</p>
+      <div class="tablewrap"><table id="models"></table></div>
+    </section>
+  </div>
+
+  <footer>Methodology demonstration, not betting advice. A 92-match sample is informative but not proof of a
+    repeatable edge. Built from the repository's <code>outputs/</code> by <code>scripts/build_dashboard.py</code>.</footer>
+</div>
+<div class="tip" id="tip" role="status" aria-live="polite"></div>
+
+<script>
+const D = {"teams":[{"team":"Argentina","group":"J","conf":"CONMEBOL","rank":2,"adv":0.9998,"r16":0.8398,"qf":0.6648,"sf":0.4809,"final":0.2994,"win":0.1898},{"team":"Spain","group":"H","conf":"UEFA","rank":1,"adv":1.0,"r16":0.784,"qf":0.5713,"sf":0.453,"final":0.3065,"win":0.179},{"team":"Brazil","group":"C","conf":"CONMEBOL","rank":5,"adv":1.0,"r16":0.7467,"qf":0.593,"sf":0.3967,"final":0.2435,"win":0.1544},{"team":"England","group":"L","conf":"UEFA","rank":4,"adv":0.9993,"r16":0.7722,"qf":0.5473,"sf":0.3136,"final":0.1663,"win":0.0908},{"team":"France","group":"I","conf":"UEFA","rank":3,"adv":0.9986,"r16":0.7738,"qf":0.4461,"sf":0.2753,"final":0.1449,"win":0.0703},{"team":"Germany","group":"E","conf":"UEFA","rank":9,"adv":1.0,"r16":0.8316,"qf":0.4696,"sf":0.2778,"final":0.1338,"win":0.0544},{"team":"Portugal","group":"K","conf":"UEFA","rank":6,"adv":0.8848,"r16":0.6456,"qf":0.3745,"sf":0.2134,"final":0.1112,"win":0.0537},{"team":"Colombia","group":"K","conf":"CONMEBOL","rank":13,"adv":0.9917,"r16":0.7369,"qf":0.4587,"sf":0.2258,"final":0.1101,"win":0.0519},{"team":"Netherlands","group":"F","conf":"UEFA","rank":7,"adv":1.0,"r16":0.4622,"qf":0.3118,"sf":0.1527,"final":0.0683,"win":0.0274},{"team":"Belgium","group":"G","conf":"UEFA","rank":8,"adv":0.9075,"r16":0.6283,"qf":0.3045,"sf":0.1448,"final":0.0666,"win":0.0263},{"team":"Morocco","group":"C","conf":"CAF","rank":11,"adv":1.0,"r16":0.4936,"qf":0.2957,"sf":0.1298,"final":0.0539,"win":0.0188},{"team":"Uruguay","group":"H","conf":"CONMEBOL","rank":16,"adv":0.5074,"r16":0.295,"qf":0.1676,"sf":0.0816,"final":0.037,"win":0.0141},{"team":"Mexico","group":"A","conf":"CONCACAF","rank":15,"adv":1.0,"r16":0.6284,"qf":0.2353,"sf":0.087,"final":0.0295,"win":0.0098},{"team":"Japan","group":"F","conf":"AFC","rank":18,"adv":1.0,"r16":0.4089,"qf":0.2169,"sf":0.0838,"final":0.0292,"win":0.0091},{"team":"Switzerland","group":"B","conf":"UEFA","rank":17,"adv":1.0,"r16":0.6091,"qf":0.2478,"sf":0.0844,"final":0.0288,"win":0.0083},{"team":"United States","group":"D","conf":"CONCACAF","rank":14,"adv":1.0,"r16":0.6703,"qf":0.3365,"sf":0.0923,"final":0.0308,"win":0.0075},{"team":"Croatia","group":"L","conf":"UEFA","rank":10,"adv":0.8512,"r16":0.3624,"qf":0.1313,"sf":0.0617,"final":0.0226,"win":0.0065},{"team":"Norway","group":"I","conf":"UEFA","rank":29,"adv":0.9818,"r16":0.5375,"qf":0.1735,"sf":0.0565,"final":0.0166,"win":0.004},{"team":"Canada","group":"B","conf":"CONCACAF","rank":27,"adv":1.0,"r16":0.5329,"qf":0.1866,"sf":0.0518,"final":0.0146,"win":0.0038},{"team":"Ecuador","group":"E","conf":"CONMEBOL","rank":23,"adv":0.2781,"r16":0.1491,"qf":0.0656,"sf":0.0238,"final":0.0085,"win":0.0032},{"team":"Senegal","group":"I","conf":"CAF","rank":19,"adv":0.6673,"r16":0.3253,"qf":0.1188,"sf":0.0337,"final":0.0094,"win":0.0024},{"team":"Australia","group":"D","conf":"AFC","rank":26,"adv":0.9295,"r16":0.3647,"qf":0.0905,"sf":0.0315,"final":0.0087,"win":0.0022},{"team":"Iran","group":"G","conf":"AFC","rank":20,"adv":0.7326,"r16":0.3201,"qf":0.1068,"sf":0.0305,"final":0.0085,"win":0.0019},{"team":"Austria","group":"J","conf":"UEFA","rank":24,"adv":0.9455,"r16":0.2646,"qf":0.1059,"sf":0.0329,"final":0.0086,"win":0.0018},{"team":"Sweden","group":"F","conf":"UEFA","rank":38,"adv":0.9474,"r16":0.3505,"qf":0.1206,"sf":0.0294,"final":0.0074,"win":0.0016},{"team":"South Korea","group":"A","conf":"AFC","rank":22,"adv":0.9419,"r16":0.3761,"qf":0.1188,"sf":0.0321,"final":0.0084,"win":0.0015},{"team":"Egypt","group":"G","conf":"CAF","rank":34,"adv":1.0,"r16":0.397,"qf":0.1321,"sf":0.0302,"final":0.0069,"win":0.0014},{"team":"Ivory Coast","group":"E","conf":"CAF","rank":42,"adv":0.9723,"r16":0.3819,"qf":0.0881,"sf":0.0242,"final":0.0058,"win":0.0013},{"team":"Algeria","group":"J","conf":"CAF","rank":35,"adv":0.6548,"r16":0.1806,"qf":0.0746,"sf":0.0196,"final":0.0053,"win":0.0012},{"team":"Paraguay","group":"D","conf":"CONMEBOL","rank":39,"adv":0.7712,"r16":0.2216,"qf":0.0568,"sf":0.0155,"final":0.0037,"win":0.0008},{"team":"Scotland","group":"C","conf":"UEFA","rank":36,"adv":0.7365,"r16":0.193,"qf":0.0432,"sf":0.0095,"final":0.0019,"win":0.0004},{"team":"Czech Republic","group":"A","conf":"UEFA","rank":40,"adv":0.189,"r16":0.0514,"qf":0.0144,"sf":0.0022,"final":0.0005,"win":0.0001},{"team":"Turkey","group":"D","conf":"UEFA","rank":27,"adv":0.1249,"r16":0.0288,"qf":0.0097,"sf":0.0026,"final":0.0006,"win":0.0001},{"team":"Uzbekistan","group":"K","conf":"AFC","rank":50,"adv":0.3335,"r16":0.0759,"qf":0.0182,"sf":0.0046,"final":0.0006,"win":0.0001},{"team":"DR Congo","group":"K","conf":"CAF","rank":46,"adv":0.4374,"r16":0.0979,"qf":0.0194,"sf":0.0038,"final":0.0004,"win":0.0001},{"team":"South Africa","group":"A","conf":"CAF","rank":61,"adv":0.1961,"r16":0.0431,"qf":0.0069,"sf":0.0009,"final":0.0001,"win":0.0},{"team":"Qatar","group":"B","conf":"AFC","rank":51,"adv":0.3036,"r16":0.0307,"qf":0.005,"sf":0.0004,"final":0.0,"win":0.0},{"team":"Bosnia and Herzegovina","group":"B","conf":"UEFA","rank":64,"adv":0.4499,"r16":0.0694,"qf":0.0142,"sf":0.0017,"final":0.0002,"win":0.0},{"team":"Haiti","group":"C","conf":"CONCACAF","rank":84,"adv":0.0167,"r16":0.0018,"qf":0.0001,"sf":0.0,"final":0.0,"win":0.0},{"team":"Cura\u00e7ao","group":"E","conf":"CONCACAF","rank":82,"adv":0.0772,"r16":0.0051,"qf":0.0001,"sf":0.0,"final":0.0,"win":0.0},{"team":"Tunisia","group":"F","conf":"CAF","rank":40,"adv":0.0001,"r16":0.0,"qf":0.0,"sf":0.0,"final":0.0,"win":0.0},{"team":"New Zealand","group":"G","conf":"OFC","rank":86,"adv":0.0936,"r16":0.0253,"qf":0.003,"sf":0.0005,"final":0.0,"win":0.0},{"team":"Cape Verde","group":"H","conf":"CAF","rank":68,"adv":0.6164,"r16":0.0571,"qf":0.0097,"sf":0.001,"final":0.0001,"win":0.0},{"team":"Saudi Arabia","group":"H","conf":"AFC","rank":60,"adv":0.392,"r16":0.042,"qf":0.009,"sf":0.0014,"final":0.0001,"win":0.0},{"team":"Iraq","group":"I","conf":"AFC","rank":57,"adv":0.0934,"r16":0.0211,"qf":0.004,"sf":0.0004,"final":0.0,"win":0.0},{"team":"Jordan","group":"J","conf":"AFC","rank":66,"adv":0.1048,"r16":0.0173,"qf":0.0037,"sf":0.0004,"final":0.0,"win":0.0},{"team":"Ghana","group":"L","conf":"CAF","rank":72,"adv":0.7494,"r16":0.1298,"qf":0.0246,"sf":0.0038,"final":0.0006,"win":0.0},{"team":"Panama","group":"L","conf":"CONCACAF","rank":30,"adv":0.1228,"r16":0.0195,"qf":0.0037,"sf":0.0006,"final":0.0,"win":0.0}],"clv":[{"date":"2026-06-11","match":"Mexico v South Africa","pick":"Mexico","model":0.597,"open":0.63,"close":0.695,"clv":10.3},{"date":"2026-06-13","match":"United States v Paraguay","pick":"United States","model":0.405,"open":0.475,"close":0.485,"clv":2.1},{"date":"2026-06-13","match":"Qatar v Switzerland","pick":"Switzerland","model":0.769,"open":0.725,"close":0.825,"clv":13.8},{"date":"2026-06-13","match":"Brazil v Morocco","pick":"Brazil","model":0.533,"open":0.595,"close":0.585,"clv":-1.7},{"date":"2026-06-14","match":"Haiti v Scotland","pick":"Scotland","model":0.566,"open":0.695,"close":0.615,"clv":-11.5},{"date":"2026-06-14","match":"Australia v T\u00fcrkiye","pick":"Australia","model":0.397,"open":0.195,"close":0.175,"clv":-10.3},{"date":"2026-06-14","match":"Germany v Cura\u00e7ao","pick":"Germany","model":0.96,"open":0.93,"close":0.935,"clv":0.5},{"date":"2026-06-14","match":"Netherlands v Japan","pick":"Netherlands","model":0.46,"open":0.465,"close":0.485,"clv":4.3},{"date":"2026-06-14","match":"Ivory Coast v Ecuador","pick":"Ecuador","model":0.458,"open":0.415,"close":0.395,"clv":-4.8},{"date":"2026-06-15","match":"Sweden v Tunisia","pick":"Sweden","model":0.465,"open":0.505,"close":0.515,"clv":2.0},{"date":"2026-06-15","match":"Spain v Cape Verde","pick":"Spain","model":0.905,"open":0.885,"close":0.905,"clv":2.3},{"date":"2026-06-15","match":"Belgium v Egypt","pick":"Belgium","model":0.602,"open":0.615,"close":0.665,"clv":8.1},{"date":"2026-06-15","match":"Saudi Arabia v Uruguay","pick":"Uruguay","model":0.717,"open":0.575,"close":0.645,"clv":12.2},{"date":"2026-06-16","match":"France v Senegal","pick":"France","model":0.587,"open":0.695,"close":0.665,"clv":-4.3},{"date":"2026-06-16","match":"Iraq v Norway","pick":"Norway","model":0.624,"open":0.77,"close":0.795,"clv":3.2},{"date":"2026-06-17","match":"Argentina v Algeria","pick":"Argentina","model":0.735,"open":0.68,"close":0.635,"clv":-6.6},{"date":"2026-06-17","match":"Austria v Jordan","pick":"Austria","model":0.605,"open":0.715,"close":0.705,"clv":-1.4},{"date":"2026-06-17","match":"Portugal v Congo DR","pick":"Portugal","model":0.741,"open":0.77,"close":0.765,"clv":-0.6},{"date":"2026-06-17","match":"England v Croatia","pick":"England","model":0.554,"open":0.545,"close":0.585,"clv":7.3},{"date":"2026-06-17","match":"Ghana v Panama","pick":"Ghana","model":0.358,"open":0.485,"close":0.395,"clv":-18.6},{"date":"2026-06-18","match":"Uzbekistan v Colombia","pick":"Colombia","model":0.658,"open":0.66,"close":0.765,"clv":15.9},{"date":"2026-06-18","match":"Canada v Qatar","pick":"Canada","model":0.663,"open":0.445,"close":0.785,"clv":76.4},{"date":"2026-06-19","match":"Mexico v South Korea","pick":"Mexico","model":0.428,"open":0.445,"close":0.485,"clv":9.0},{"date":"2026-06-19","match":"United States v Australia","pick":"United States","model":0.362,"open":0.385,"close":0.625,"clv":62.3},{"date":"2026-06-19","match":"Scotland v Morocco","pick":"Morocco","model":0.539,"open":0.445,"close":0.595,"clv":33.7},{"date":"2026-06-20","match":"Brazil v Haiti","pick":"Brazil","model":0.933,"open":0.855,"close":0.885,"clv":3.5},{"date":"2026-06-20","match":"Netherlands v Sweden","pick":"Netherlands","model":0.596,"open":0.58,"close":0.575,"clv":-0.9},{"date":"2026-06-20","match":"Germany v Ivory Coast","pick":"Germany","model":0.632,"open":0.445,"close":0.655,"clv":47.2},{"date":"2026-06-21","match":"Ecuador v Cura\u00e7ao","pick":"Ecuador","model":0.854,"open":0.445,"close":0.845,"clv":89.9},{"date":"2026-06-21","match":"Tunisia v Japan","pick":"Japan","model":0.562,"open":0.445,"close":0.665,"clv":49.4},{"date":"2026-06-21","match":"Spain v Saudi Arabia","pick":"Spain","model":0.883,"open":0.445,"close":0.885,"clv":98.9},{"date":"2026-06-21","match":"Belgium v Iran","pick":"Belgium","model":0.565,"open":0.445,"close":0.695,"clv":56.2},{"date":"2026-06-21","match":"Uruguay v Cape Verde","pick":"Uruguay","model":0.753,"open":0.445,"close":0.705,"clv":58.4},{"date":"2026-06-22","match":"New Zealand v Egypt","pick":"Egypt","model":0.457,"open":0.445,"close":0.595,"clv":33.7},{"date":"2026-06-22","match":"Argentina v Austria","pick":"Argentina","model":0.72,"open":0.445,"close":0.685,"clv":53.9},{"date":"2026-06-22","match":"France v Iraq","pick":"France","model":0.799,"open":0.865,"close":0.915,"clv":5.8},{"date":"2026-06-23","match":"Norway v Senegal","pick":"Norway","model":0.375,"open":0.445,"close":0.405,"clv":-9.0},{"date":"2026-06-23","match":"Jordan v Algeria","pick":"Algeria","model":0.616,"open":0.445,"close":0.665,"clv":49.4},{"date":"2026-06-23","match":"Portugal v Uzbekistan","pick":"Portugal","model":0.7,"open":0.445,"close":0.865,"clv":94.4},{"date":"2026-06-23","match":"England v Ghana","pick":"England","model":0.788,"open":0.445,"close":0.845,"clv":89.9},{"date":"2026-06-23","match":"Panama v Croatia","pick":"Croatia","model":0.658,"open":0.445,"close":0.695,"clv":56.2},{"date":"2026-06-24","match":"Colombia v Congo DR","pick":"Colombia","model":0.699,"open":0.625,"close":0.645,"clv":3.2},{"date":"2026-06-24","match":"Switzerland v Canada","pick":"Switzerland","model":0.458,"open":0.445,"close":0.375,"clv":-15.7},{"date":"2026-06-24","match":"Morocco v Haiti","pick":"Morocco","model":0.744,"open":0.445,"close":0.755,"clv":69.7},{"date":"2026-06-24","match":"Scotland v Brazil","pick":"Brazil","model":0.788,"open":0.71,"close":0.745,"clv":4.9},{"date":"2026-06-25","match":"Czechia v Mexico","pick":"Mexico","model":0.508,"open":0.435,"close":0.575,"clv":32.2},{"date":"2026-06-25","match":"Cura\u00e7ao v Ivory Coast","pick":"Ivory Coast","model":0.766,"open":0.445,"close":0.825,"clv":85.4},{"date":"2026-06-25","match":"Ecuador v Germany","pick":"Germany","model":0.479,"open":0.445,"close":0.555,"clv":24.7},{"date":"2026-06-25","match":"Japan v Sweden","pick":"Japan","model":0.486,"open":0.365,"close":0.405,"clv":11.0},{"date":"2026-06-25","match":"Tunisia v Netherlands","pick":"Netherlands","model":0.666,"open":0.445,"close":0.875,"clv":96.6},{"date":"2026-06-26","match":"Paraguay v Australia","pick":"Australia","model":0.395,"open":0.445,"close":0.225,"clv":-49.4},{"date":"2026-06-26","match":"T\u00fcrkiye v United States","pick":"United States","model":0.407,"open":0.435,"close":0.455,"clv":4.6},{"date":"2026-06-26","match":"Norway v France","pick":"France","model":0.603,"open":0.445,"close":0.745,"clv":67.4},{"date":"2026-06-26","match":"Senegal v Iraq","pick":"Senegal","model":0.57,"open":0.655,"close":0.805,"clv":22.9},{"date":"2026-06-27","match":"Cape Verde v Saudi Arabia","pick":"Saudi Arabia","model":0.385,"open":0.445,"close":0.355,"clv":-20.2},{"date":"2026-06-27","match":"Uruguay v Spain","pick":"Spain","model":0.538,"open":0.445,"close":0.575,"clv":29.2},{"date":"2026-06-27","match":"New Zealand v Belgium","pick":"Belgium","model":0.756,"open":0.445,"close":0.825,"clv":85.4},{"date":"2026-06-27","match":"Croatia v Ghana","pick":"Croatia","model":0.638,"open":0.445,"close":0.545,"clv":22.5},{"date":"2026-06-27","match":"Panama v England","pick":"England","model":0.81,"open":0.445,"close":0.855,"clv":92.1},{"date":"2026-06-27","match":"Colombia v Portugal","pick":"Portugal","model":0.375,"open":0.445,"close":0.545,"clv":22.5},{"date":"2026-06-27","match":"Congo DR v Uzbekistan","pick":"Uzbekistan","model":0.374,"open":0.465,"close":0.175,"clv":-62.4},{"date":"2026-06-28","match":"Algeria v Austria","pick":"Austria","model":0.368,"open":0.445,"close":0.275,"clv":-38.2},{"date":"2026-06-28","match":"Jordan v Argentina","pick":"Argentina","model":0.888,"open":0.445,"close":0.865,"clv":94.4},{"date":"2026-06-28","match":"South Africa v Canada","pick":"Canada","model":0.535,"open":0.33,"close":0.525,"clv":59.1},{"date":"2026-06-29","match":"Brazil v Japan","pick":"Brazil","model":0.615,"open":0.585,"close":0.545,"clv":-6.8},{"date":"2026-06-29","match":"Germany v Paraguay","pick":"Germany","model":0.645,"open":0.69,"close":0.735,"clv":6.5},{"date":"2026-06-30","match":"Netherlands v Morocco","pick":"Netherlands","model":0.399,"open":0.455,"close":0.405,"clv":-11.0},{"date":"2026-06-30","match":"Ivory Coast v Norway","pick":"Norway","model":0.419,"open":0.485,"close":0.445,"clv":-8.2},{"date":"2026-06-30","match":"France v Sweden","pick":"France","model":0.643,"open":0.705,"close":0.765,"clv":8.5},{"date":"2026-07-01","match":"Mexico v Ecuador","pick":"Ecuador","model":0.379,"open":0.245,"close":0.225,"clv":-8.2},{"date":"2026-07-01","match":"England v Congo DR","pick":"England","model":0.749,"open":0.755,"close":0.765,"clv":1.3},{"date":"2026-07-01","match":"Belgium v Senegal","pick":"Belgium","model":0.531,"open":0.455,"close":0.505,"clv":11.0},{"date":"2026-07-02","match":"Spain v Austria","pick":"Spain","model":0.743,"open":0.755,"close":0.725,"clv":-4.0},{"date":"2026-07-02","match":"Portugal v Croatia","pick":"Portugal","model":0.528,"open":0.51,"close":0.585,"clv":14.7},{"date":"2026-07-03","match":"Switzerland v Algeria","pick":"Switzerland","model":0.47,"open":0.485,"close":0.495,"clv":2.1},{"date":"2026-07-03","match":"Australia v Egypt","pick":"Australia","model":0.403,"open":0.29,"close":0.265,"clv":-8.6},{"date":"2026-07-03","match":"Argentina v Cape Verde","pick":"Argentina","model":0.882,"open":0.865,"close":0.865,"clv":0.0},{"date":"2026-07-04","match":"Colombia v Ghana","pick":"Colombia","model":0.739,"open":0.425,"close":0.675,"clv":58.8},{"date":"2026-07-04","match":"Canada v Morocco","pick":"Morocco","model":0.469,"open":0.535,"close":0.535,"clv":0.0},{"date":"2026-07-04","match":"Paraguay v France","pick":"France","model":0.64,"open":0.825,"close":0.815,"clv":-1.2},{"date":"2026-07-05","match":"Brazil v Norway","pick":"Brazil","model":0.703,"open":0.505,"close":0.545,"clv":7.9},{"date":"2026-07-06","match":"Mexico v England","pick":"England","model":0.562,"open":0.375,"close":0.375,"clv":0.0},{"date":"2026-07-06","match":"Portugal v Spain","pick":"Spain","model":0.483,"open":0.515,"close":0.505,"clv":-1.9},{"date":"2026-07-07","match":"United States v Belgium","pick":"Belgium","model":0.557,"open":0.365,"close":0.345,"clv":-5.5},{"date":"2026-07-07","match":"Argentina v Egypt","pick":"Argentina","model":0.723,"open":0.725,"close":0.735,"clv":1.4},{"date":"2026-07-07","match":"Switzerland v Colombia","pick":"Colombia","model":0.502,"open":0.435,"close":0.405,"clv":-6.9},{"date":"2026-07-09","match":"France v Morocco","pick":"France","model":0.443,"open":0.625,"close":0.615,"clv":-1.6},{"date":"2026-07-10","match":"Spain v Belgium","pick":"Spain","model":0.562,"open":0.605,"close":0.585,"clv":-3.3},{"date":"2026-07-11","match":"Norway v England","pick":"England","model":0.619,"open":0.515,"close":0.535,"clv":3.9},{"date":"2026-07-12","match":"Argentina v Switzerland","pick":"Argentina","model":0.642,"open":0.565,"close":0.565,"clv":0.0},{"date":"2026-07-14","match":"France v Spain","pick":"Spain","model":0.46,"open":0.305,"close":0.305,"clv":0.0},{"date":"2026-07-15","match":"England v Argentina","pick":"Argentina","model":0.414,"open":0.305,"close":0.315,"clv":3.3}],"calib":[{"lo":0.3,"hi":0.4,"n":184,"conf":0.3746,"acc":0.4022},{"lo":0.4,"hi":0.5,"n":325,"conf":0.4495,"acc":0.4738},{"lo":0.5,"hi":0.6,"n":261,"conf":0.5482,"acc":0.5402},{"lo":0.6,"hi":0.7,"n":212,"conf":0.6479,"acc":0.6698},{"lo":0.7,"hi":0.8,"n":157,"conf":0.7503,"acc":0.8726},{"lo":0.8,"hi":0.9,"n":109,"conf":0.8464,"acc":0.9083},{"lo":0.9,"hi":1.0,"n":67,"conf":0.9446,"acc":0.9851}],"models":[{"name":"Dixon\u2013Coles (this model)","half_life":5.0,"ridge":1.0,"n":1315,"brier":0.4882,"logloss":0.8337,"accuracy":0.6183},{"name":"Elo + logistic","n":1315,"brier":0.4959,"logloss":0.8416,"accuracy":0.6046},{"name":"Gradient boosting","n":1315,"brier":0.4852,"logloss":0.8261,"accuracy":0.619},{"name":"Neural net (MLP)","n":1315,"brier":0.4844,"logloss":0.8239,"accuracy":0.6205}],"summary":{"n_matches":92,"beat":59,"median_clv":4.5,"accuracy":0.6183,"brier":0.4882,"n_val":1315}};
+const pct = (x, d = 1) => (x * 100).toFixed(d) + "%";
+const esc = s => String(s).replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const NS = "http://www.w3.org/2000/svg";
+const el = (tag, attrs = {}, parent) => { const e = document.createElementNS(NS, tag);
+  for (const k in attrs) e.setAttribute(k, attrs[k]); if (parent) parent.appendChild(e); return e; };
+const tip = document.getElementById("tip");
+function showTip(evt, html) {
+  tip.innerHTML = html; tip.style.opacity = 1;
+  const pad = 14, w = tip.offsetWidth, h = tip.offsetHeight;
+  let x = evt.pageX + pad, y = evt.pageY + pad;
+  if (x + w > window.scrollX + innerWidth - 8) x = evt.pageX - w - pad;
+  if (y + h > window.scrollY + innerHeight - 8) y = evt.pageY - h - pad;
+  tip.style.left = x + "px"; tip.style.top = y + "px";
+}
+const hideTip = () => { tip.style.opacity = 0; };
+
+// --- tiles
+const S = D.summary;
+document.getElementById("tiles").innerHTML = [
+  [pct(S.accuracy), `out-of-sample accuracy (${S.n_val.toLocaleString()} matches)`],
+  [S.brier.toFixed(3), "Brier score (3-way, lower is better)"],
+  [(S.median_clv > 0 ? "+" : "") + S.median_clv + "%", "median CLV vs Kalshi closing lines"],
+  [`${S.beat}/${S.n_matches}`, `picks beat the closing line (${pct(S.beat / S.n_matches, 0)})`],
+].map(([k, l]) => `<div class="tile"><div class="k">${k}</div><div class="l">${l}</div></div>`).join("");
+
+// --- win probability bars (horizontal)
+function drawWin() {
+  const host = document.getElementById("win"), top = D.teams.slice(0, 16);
+  host.innerHTML = ""; const W = Math.max(320, host.clientWidth), rowH = 26, L = W < 500 ? 104 : 150, R = 48, H = top.length * rowH + 24;
+  const svg = el("svg", { viewBox: `0 0 ${W} ${H}`, role: "img", "aria-label": "Title odds for the top 16 teams" }, host);
+  const max = Math.ceil(top[0].win * 20) / 20, x = v => L + (v / max) * (W - L - R);
+  const g = el("g", { class: "grid" }, svg);
+  for (let t = 0; t <= max + 1e-9; t += 0.05) {
+    el("line", { x1: x(t), x2: x(t), y1: 0, y2: H - 20 }, g);
+    el("text", { x: x(t), y: H - 4, "text-anchor": "middle" }, svg).textContent = pct(t, 0);
+  }
+  top.forEach((t, i) => {
+    const y = i * rowH + 4, bh = rowH - 8;
+    el("text", { x: L - 10, y: y + bh / 2 + 4, "text-anchor": "end", style: "fill:var(--text)" }, svg).textContent = t.team;
+    el("rect", { x: L, y, width: Math.max(2, x(t.win) - L), height: bh, rx: 4, fill: "var(--pos)" }, svg);
+    if (i < 6) el("text", { x: x(t.win) + 6, y: y + bh / 2 + 4 }, svg).textContent = pct(t.win);
+    const hit = el("rect", { x: 0, y: y - 4, width: W, height: rowH, fill: "transparent" }, svg);
+    hit.addEventListener("mousemove", e => showTip(e, `<b>${esc(t.team)}</b> <span class="m">· Group ${t.group} · FIFA #${t.rank}</span><br>
+      Win cup <b>${pct(t.win)}</b><br><span class="m">Final ${pct(t.final)} · Semis ${pct(t.sf)} · QF ${pct(t.qf)}</span>`));
+    hit.addEventListener("mouseleave", hideTip);
+  });
+}
+
+// --- team table
+(function () {
+  const cols = [["team", "Team", "l"], ["group", "Group", "l"], ["conf", "Conf.", "l"], ["rank", "FIFA"],
+    ["adv", "Out of group"], ["r16", "R16"], ["qf", "QF"], ["sf", "Semis"], ["final", "Final"], ["win", "Win"]];
+  const confSel = document.getElementById("conf");
+  [...new Set(D.teams.map(t => t.conf))].sort().forEach(c => confSel.add(new Option(c, c)));
+  let key = "win", dir = -1;
+  const tbl = document.getElementById("teams"), q = document.getElementById("q");
+  function draw() {
+    const term = q.value.trim().toLowerCase(), cf = confSel.value;
+    const list = D.teams.filter(t => (!term || t.team.toLowerCase().includes(term)) && (!cf || t.conf === cf))
+      .sort((a, b) => (a[key] > b[key] ? 1 : a[key] < b[key] ? -1 : 0) * dir);
+    tbl.innerHTML = "<thead><tr>" + cols.map(([k, l, c]) =>
+      `<th class="${c || ""}" data-k="${k}" ${k === key ? `aria-sort="${dir < 0 ? "descending" : "ascending"}"` : ""}>${l}${k === key ? (dir < 0 ? " ↓" : " ↑") : ""}</th>`).join("") +
+      "</tr></thead><tbody>" + list.map(t => "<tr>" + cols.map(([k, , c]) =>
+        `<td class="${c || ""}">${typeof t[k] === "number" && k !== "rank" ? pct(t[k]) : esc(t[k])}</td>`).join("") + "</tr>").join("") + "</tbody>";
+    tbl.querySelectorAll("th").forEach(th => th.onclick = () => {
+      const k = th.dataset.k; dir = k === key ? -dir : (["team", "group", "conf", "rank"].includes(k) ? 1 : -1); key = k; draw(); });
+  }
+  q.oninput = draw; confSel.onchange = draw; draw();
+})();
+
+// --- CLV diverging bars
+function drawClv() {
+  const host = document.getElementById("clvChart"), rows = D.clv;
+  host.innerHTML = ""; const W = Math.max(320, host.clientWidth), H = W < 500 ? 240 : 300, T = 10, B = 26, L = 44, R = 8;
+  const svg = el("svg", { viewBox: `0 0 ${W} ${H}`, role: "img", "aria-label": "CLV for each pick" }, host);
+  const lim = Math.max(...rows.map(r => Math.abs(r.clv)));
+  const cap = Math.min(lim, 60);  // clamp the long tail so typical picks stay readable
+  const y = v => T + (H - T - B) * (1 - (Math.max(-cap, Math.min(cap, v)) + cap) / (2 * cap));
+  const g = el("g", { class: "grid" }, svg);
+  const step = cap > 40 ? 20 : 10;
+  for (let t = -Math.floor(cap / step) * step; t <= cap; t += step) {
+    el("line", { x1: L, x2: W - R, y1: y(t), y2: y(t) }, g);
+    el("text", { x: L - 6, y: y(t) + 4, "text-anchor": "end" }, svg).textContent = (t > 0 ? "+" : "") + t + "%";
+  }
+  el("line", { x1: L, x2: W - R, y1: y(0), y2: y(0), stroke: "var(--ref)" }, svg);
+  const bw = (W - L - R) / rows.length;
+  rows.forEach((r, i) => {
+    const x0 = L + i * bw + 1, h = Math.abs(y(r.clv) - y(0)), up = r.clv >= 0;
+    el("rect", { x: x0, y: up ? y(r.clv) : y(0), width: Math.max(1, bw - 2), height: Math.max(1, h), rx: Math.min(3, (bw - 2) / 2),
+      fill: up ? "var(--pos)" : "var(--neg)" }, svg);
+    const hit = el("rect", { x: L + i * bw, y: T, width: bw, height: H - T - B, fill: "transparent" }, svg);
+    hit.addEventListener("mousemove", e => showTip(e, `<b>${esc(r.match)}</b><br><span class="m">${r.date} · pick ${esc(r.pick)}</span><br>
+      Model ${pct(r.model)} · open ${pct(r.open)} · close ${pct(r.close)}<br>CLV <b>${r.clv > 0 ? "+" : ""}${r.clv.toFixed(1)}%</b>${Math.abs(r.clv) > cap ? ` <span class="m">(bar clipped at ±${cap}%)</span>` : ""}`));
+    hit.addEventListener("mouseleave", hideTip);
+  });
+  const first = rows[0].date, last = rows[rows.length - 1].date;
+  el("text", { x: L, y: H - 6 }, svg).textContent = first;
+  el("text", { x: W - R, y: H - 6, "text-anchor": "end" }, svg).textContent = last;
+}
+(function () { const rows = D.clv, host = document.getElementById("clvChart");
+
+  const tbl = document.getElementById("clvTable");
+  tbl.innerHTML = "<thead><tr><th class='l'>Date</th><th class='l'>Match</th><th class='l'>Pick</th><th>Model</th><th>Open</th><th>Close</th><th>CLV</th></tr></thead><tbody>" +
+    rows.map(r => `<tr><td class="l">${r.date}</td><td class="l">${esc(r.match)}</td><td class="l">${esc(r.pick)}</td><td>${pct(r.model)}</td><td>${pct(r.open)}</td><td>${pct(r.close)}</td><td>${r.clv > 0 ? "+" : ""}${r.clv.toFixed(1)}%</td></tr>`).join("") + "</tbody>";
+  const btn = document.getElementById("clvTableBtn"), wrap = document.getElementById("clvTableWrap");
+  btn.onclick = () => { const on = btn.getAttribute("aria-pressed") !== "true"; btn.setAttribute("aria-pressed", on);
+    btn.textContent = on ? "Show as chart" : "Show as table"; wrap.classList.toggle("hidden", !on); host.classList.toggle("hidden", on); };
+})();
+
+// --- calibration (reliability) plot
+function drawCalib() {
+  const host = document.getElementById("calib"), C = D.calib;
+  host.innerHTML = ""; const W = Math.max(300, host.clientWidth), H = Math.round(W * 0.75), L = 44, R = 12, T = 10, B = 36;
+  const svg = el("svg", { viewBox: `0 0 ${W} ${H}`, role: "img", "aria-label": "Predicted confidence versus observed accuracy" }, host);
+  const lo = 0.3, hi = 1.0;
+  const x = v => L + (v - lo) / (hi - lo) * (W - L - R), y = v => T + (1 - (v - lo) / (hi - lo)) * (H - T - B);
+  const g = el("g", { class: "grid" }, svg);
+  for (let t = 0.3; t <= 1.0001; t += 0.1) {
+    el("line", { x1: x(t), x2: x(t), y1: T, y2: H - B }, g); el("line", { x1: L, x2: W - R, y1: y(t), y2: y(t) }, g);
+    el("text", { x: x(t), y: H - B + 16, "text-anchor": "middle" }, svg).textContent = pct(t, 0);
+    el("text", { x: L - 6, y: y(t) + 4, "text-anchor": "end" }, svg).textContent = pct(t, 0);
+  }
+  el("line", { x1: x(lo), y1: y(lo), x2: x(hi), y2: y(hi), stroke: "var(--ref)", "stroke-dasharray": "4 4" }, svg);
+  el("text", { x: x(0.97), y: y(0.86), "text-anchor": "end" }, svg).textContent = "perfect calibration";
+  el("text", { x: (L + W - R) / 2, y: H - 2, "text-anchor": "middle" }, svg).textContent = "Model confidence";
+  const pts = C.filter(c => c.n > 0);
+  el("polyline", { points: pts.map(c => `${x(c.conf)},${y(c.acc)}`).join(" "), fill: "none", stroke: "var(--pos)", "stroke-width": 2 }, svg);
+  pts.forEach(c => {
+    el("circle", { cx: x(c.conf), cy: y(c.acc), r: 5, fill: "var(--pos)", stroke: "var(--surface)", "stroke-width": 2 }, svg);
+    const hit = el("circle", { cx: x(c.conf), cy: y(c.acc), r: 14, fill: "transparent" }, svg);
+    hit.addEventListener("mousemove", e => showTip(e, `<b>${pct(c.lo, 0)}–${pct(c.hi, 0)} confidence</b><br>
+      Predicted ${pct(c.conf)} · actual <b>${pct(c.acc)}</b><br><span class="m">${c.n} matches</span>`));
+    hit.addEventListener("mouseleave", hideTip);
+  });
+}
+
+// --- benchmark table
+document.getElementById("models").innerHTML =
+  "<thead><tr><th class='l'>Model</th><th>Accuracy</th><th>Brier</th><th>Log-loss</th></tr></thead><tbody>" +
+  D.models.map(m => `<tr><td class="l">${esc(m.name)}</td><td>${pct(m.accuracy)}</td><td>${m.brier.toFixed(3)}</td><td>${m.logloss.toFixed(3)}</td></tr>`).join("") + "</tbody>";
+const drawAll = () => { drawWin(); drawClv(); drawCalib(); };
+drawAll();
+let rz; addEventListener("resize", () => { clearTimeout(rz); rz = setTimeout(drawAll, 120); });
+</script>
+</body>
+</html>

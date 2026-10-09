@@ -1,0 +1,276 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>World Cup 2026 Model</title>
+<meta name="description" content="Dixon–Coles + Monte Carlo forecast of the 2026 FIFA World Cup, graded against live prediction-market closing lines.">
+<style>
+:root {
+  color-scheme: light;
+  --bg: #f6f5f2; --surface: #fcfcfb; --border: #e4e2dc; --grid: #ecebe6;
+  --text: #0b0b0b; --text-2: #52514e; --text-3: #7d7b75;
+  --pos: #2a78d6; --neg: #e34948; --pos-soft: #cde2fb; --ref: #9a988f;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    color-scheme: dark;
+    --bg: #111110; --surface: #1a1a19; --border: #2e2e2b; --grid: #262624;
+    --text: #ffffff; --text-2: #c3c2b7; --text-3: #8f8e86;
+    --pos: #3987e5; --neg: #e66767; --pos-soft: #1c3557; --ref: #6f6e68;
+  }
+}
+:root[data-theme="dark"] {
+  color-scheme: dark;
+  --bg: #111110; --surface: #1a1a19; --border: #2e2e2b; --grid: #262624;
+  --text: #ffffff; --text-2: #c3c2b7; --text-3: #8f8e86;
+  --pos: #3987e5; --neg: #e66767; --pos-soft: #1c3557; --ref: #6f6e68;
+}
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--bg); color: var(--text);
+  font: 15px/1.5 ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+.wrap { max-width: 1080px; margin: 0 auto; padding: 32px 16px 64px; }
+header h1 { font-size: 28px; line-height: 1.2; margin: 0 0 6px; letter-spacing: -0.01em; }
+header p { margin: 0; color: var(--text-2); max-width: 720px; }
+header a, footer a { color: var(--pos); }
+.tiles { display: grid; grid-template-columns: repeat(auto-fit, minmax(190px, 1fr)); gap: 12px; margin: 24px 0; }
+.tile { background: var(--surface); border: 1px solid var(--border); border-radius: 12px; padding: 16px; }
+.tile .k { font-size: 30px; font-weight: 650; letter-spacing: -0.02em; font-variant-numeric: tabular-nums; }
+.tile .l { color: var(--text-2); font-size: 13px; }
+section { background: var(--surface); border: 1px solid var(--border); border-radius: 12px;
+  padding: 20px; margin-top: 16px; }
+section h2 { font-size: 18px; margin: 0 0 4px; }
+section .sub { color: var(--text-2); font-size: 13px; margin: 0 0 14px; }
+.row { display: flex; gap: 8px; flex-wrap: wrap; align-items: center; margin-bottom: 12px; }
+input[type=search], select { font: inherit; font-size: 14px; color: var(--text); background: var(--bg);
+  border: 1px solid var(--border); border-radius: 8px; padding: 6px 10px; }
+button.tog { font: inherit; font-size: 13px; color: var(--text-2); background: none; border: 1px solid var(--border);
+  border-radius: 8px; padding: 5px 10px; cursor: pointer; }
+button.tog[aria-pressed=true] { color: var(--text); border-color: var(--text-3); }
+.chart { position: relative; width: 100%; }
+svg { display: block; width: 100%; height: auto; overflow: visible; }
+svg text { fill: var(--text-2); font-size: 12px; font-family: inherit; font-variant-numeric: tabular-nums; }
+.axis line, .grid line { stroke: var(--grid); }
+.tip { position: absolute; pointer-events: none; background: var(--surface); color: var(--text);
+  border: 1px solid var(--border); border-radius: 8px; padding: 8px 10px; font-size: 13px;
+  box-shadow: 0 4px 16px rgba(0,0,0,.12); opacity: 0; transition: opacity .08s; min-width: 160px; z-index: 5; }
+.tip b { font-weight: 600; } .tip .m { color: var(--text-2); }
+.legend { display: flex; gap: 16px; font-size: 13px; color: var(--text-2); margin: 4px 0 8px; flex-wrap: wrap; }
+.legend i { display: inline-block; width: 10px; height: 10px; border-radius: 2px; margin-right: 6px; vertical-align: -1px; }
+.tablewrap { overflow-x: auto; }
+table { width: 100%; border-collapse: collapse; font-size: 14px; font-variant-numeric: tabular-nums; }
+th, td { text-align: right; padding: 7px 10px; border-bottom: 1px solid var(--grid); white-space: nowrap; }
+th:first-child, td:first-child, th.l, td.l { text-align: left; }
+th { color: var(--text-2); font-weight: 600; cursor: pointer; user-select: none; position: sticky; top: 0; background: var(--surface); }
+th[aria-sort] { color: var(--text); }
+.scroll { max-height: 420px; overflow: auto; }
+.two { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+@media (max-width: 760px) { .two { grid-template-columns: 1fr; } header h1 { font-size: 23px; } }
+footer { color: var(--text-3); font-size: 13px; margin-top: 28px; }
+.hidden { display: none; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1>2026 FIFA World Cup forecast</h1>
+    <p>A time-decayed Dixon–Coles goals model trained on 49,477 international results, simulated 50,000 times through
+      the real 48-team bracket, and graded against live Kalshi closing lines. Source:
+      <a href="https://github.com/vivaans07/wc2026-model">github.com/vivaans07/wc2026-model</a>.</p>
+  </header>
+
+  <div class="tiles" id="tiles"></div>
+
+  <section>
+    <h2>Who wins the cup?</h2>
+    <p class="sub">Probability of lifting the trophy, top 16 teams, from 50,000 simulated tournaments.</p>
+    <div class="chart" id="win"></div>
+  </section>
+
+  <section>
+    <h2>Every team, every round</h2>
+    <p class="sub">Chance of reaching each stage. Click a column to sort.</p>
+    <div class="row">
+      <input type="search" id="q" placeholder="Search team" aria-label="Search team">
+      <select id="conf" aria-label="Confederation"><option value="">All confederations</option></select>
+    </div>
+    <div class="tablewrap scroll"><table id="teams"></table></div>
+  </section>
+
+  <section>
+    <h2>Did the model beat the market?</h2>
+    <p class="sub">Closing line value (CLV) for every pick, in date order. Positive means the market later moved toward the
+      model's price, which measures edge independent of any single result. Bars are capped at ±60%; hover for the exact value.</p>
+    <div class="legend"><span><i style="background:var(--pos)"></i>Beat the close</span>
+      <span><i style="background:var(--neg)"></i>Worse than the close</span></div>
+    <div class="row"><button class="tog" id="clvTableBtn" aria-pressed="false">Show as table</button></div>
+    <div class="chart" id="clvChart"></div>
+    <div class="tablewrap scroll hidden" id="clvTableWrap"><table id="clvTable"></table></div>
+  </section>
+
+  <div class="two">
+    <section>
+      <h2>Is it calibrated?</h2>
+      <p class="sub">When the model says X%, does the favorite win X% of the time? Out-of-sample, 2025–26.</p>
+      <div class="chart" id="calib"></div>
+    </section>
+    <section>
+      <h2>Against benchmarks</h2>
+      <p class="sub">Same out-of-sample matches. Lower Brier and log-loss are better.</p>
+      <div class="tablewrap"><table id="models"></table></div>
+    </section>
+  </div>
+
+  <footer>Methodology demonstration, not betting advice. A 92-match sample is informative but not proof of a
+    repeatable edge. Built from the repository's <code>outputs/</code> by <code>scripts/build_dashboard.py</code>.</footer>
+</div>
+<div class="tip" id="tip" role="status" aria-live="polite"></div>
+
+<script>
+const D = /*__DATA__*/null;
+const pct = (x, d = 1) => (x * 100).toFixed(d) + "%";
+const esc = s => String(s).replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const NS = "http://www.w3.org/2000/svg";
+const el = (tag, attrs = {}, parent) => { const e = document.createElementNS(NS, tag);
+  for (const k in attrs) e.setAttribute(k, attrs[k]); if (parent) parent.appendChild(e); return e; };
+const tip = document.getElementById("tip");
+function showTip(evt, html) {
+  tip.innerHTML = html; tip.style.opacity = 1;
+  const pad = 14, w = tip.offsetWidth, h = tip.offsetHeight;
+  let x = evt.pageX + pad, y = evt.pageY + pad;
+  if (x + w > window.scrollX + innerWidth - 8) x = evt.pageX - w - pad;
+  if (y + h > window.scrollY + innerHeight - 8) y = evt.pageY - h - pad;
+  tip.style.left = x + "px"; tip.style.top = y + "px";
+}
+const hideTip = () => { tip.style.opacity = 0; };
+
+// --- tiles
+const S = D.summary;
+document.getElementById("tiles").innerHTML = [
+  [pct(S.accuracy), `out-of-sample accuracy (${S.n_val.toLocaleString()} matches)`],
+  [S.brier.toFixed(3), "Brier score (3-way, lower is better)"],
+  [(S.median_clv > 0 ? "+" : "") + S.median_clv + "%", "median CLV vs Kalshi closing lines"],
+  [`${S.beat}/${S.n_matches}`, `picks beat the closing line (${pct(S.beat / S.n_matches, 0)})`],
+].map(([k, l]) => `<div class="tile"><div class="k">${k}</div><div class="l">${l}</div></div>`).join("");
+
+// --- win probability bars (horizontal)
+function drawWin() {
+  const host = document.getElementById("win"), top = D.teams.slice(0, 16);
+  host.innerHTML = ""; const W = Math.max(320, host.clientWidth), rowH = 26, L = W < 500 ? 104 : 150, R = 48, H = top.length * rowH + 24;
+  const svg = el("svg", { viewBox: `0 0 ${W} ${H}`, role: "img", "aria-label": "Title odds for the top 16 teams" }, host);
+  const max = Math.ceil(top[0].win * 20) / 20, x = v => L + (v / max) * (W - L - R);
+  const g = el("g", { class: "grid" }, svg);
+  for (let t = 0; t <= max + 1e-9; t += 0.05) {
+    el("line", { x1: x(t), x2: x(t), y1: 0, y2: H - 20 }, g);
+    el("text", { x: x(t), y: H - 4, "text-anchor": "middle" }, svg).textContent = pct(t, 0);
+  }
+  top.forEach((t, i) => {
+    const y = i * rowH + 4, bh = rowH - 8;
+    el("text", { x: L - 10, y: y + bh / 2 + 4, "text-anchor": "end", style: "fill:var(--text)" }, svg).textContent = t.team;
+    el("rect", { x: L, y, width: Math.max(2, x(t.win) - L), height: bh, rx: 4, fill: "var(--pos)" }, svg);
+    if (i < 6) el("text", { x: x(t.win) + 6, y: y + bh / 2 + 4 }, svg).textContent = pct(t.win);
+    const hit = el("rect", { x: 0, y: y - 4, width: W, height: rowH, fill: "transparent" }, svg);
+    hit.addEventListener("mousemove", e => showTip(e, `<b>${esc(t.team)}</b> <span class="m">· Group ${t.group} · FIFA #${t.rank}</span><br>
+      Win cup <b>${pct(t.win)}</b><br><span class="m">Final ${pct(t.final)} · Semis ${pct(t.sf)} · QF ${pct(t.qf)}</span>`));
+    hit.addEventListener("mouseleave", hideTip);
+  });
+}
+
+// --- team table
+(function () {
+  const cols = [["team", "Team", "l"], ["group", "Group", "l"], ["conf", "Conf.", "l"], ["rank", "FIFA"],
+    ["adv", "Out of group"], ["r16", "R16"], ["qf", "QF"], ["sf", "Semis"], ["final", "Final"], ["win", "Win"]];
+  const confSel = document.getElementById("conf");
+  [...new Set(D.teams.map(t => t.conf))].sort().forEach(c => confSel.add(new Option(c, c)));
+  let key = "win", dir = -1;
+  const tbl = document.getElementById("teams"), q = document.getElementById("q");
+  function draw() {
+    const term = q.value.trim().toLowerCase(), cf = confSel.value;
+    const list = D.teams.filter(t => (!term || t.team.toLowerCase().includes(term)) && (!cf || t.conf === cf))
+      .sort((a, b) => (a[key] > b[key] ? 1 : a[key] < b[key] ? -1 : 0) * dir);
+    tbl.innerHTML = "<thead><tr>" + cols.map(([k, l, c]) =>
+      `<th class="${c || ""}" data-k="${k}" ${k === key ? `aria-sort="${dir < 0 ? "descending" : "ascending"}"` : ""}>${l}${k === key ? (dir < 0 ? " ↓" : " ↑") : ""}</th>`).join("") +
+      "</tr></thead><tbody>" + list.map(t => "<tr>" + cols.map(([k, , c]) =>
+        `<td class="${c || ""}">${typeof t[k] === "number" && k !== "rank" ? pct(t[k]) : esc(t[k])}</td>`).join("") + "</tr>").join("") + "</tbody>";
+    tbl.querySelectorAll("th").forEach(th => th.onclick = () => {
+      const k = th.dataset.k; dir = k === key ? -dir : (["team", "group", "conf", "rank"].includes(k) ? 1 : -1); key = k; draw(); });
+  }
+  q.oninput = draw; confSel.onchange = draw; draw();
+})();
+
+// --- CLV diverging bars
+function drawClv() {
+  const host = document.getElementById("clvChart"), rows = D.clv;
+  host.innerHTML = ""; const W = Math.max(320, host.clientWidth), H = W < 500 ? 240 : 300, T = 10, B = 26, L = 44, R = 8;
+  const svg = el("svg", { viewBox: `0 0 ${W} ${H}`, role: "img", "aria-label": "CLV for each pick" }, host);
+  const lim = Math.max(...rows.map(r => Math.abs(r.clv)));
+  const cap = Math.min(lim, 60);  // clamp the long tail so typical picks stay readable
+  const y = v => T + (H - T - B) * (1 - (Math.max(-cap, Math.min(cap, v)) + cap) / (2 * cap));
+  const g = el("g", { class: "grid" }, svg);
+  const step = cap > 40 ? 20 : 10;
+  for (let t = -Math.floor(cap / step) * step; t <= cap; t += step) {
+    el("line", { x1: L, x2: W - R, y1: y(t), y2: y(t) }, g);
+    el("text", { x: L - 6, y: y(t) + 4, "text-anchor": "end" }, svg).textContent = (t > 0 ? "+" : "") + t + "%";
+  }
+  el("line", { x1: L, x2: W - R, y1: y(0), y2: y(0), stroke: "var(--ref)" }, svg);
+  const bw = (W - L - R) / rows.length;
+  rows.forEach((r, i) => {
+    const x0 = L + i * bw + 1, h = Math.abs(y(r.clv) - y(0)), up = r.clv >= 0;
+    el("rect", { x: x0, y: up ? y(r.clv) : y(0), width: Math.max(1, bw - 2), height: Math.max(1, h), rx: Math.min(3, (bw - 2) / 2),
+      fill: up ? "var(--pos)" : "var(--neg)" }, svg);
+    const hit = el("rect", { x: L + i * bw, y: T, width: bw, height: H - T - B, fill: "transparent" }, svg);
+    hit.addEventListener("mousemove", e => showTip(e, `<b>${esc(r.match)}</b><br><span class="m">${r.date} · pick ${esc(r.pick)}</span><br>
+      Model ${pct(r.model)} · open ${pct(r.open)} · close ${pct(r.close)}<br>CLV <b>${r.clv > 0 ? "+" : ""}${r.clv.toFixed(1)}%</b>${Math.abs(r.clv) > cap ? ` <span class="m">(bar clipped at ±${cap}%)</span>` : ""}`));
+    hit.addEventListener("mouseleave", hideTip);
+  });
+  const first = rows[0].date, last = rows[rows.length - 1].date;
+  el("text", { x: L, y: H - 6 }, svg).textContent = first;
+  el("text", { x: W - R, y: H - 6, "text-anchor": "end" }, svg).textContent = last;
+}
+(function () { const rows = D.clv, host = document.getElementById("clvChart");
+
+  const tbl = document.getElementById("clvTable");
+  tbl.innerHTML = "<thead><tr><th class='l'>Date</th><th class='l'>Match</th><th class='l'>Pick</th><th>Model</th><th>Open</th><th>Close</th><th>CLV</th></tr></thead><tbody>" +
+    rows.map(r => `<tr><td class="l">${r.date}</td><td class="l">${esc(r.match)}</td><td class="l">${esc(r.pick)}</td><td>${pct(r.model)}</td><td>${pct(r.open)}</td><td>${pct(r.close)}</td><td>${r.clv > 0 ? "+" : ""}${r.clv.toFixed(1)}%</td></tr>`).join("") + "</tbody>";
+  const btn = document.getElementById("clvTableBtn"), wrap = document.getElementById("clvTableWrap");
+  btn.onclick = () => { const on = btn.getAttribute("aria-pressed") !== "true"; btn.setAttribute("aria-pressed", on);
+    btn.textContent = on ? "Show as chart" : "Show as table"; wrap.classList.toggle("hidden", !on); host.classList.toggle("hidden", on); };
+})();
+
+// --- calibration (reliability) plot
+function drawCalib() {
+  const host = document.getElementById("calib"), C = D.calib;
+  host.innerHTML = ""; const W = Math.max(300, host.clientWidth), H = Math.round(W * 0.75), L = 44, R = 12, T = 10, B = 36;
+  const svg = el("svg", { viewBox: `0 0 ${W} ${H}`, role: "img", "aria-label": "Predicted confidence versus observed accuracy" }, host);
+  const lo = 0.3, hi = 1.0;
+  const x = v => L + (v - lo) / (hi - lo) * (W - L - R), y = v => T + (1 - (v - lo) / (hi - lo)) * (H - T - B);
+  const g = el("g", { class: "grid" }, svg);
+  for (let t = 0.3; t <= 1.0001; t += 0.1) {
+    el("line", { x1: x(t), x2: x(t), y1: T, y2: H - B }, g); el("line", { x1: L, x2: W - R, y1: y(t), y2: y(t) }, g);
+    el("text", { x: x(t), y: H - B + 16, "text-anchor": "middle" }, svg).textContent = pct(t, 0);
+    el("text", { x: L - 6, y: y(t) + 4, "text-anchor": "end" }, svg).textContent = pct(t, 0);
+  }
+  el("line", { x1: x(lo), y1: y(lo), x2: x(hi), y2: y(hi), stroke: "var(--ref)", "stroke-dasharray": "4 4" }, svg);
+  el("text", { x: x(0.97), y: y(0.86), "text-anchor": "end" }, svg).textContent = "perfect calibration";
+  el("text", { x: (L + W - R) / 2, y: H - 2, "text-anchor": "middle" }, svg).textContent = "Model confidence";
+  const pts = C.filter(c => c.n > 0);
+  el("polyline", { points: pts.map(c => `${x(c.conf)},${y(c.acc)}`).join(" "), fill: "none", stroke: "var(--pos)", "stroke-width": 2 }, svg);
+  pts.forEach(c => {
+    el("circle", { cx: x(c.conf), cy: y(c.acc), r: 5, fill: "var(--pos)", stroke: "var(--surface)", "stroke-width": 2 }, svg);
+    const hit = el("circle", { cx: x(c.conf), cy: y(c.acc), r: 14, fill: "transparent" }, svg);
+    hit.addEventListener("mousemove", e => showTip(e, `<b>${pct(c.lo, 0)}–${pct(c.hi, 0)} confidence</b><br>
+      Predicted ${pct(c.conf)} · actual <b>${pct(c.acc)}</b><br><span class="m">${c.n} matches</span>`));
+    hit.addEventListener("mouseleave", hideTip);
+  });
+}
+
+// --- benchmark table
+document.getElementById("models").innerHTML =
+  "<thead><tr><th class='l'>Model</th><th>Accuracy</th><th>Brier</th><th>Log-loss</th></tr></thead><tbody>" +
+  D.models.map(m => `<tr><td class="l">${esc(m.name)}</td><td>${pct(m.accuracy)}</td><td>${m.brier.toFixed(3)}</td><td>${m.logloss.toFixed(3)}</td></tr>`).join("") + "</tbody>";
+const drawAll = () => { drawWin(); drawClv(); drawCalib(); };
+drawAll();
+let rz; addEventListener("resize", () => { clearTimeout(rz); rz = setTimeout(drawAll, 120); });
+</script>
+</body>
+</html>

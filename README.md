@@ -9,6 +9,8 @@ public corpus of 49,477 international results (1872–2026) and scraped, cross-v
 model (+ Elo, GBM, NN benchmarks) → **50,000-iteration Monte Carlo** of the real
 12-group / best-thirds / R32→Final format, with the 8 already-played matches fixed.
 
+**Live dashboard:** [vivaans07.github.io/wc2026-model](https://vivaans07.github.io/wc2026-model/) (title odds, every team's path, the 92-match CLV audit, calibration). Rebuild it with `python scripts/build_dashboard.py`.
+
 ➡️ **Read [`report/wc2026_forecast_report.md`](report/wc2026_forecast_report.md) first** —
 it covers method, a critical data-mismatch finding, validation/calibration, top-10
 favourites, and all limitations.
