@@ -19,7 +19,7 @@ scripts/   wc_lib.py (canonical 2026 data) · ratings.py (DC + Elo)
            step0_integrity · step1_2_context · step2b_odds · step2c_squads
            step3_features · step4_model · step5_simulate · run_all.py
 scraped/   intl_results.csv (martj42) · wc2026_squads.html (Wikipedia)
-outputs/   all 13 result CSV/JSON deliverables
+outputs/   all 36 result CSV/JSON/XLSX deliverables
 report/    wc2026_forecast_report.md
 ```
 
